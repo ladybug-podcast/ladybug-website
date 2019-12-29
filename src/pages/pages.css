@@ -1,0 +1,26 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.button {
+  padding: 8px 28px;
+  font-family: "Montserrat";
+  font-size: 1em;
+  border-radius: 20px;
+  border: none;
+  background: white;
+  box-shadow: 4px 4px #f27979;
+  cursor: pointer;
+  color: #f27979;
+  transition: all 0.1s ease-out;
+  margin-top: 24px;
+}
+
+.button:hover,
+.button:focus {
+  transform: translate3d(3px, 3px, 0);
+  box-shadow: none;
+}

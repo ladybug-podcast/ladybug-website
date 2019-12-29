@@ -1,0 +1,75 @@
+.latest-episode {
+  display: flex;
+  color: #fff;
+  font-family: "Montserrat";
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 86px);
+}
+
+.latest-episode-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.play {
+  margin-right: 48px;
+  width: 64px;
+}
+
+.latest-episode-title {
+  margin-bottom: 8px;
+}
+
+.latest-episode-date {
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.latest-episode-description {
+  max-width: 580px;
+}
+
+.player[value] {
+  width: 650px;
+  height: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+progress {
+  background-color: white;
+  border-radius: 4px;
+}
+
+progress::-webkit-progress-bar {
+  /* style rules */
+  background: white;
+  border-radius: 4px;
+}
+progress::-webkit-progress-value {
+  background: #3c2829;
+  border-radius: 4px;
+}
+progress::-moz-progress-bar {
+  /* style rules */
+  background: #3c2829;
+  border-radius: 4px;
+}
+
+.player-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.player-total-time,
+.player-current-time {
+  margin: 4px 0;
+}
+
+.player-total-time {
+  align-self: flex-end;
+}

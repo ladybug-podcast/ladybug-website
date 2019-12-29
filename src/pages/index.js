@@ -1,13 +1,13 @@
 import React from "react"
-
-import Layout from "../components/layout"
-
 import SEO from "../components/seo"
+import HomeHeader from "../components/HomeHeader"
+import "./pages.css"
 
 const IndexPage = () => (
-  <Layout>
+  <div>
     <SEO title="Ladybug Podcast" />
-  </Layout>
+    <HomeHeader />
+  </div>
 )
 
 export default IndexPage

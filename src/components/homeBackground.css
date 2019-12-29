@@ -1,0 +1,30 @@
+.home-background {
+  width: 100vw;
+  height: 550px;
+  background-color: #f15457;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  padding-block: 40px;
+}
+
+.triangle-wrapper {
+  width: 100%;
+  height: calc(100% + 40px);
+  position: relative;
+}
+
+.home-background-triangle {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 900;
+}
+
+.spot {
+  border-radius: 50%;
+  position: absolute;
+  z-index: 90;
+}

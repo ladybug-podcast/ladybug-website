@@ -1,0 +1,35 @@
+.header {
+  padding: 24px;
+}
+
+.header-full {
+  height: 550px;
+}
+
+.header-content-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.nav-list {
+  list-style: none;
+  margin: 0;
+  font-family: "Montserrat";
+  display: flex;
+}
+
+.nav-list-item {
+  margin-left: 16px;
+}
+
+.nav-list-item a {
+  color: #fff;
+  text-decoration: none;
+}
