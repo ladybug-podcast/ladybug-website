@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "ladybug-podcast",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "Emma Bostian, Kelly Vaughn, and Ali Spittel talk career and code.",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Emma Bostian",
   "dependencies": {
     "gatsby": "^2.18.12",
     "gatsby-image": "^2.2.34",
