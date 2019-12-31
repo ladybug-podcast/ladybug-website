@@ -11,7 +11,7 @@ import "./footer.css"
 const Footer = () => (
   <footer className="footer">
     <div className="footer-find-episodes">
-      <p>🎧 Find our episodes where you listen to podcast 🎧</p>
+      <p>🎧 Find our episodes where you listen to podcasts 🎧</p>
       <div className="footer-icons">
         <a href="https://twitter.com/LadybugPodcast" target="_blank">
           <img src={twitter} alt="Twitter" />

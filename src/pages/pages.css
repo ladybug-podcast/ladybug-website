@@ -38,7 +38,7 @@ p {
 }
 
 .home-main {
-  padding: 140px 0 140px 400px;
+  padding: 140px 0 140px 250px;
 }
 
 .about-main {
@@ -46,7 +46,7 @@ p {
 }
 
 main {
-  padding: 0 0 140px 400px;
+  padding: 0 0 140px 250px;
 }
 
 main p {
