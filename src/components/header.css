@@ -6,6 +6,11 @@
   height: 550px;
 }
 
+.page-header {
+  background-color: #fcfcfa;
+  height: 200px;
+}
+
 .header-content-wrapper {
   display: flex;
   justify-content: space-between;
@@ -30,7 +35,12 @@
   margin-left: 24px;
 }
 
-.nav-list-item a {
+.header-full .nav-list-item a {
   color: #fff;
+  text-decoration: none;
+}
+
+.page-header .nav-list-item a {
+  color: #1f0204;
   text-decoration: none;
 }

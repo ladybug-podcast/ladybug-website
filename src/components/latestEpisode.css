@@ -21,6 +21,7 @@
 
 .latest-episode-title {
   margin-bottom: 8px;
+  margin-top: 0;
 }
 
 .latest-episode-title::after {

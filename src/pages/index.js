@@ -9,7 +9,7 @@ const IndexPage = () => (
   <div>
     <SEO title="Ladybug Podcast" />
     <HomeHeader />
-    <main>
+    <main className="home-main">
       <h2>Recent Episodes</h2>
       <RecentEpisode />
       <RecentEpisode />

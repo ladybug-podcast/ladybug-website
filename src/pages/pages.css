@@ -15,6 +15,12 @@ h3 {
   margin-top: 0;
 }
 
+main h1,
+main h2,
+main h3 {
+  margin-top: 48px;
+}
+
 h1::after,
 h2::after,
 h3::after {
@@ -31,12 +37,25 @@ p {
   line-height: 24px;
 }
 
-main {
+.home-main {
   padding: 140px 0 140px 400px;
+}
+
+main {
+  padding: 0 0 140px 400px;
 }
 
 main p {
   max-width: 670px;
+}
+
+a {
+  text-decoration: none;
+  color: #3c2829;
+}
+
+.highlight {
+  border-bottom: 2px solid #3c2829;
 }
 
 .button {
@@ -67,4 +86,28 @@ main p {
   width: 40px;
   height: 40px;
   margin-right: 32px;
+}
+
+.page-banner {
+  background: url("../images//background.svg");
+  max-width: 800px;
+  color: #fff;
+  width: 90%;
+  height: 160px;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  top: -80px;
+  left: 20%;
+}
+
+.page-banner > h1 {
+  margin-bottom: 0;
+}
+
+.page-banner > h1::after {
+  width: 0;
+  height: 0;
 }
