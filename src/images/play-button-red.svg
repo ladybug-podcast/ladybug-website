@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="44px" height="46px" viewBox="0 0 44 46" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>play-button</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="20" cy="20" r="20"></circle>
+        <filter x="-6.2%" y="-6.2%" width="117.5%" height="122.5%" filterUnits="objectBoundingBox" id="filter-2">
+            <feMorphology radius="0.5" operator="dilate" in="SourceAlpha" result="shadowSpreadOuter1"></feMorphology>
+            <feOffset dx="2" dy="4" in="shadowSpreadOuter1" result="shadowOffsetOuter1"></feOffset>
+            <feComposite in="shadowOffsetOuter1" in2="SourceAlpha" operator="out" result="shadowOffsetOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.849637681   0 0 0 0 0.284200983   0 0 0 0 0.274205667  0 0 0 1 0" type="matrix" in="shadowOffsetOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ladybug-Podcast-Home-Page-Copy" transform="translate(-131.000000, -719.000000)">
+            <g id="play-button" transform="translate(132.000000, 720.000000)">
+                <g id="Oval">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use stroke="#FFFFFF" stroke-width="1" fill="#EF5757" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <path d="M21.875,12.5352184 L30.478869,26.875 L13.271131,26.875 L21.875,12.5352184 Z" id="Triangle" stroke="#FFFFFF" stroke-width="1.25" fill="#FFFFFF" stroke-linejoin="round" transform="translate(21.875000, 20.000000) rotate(90.000000) translate(-21.875000, -20.000000) "></path>
+            </g>
+        </g>
+    </g>
+</svg>

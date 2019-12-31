@@ -1,0 +1,42 @@
+.footer {
+  background-color: #faf9f6;
+  color: #353535;
+  padding: 64px 0 42px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer-find-episodes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-icons {
+  margin-top: 16px;
+}
+
+.footer-icons > a {
+  margin-right: 16px;
+}
+
+.footer-links {
+  text-transform: uppercase;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 74px;
+}
+
+.footer-links > a {
+  text-decoration: none;
+  color: #353535;
+}
+
+.footer-copyright {
+  font-size: 0.8em;
+  margin-top: 56px;
+}

@@ -23,9 +23,15 @@
   margin-bottom: 8px;
 }
 
+.latest-episode-title::after {
+  width: 0;
+  height: 0;
+}
+
 .latest-episode-date {
   margin-bottom: 8px;
   font-size: 14px;
+  text-transform: uppercase;
 }
 
 .latest-episode-description {

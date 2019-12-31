@@ -93,12 +93,12 @@ const spotsArray = [
 
 const from = () => ({
   x: Math.random() * windowWidth,
-  y: Math.random() * 550,
+  y: Math.random() * 500,
 })
 
 const to = () => ({
   x: Math.random() * windowWidth,
-  y: Math.random() * 550,
+  y: Math.random() * 500,
 })
 
 const HomeBackground = () => {
@@ -110,17 +110,6 @@ const HomeBackground = () => {
       friction: "300",
     },
   }))
-
-  //   const animation = useSpring({
-  //     from: {
-  //       transform: `translate3d(${Math.random() *
-  //         windowWidth}px, ${Math.random() * windowHeight}px, 0)`,
-  //     },
-  //     to: {
-  //       transform: `translate3d(100px, 100px, 0)`,
-  //     },
-  //     config: { duration: 5000 },
-  //   })
 
   return (
     <div className="home-background">

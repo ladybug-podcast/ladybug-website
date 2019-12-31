@@ -1,11 +1,11 @@
 import React from "react"
-import playButton from "../images/play-button.svg"
+import playButtonWhite from "../images/play-button.svg"
 import "./latestEpisode.css"
 
 const LatestEpisode = () => (
   <div className="latest-episode">
     <div className="latest-episode-info">
-      <img className="play" src={playButton} alt="Play" />
+      <img className="play" src={playButtonWhite} alt="Play" />
       <div>
         <h1 className="latest-episode-title">Career Paths In Tech</h1>
         <p className="latest-episode-date">
