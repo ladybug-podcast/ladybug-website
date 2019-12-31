@@ -41,6 +41,10 @@ p {
   padding: 140px 0 140px 400px;
 }
 
+.about-main {
+  padding: 0 0 140px 250px;
+}
+
 main {
   padding: 0 0 140px 400px;
 }
@@ -110,4 +114,44 @@ a {
 .page-banner > h1::after {
   width: 0;
   height: 0;
+}
+
+.about-wrapper {
+  display: flex;
+  margin: 48px 0;
+}
+
+.about-content-wrapper {
+  margin-left: 24px;
+}
+
+.about-wrapper p {
+  max-width: 500px;
+}
+
+.about-image {
+  width: 200px;
+  height: 200px;
+  border-radius: 8px;
+}
+
+.about-name {
+  font-size: 32px;
+  margin: 0 0 16px;
+}
+
+.about-name::after,
+.about-title::after {
+  width: 0;
+  height: 0;
+}
+
+.about-title {
+  font-size: 24px;
+  margin: 0 0 16px;
+}
+
+.about-location {
+  font-size: 14px;
+  text-transform: uppercase;
 }

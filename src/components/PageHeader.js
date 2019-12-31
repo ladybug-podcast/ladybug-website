@@ -6,7 +6,9 @@ import "./header.css"
 const Header = () => (
   <header className="header page-header">
     <div className="header-content-wrapper">
-      <img className="logo" src={logo} alt="Ladybug Podcast" />
+      <Link to="/">
+        <img className="logo" src={logo} alt="Ladybug Podcast" />
+      </Link>
       <nav className="nav">
         <ul className="nav-list">
           <li className="nav-list-item">
