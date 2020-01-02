@@ -2,7 +2,7 @@
 title: Speaking At Conferences
 date: "November 25, 2019"
 audio: https://pinecast.com/listen/8f1cd208-c5b3-4f00-af18-5c38e3e7fb2a.mp3
-path: "speaking-at-conferences"
+path: "/speaking-at-conferences"
 description: "Have you ever watched or attended a conference and been in awe of the speakers? How do they know so much information? How do they prepare a talk? How do they even get the courage to speak in the first place and what is that process like? In this episode we’ll delve into all things conference talks."
 episode: "Season 1 Episode 22"
 length: "49:05"

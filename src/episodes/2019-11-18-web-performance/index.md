@@ -1,8 +1,9 @@
 ---
+
 title: Web Performance
 date: "November 18, 2019"
 audio: https://pinecast.com/listen/0406aa83-fd62-4add-9b99-096d2b211047.mp3
-path: "web-performance"
+path: "/web-performance"
 description: "Today we’re talking about web performance. Did you know that 40% of users abandon sites that take more than 3s to load? Turns out making your sites fast is pretty important! In this episode we’ll talk about what web performance is, why we should care, and we’ll give you tips for optimizing performance and measuring it."
 episode: "Season 1 Episode 21"
 length: "32:59"

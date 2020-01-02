@@ -1,8 +1,9 @@
 ---
+
 title: Side Project Balancing Act
 date: "July 8, 2019"
 audio: https://pinecast.com/listen/72146c58-3e8b-4674-94ad-8ddcd663ce6f.mp3
-path: "side-project-balancing-act"
+path: "/side-project-balancing-act"
 description: "Side projects are an excellent way to express yourself creatively and build up your tech stack. But how do you find time to work on your side project when you have a full-time job and other responsibilities at home? In this episode, we discuss our personal side projects, along with some useful strategies for giving your side projects the attention they deserve."
 episode: "Season 1 Episode 2"
 length: "32:03"

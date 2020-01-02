@@ -1,8 +1,9 @@
 ---
+
 title: Impostor Syndrome
 date: "August 5, 2019"
 audio: https://pinecast.com/listen/fba18fde-789e-4040-8915-34d3b3334b84.mp3
-path: "impostor-syndrome"
+path: "/impostor-syndrome"
 description: "Have you ever been scared to contribute to a conversation or publish a blog post because you were worried you weren’t qualified enough? Wondered how you got to the point you’re at in your career because you feel you don’t belong? Or that you’re a fraud? You’re not alone! In this episode, we discuss how we have experienced impostor syndrome and our personal strategies for combatting it."
 episode: "Season 1 Episode 6"
 length: "41:17"

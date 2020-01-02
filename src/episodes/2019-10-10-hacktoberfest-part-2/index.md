@@ -1,8 +1,9 @@
 ---
+
 title: Hacktoberfest Part 2
 date: "October 10, 2019"
 audio: https://pinecast.com/listen/28b2e37e-8bd2-4844-b1c0-e8d9b70294ea.mp3
-path: "hacktoberfest-part-2"
+path: "/hacktoberfest-part-2"
 description: "October means it's time for Hacktoberfest. We're talking with Shannon Crabill about what open source is, how to get involved with Hacktoberfest, and tips & tricks for maintaining open source projects."
 episode: "Season 1 Episode 15"
 length: "20:34"

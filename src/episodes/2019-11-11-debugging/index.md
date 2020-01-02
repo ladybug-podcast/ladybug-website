@@ -1,8 +1,9 @@
 ---
+
 title: Debugging 101
 date: "November 11, 2019"
 audio: https://pinecast.com/listen/4c0623a3-1287-4cff-9ba1-4ade89e5d35a.mp3
-path: "debugging"
+path: "/debugging"
 description: "How often have you encountered a problem and struggled to figure out where to start? Or maybe you aren’t super familiar with the browser tools available to debug your JavaScript code. So today we’ve brought on a special guest, Rebecca Hill, to help us learn about the world of debugging."
 episode: "Season 1 Episode 20"
 length: "27:44"

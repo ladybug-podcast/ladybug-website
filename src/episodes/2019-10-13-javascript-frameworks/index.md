@@ -1,8 +1,9 @@
 ---
+
 title: React, Vue, && Angular, OH MY!
 date: "October 13, 2019"
 audio: https://pinecast.com/listen/c5f1451d-f587-4498-aa4e-ede696129492.mp3
-path: "javascript-frameworks"
+path: "/javascript-frameworks"
 description: "You've probably heard about some of the JavaScript frameworks that dominate the front end ecosystem. And this week's podcast we'll be discussing the pros and cons of JavaScript frameworks, go into detail about React, Vue, and Angular, and discuss tools and resources for how you can get started with these frameworks."
 episode: "Season 1 Episode 16"
 length: "51:01"

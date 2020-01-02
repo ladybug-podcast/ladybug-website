@@ -1,8 +1,9 @@
 ---
+
 title: Shopify & E-Commerce
 date: "October 28, 2019"
 audio: https://pinecast.com/listen/733fafc7-e735-4ad2-88c1-11a1bbb29d71.mp3
-path: "shopify-and-e-commerce"
+path: "/shopify-and-e-commerce"
 description: "If you’ve ever seen Kelly’s Twitter account then you’ve probably heard of Shopify, an E-commerce platform that gives you everything you need to sell online. This week we’re talking to JML, CTO at Shopify, and we’re giving you all the details."
 episode: "Season 1 Episode 18"
 length: "34:56"

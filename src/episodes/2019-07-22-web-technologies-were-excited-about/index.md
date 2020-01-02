@@ -2,7 +2,7 @@
 title: Web Technologies We're Excited About
 date: "July 22, 2019"
 audio: https://pinecast.com/listen/3f579786-1d98-45d3-80e4-820066e39e7d.mp3
-path: "web-technologies-were-excited-about"
+path: "/web-technologies-were-excited-about"
 description: "The landscape of technologies you can learn in the development world can be overwhelming if you don't know where to go next. In this episode, we discuss the technologies we're most excited about. From CSS to GraphQL, Django to WebAssembly, and design to augmented reality - we cover it all."
 episode: "Season 1 Episode 4"
 length: "39:01"

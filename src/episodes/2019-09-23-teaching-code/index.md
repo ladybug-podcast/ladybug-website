@@ -1,8 +1,9 @@
 ---
+
 title: How To Teach Code
 date: "September 23, 2019"
 audio: https://storage.pinecast.net/podcasts/8b501593-cabc-49f4-b076-b7c2e3bca56f/audio/4c4ec084-6e59-4f0d-9da6-646a610dc9a7/Ladybug_Podcast_-_Education_In_Tech.mp3
-path: "teaching-code"
+path: "/teaching-code"
 description: "Have you ever wondered what it takes to be an effective teacher in the tech industry? Well, wonder no more. We had the pleasure of chatting with Angie Jones, senior developer advocate at Applitools and director at Test Automation University about her experience as a teacher. And she talks to us about her teaching and learning styles and shares some advice for those looking to get into the world of teaching. And this episode, we'll discuss things like how to teach to multiple skill levels and common misconceptions about being a teacher."
 episode: "Season 1 Episode 12"
 length: "38:31"
