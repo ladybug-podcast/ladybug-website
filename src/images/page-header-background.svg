@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="808px" height="167px" viewBox="0 0 808 167" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>Group</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Content-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Ladybug-Podcast-Home-Page" transform="translate(-108.000000, -116.000000)">
+            <g id="player" transform="translate(108.000000, 116.000000)">
+                <g id="Group" transform="translate(0.000000, -5.000000)">
+                    <rect id="Rectangle" fill="#F15457" style="mix-blend-mode: hard-light;" x="0" y="5" width="808" height="167" rx="12"></rect>
+                    <ellipse id="Oval" fill-opacity="0.3" fill="#3C2829" style="mix-blend-mode: hard-light;" cx="86.359375" cy="122" rx="7.359375" ry="7"></ellipse>
+                    <circle id="Oval-Copy" fill-opacity="0.35" fill="#3C2829" style="mix-blend-mode: hard-light;" cx="264" cy="11" r="11"></circle>
+                    <circle id="Oval-Copy-2" fill-opacity="0.6" fill="#3C2829" style="mix-blend-mode: hard-light;" cx="559" cy="175" r="13"></circle>
+                    <circle id="Oval-Copy-3" fill-opacity="0.8" fill="#3C2829" style="mix-blend-mode: hard-light;" cx="735" cy="38" r="9"></circle>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

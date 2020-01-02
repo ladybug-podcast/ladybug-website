@@ -1,0 +1,43 @@
+.episode {
+  display: flex;
+  font-family: "Montserrat";
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: calc(100% - 86px);
+}
+
+.episode-page-header {
+  color: #fff;
+}
+
+.episode-info {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.play {
+  margin-right: 48px;
+  width: 64px;
+}
+
+.episode-title {
+  margin-bottom: 8px;
+  margin-top: 0;
+  font-weight: bold;
+}
+
+.episode-date {
+  margin-bottom: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.episode-description {
+  max-width: 580px;
+}
+
+.latest-episode-title {
+  margin: 0;
+}

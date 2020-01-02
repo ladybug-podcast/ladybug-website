@@ -1,7 +1,7 @@
 import React from "react"
 import SEO from "../components/seo"
 import HomeHeader from "../components/HomeHeader"
-import RecentEpisode from "../components/RecentEpisode"
+import Episode from "../components/Episode"
 import Footer from "../components/Footer"
 import "./pages.css"
 
@@ -9,11 +9,11 @@ const IndexPage = () => (
   <div>
     <SEO title="Ladybug Podcast" />
     <HomeHeader />
-    <main className="home-main">
+    <main>
       <h2>Recent Episodes</h2>
-      <RecentEpisode />
-      <RecentEpisode />
-      <RecentEpisode />
+      <Episode />
+      <Episode />
+      <Episode />
     </main>
     <Footer />
   </div>

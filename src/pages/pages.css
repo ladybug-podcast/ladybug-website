@@ -21,36 +21,21 @@ main h3 {
   margin-top: 48px;
 }
 
-h1::after,
-h2::after,
-h3::after {
-  content: "";
-  width: 50vw;
-  background: #f5f5f5;
-  height: 1px;
-  position: absolute;
-  top: 60px;
-  left: -20px;
-}
-
 p {
   line-height: 24px;
 }
 
-.home-main {
-  padding: 140px 0 140px 250px;
-}
-
-.about-main {
-  padding: 0 0 140px 250px;
-}
-
 main {
-  padding: 0 0 140px 250px;
+  margin: 140px 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-main p {
-  max-width: 670px;
+main p,
+main li {
+  max-width: 600px;
+  line-height: 24px;
 }
 
 a {
@@ -93,18 +78,18 @@ a {
 }
 
 .page-banner {
-  background: url("../images//background.svg");
+  background: url("../images/page-header-background.svg");
   max-width: 800px;
   color: #fff;
-  width: 90%;
+  width: 90vw;
   height: 160px;
   border-radius: 8px;
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  top: -80px;
-  left: 20%;
+  position: absolute;
+  top: 170px;
+  left: calc(45vw - 25%);
 }
 
 .page-banner > h1 {
@@ -123,10 +108,6 @@ a {
 
 .about-content-wrapper {
   margin-left: 24px;
-}
-
-.about-wrapper p {
-  max-width: 500px;
 }
 
 .about-image {

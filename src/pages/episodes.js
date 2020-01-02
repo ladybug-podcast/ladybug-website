@@ -1,14 +1,22 @@
 import React from "react"
-import { Link } from "gatsby"
 import SEO from "../components/seo"
+import PageHeader from "../components/PageHeader"
+import Episode from "../components/Episode"
+import Footer from "../components/Footer"
+import "./pages.css"
 
-const SecondPage = () => (
-  <div>
-    <SEO title="Page two" />
-    <h1>Hi from the second page</h1>
-    <p>Welcome to page 2</p>
-    <Link to="/">Go back to the homepage</Link>
+const EpisodesPage = () => (
+  <div className="page">
+    <SEO title="Ladybug Podcast" />
+    <PageHeader />
+    <div className="page-banner">
+      <h1>Episodes</h1>
+    </div>
+    <main>
+      <Episode isPageHeader={false} />
+    </main>
+    <Footer />
   </div>
 )
 
-export default SecondPage
+export default EpisodesPage

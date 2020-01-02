@@ -13,7 +13,7 @@ const AboutPage = () => (
     <div className="page-banner">
       <h1>About Us</h1>
     </div>
-    <main className="about-main">
+    <main>
       <TeamMemberBlock
         name={kellyBio.name}
         title={kellyBio.title}
