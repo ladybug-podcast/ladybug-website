@@ -1,7 +1,7 @@
 import React from "react"
-import emma from "../images/emma.jpg"
-import ali from "../images/ali.jpg"
-import kelly from "../images/kelly.jpg"
+import emma from "../images/team/emma.jpg"
+import ali from "../images/team/ali.jpg"
+import kelly from "../images/team/kelly.jpg"
 
 export const kellyBio = {
   name: "Kelly Vaughn",

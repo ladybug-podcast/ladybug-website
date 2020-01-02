@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import LatestEpisode from "./LatestEpisode"
 import HomeBackground from "./HomeBackground"
-import lightLogo from "../images/light-logo.svg"
+import lightLogo from "../images/brand/light-logo.svg"
 import "./header.css"
 
 const Header = () => (

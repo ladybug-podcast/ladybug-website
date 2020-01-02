@@ -1,5 +1,5 @@
 import React from "react"
-import playButtonRed from "../images/play-button-red.svg"
+import playButtonRed from "../images/player/play-button-red.svg"
 import "./episode.css"
 
 const Episode = () => (

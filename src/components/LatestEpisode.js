@@ -1,7 +1,6 @@
 import React from "react"
 import Player from "./Player"
-import playButtonWhite from "../images/play-button.svg"
-import playButtonRed from "../images/play-button-red.svg"
+import playButtonWhite from "../images/player/play-button.svg"
 import "./episode.css"
 
 const LatestEpisode = () => (
