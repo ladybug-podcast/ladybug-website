@@ -14,12 +14,20 @@ module.exports = {
       },
     },
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/src/episodes`,
+        name: "episodes",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Montserrat`],
       },
     },
     `gatsby-transformer-sharp`,
+    "gatsby-transformer-remark",
     `gatsby-plugin-sharp`,
     {
       resolve: `gatsby-plugin-manifest`,

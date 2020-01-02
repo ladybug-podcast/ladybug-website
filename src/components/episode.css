@@ -17,6 +17,10 @@
   justify-content: center;
 }
 
+.episode-length {
+  margin: 0;
+}
+
 .play {
   margin-right: 48px;
   width: 64px;
