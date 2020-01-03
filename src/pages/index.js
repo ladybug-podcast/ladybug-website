@@ -2,7 +2,7 @@ import React from "react"
 import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import HomeHeader from "../components/HomeHeader"
-import Episode from "../components/Episode"
+import EpisodeBlock from "../components/EpisodeBlock"
 import Footer from "../components/Footer"
 import "./pages.css"
 
@@ -13,9 +13,9 @@ const IndexPage = ({ data }) => {
       <HomeHeader latestEpisode={data.allMarkdownRemark.edges[0]} />
       <main>
         <h2>Recent Episodes</h2>
-        <Episode episodeInfo={data.allMarkdownRemark.edges[1]} />
-        <Episode episodeInfo={data.allMarkdownRemark.edges[2]} />
-        <Episode episodeInfo={data.allMarkdownRemark.edges[3]} />
+        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[1]} />
+        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
+        <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[3]} />
       </main>
       <Footer />
     </div>

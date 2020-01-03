@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
-import LatestEpisode from "../components/LatestEpisode"
+import Player from "../components/Player"
 
 export default function Template({ data }) {
   const {
@@ -19,7 +19,7 @@ export default function Template({ data }) {
     <div>
       <PageHeader />
       <main style={{ margin: "0" }}>
-        <LatestEpisode
+        <Player
           title={title}
           description={description}
           formattedDate={formattedDate}

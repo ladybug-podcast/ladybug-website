@@ -1,6 +1,6 @@
 import React from "react"
 import { Link } from "gatsby"
-import LatestEpisode from "./LatestEpisode"
+import Player from "./Player"
 import HomeBackground from "./HomeBackground"
 import lightLogo from "../images/brand/light-logo.svg"
 import "./header.css"
@@ -36,7 +36,7 @@ const Header = ({ latestEpisode }) => {
           </ul>
         </nav>
       </div>
-      <LatestEpisode
+      <Player
         title={title}
         description={description}
         audio={audio}

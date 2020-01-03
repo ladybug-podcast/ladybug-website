@@ -2,7 +2,7 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import SEO from "../components/seo"
 import PageHeader from "../components/PageHeader"
-import Episode from "../components/Episode"
+import EpisodeBlock from "../components/EpisodeBlock"
 import Footer from "../components/Footer"
 import "./pages.css"
 
@@ -15,7 +15,9 @@ const EpisodesPage = ({ data }) => (
     </div>
     <main>
       {data.allMarkdownRemark.edges.map(post => {
-        return <Episode episodeInfo={post} key={post.node.frontmatter.id} />
+        return (
+          <EpisodeBlock episodeInfo={post} key={post.node.frontmatter.id} />
+        )
       })}
     </main>
     <Footer />

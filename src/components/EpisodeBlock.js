@@ -1,9 +1,8 @@
 import React from "react"
 import { Link } from "gatsby"
-import playButtonRed from "../images/player/play-button-red.svg"
 import "./episode.css"
 
-const Episode = ({ episodeInfo }) => {
+const EpisodeBlock = ({ episodeInfo }) => {
   const {
     title,
     description,
@@ -29,4 +28,4 @@ const Episode = ({ episodeInfo }) => {
   )
 }
 
-export default Episode
+export default EpisodeBlock
