@@ -12,6 +12,7 @@ export default function Template({ data }) {
     episode,
     length,
     path,
+    audio,
   } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
@@ -27,6 +28,7 @@ export default function Template({ data }) {
           length={length}
           path={path}
           isEpisodeHeader={true}
+          audio={audio}
         />
         <Link to="/episodes">
           <button className="button button-border">Back to episodes</button>
@@ -53,6 +55,7 @@ export const postQuery = graphql`
         episode
         length
         description
+        audio
       }
     }
   }
