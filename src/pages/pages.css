@@ -67,8 +67,17 @@ a {
   box-shadow: none;
 }
 
+.button-border {
+  border: 2px solid #f27979;
+}
+
 .page-flex-horizontal {
   display: flex;
+}
+
+.page-flex-vertical {
+  display: flex;
+  flex-direction: column;
 }
 
 .play-button-red {

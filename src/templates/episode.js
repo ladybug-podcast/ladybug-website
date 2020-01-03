@@ -2,18 +2,41 @@ import React from "react"
 import { Link, graphql } from "gatsby"
 import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
+import LatestEpisode from "../components/LatestEpisode"
 
 export default function Template({ data }) {
-  const { title, description, date } = data.markdownRemark.frontmatter
+  const {
+    title,
+    description,
+    formattedDate,
+    episode,
+    length,
+    path,
+  } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
   return (
     <div>
       <PageHeader />
-      <h1>{title}</h1>
-      <p>{date}</p>
-      <p>{description}</p>
-      <div dangerouslySetInnerHTML={{ __html: html }} />
+      <main style={{ margin: "0" }}>
+        <LatestEpisode
+          title={title}
+          description={description}
+          formattedDate={formattedDate}
+          episode={episode}
+          length={length}
+          path={path}
+          isEpisodeHeader={true}
+        />
+        <Link to="/episodes">
+          <button className="button button-border">Back to episodes</button>
+        </Link>
+        <p
+          dangerouslySetInnerHTML={{
+            __html: html,
+          }}
+        />
+      </main>
       <Footer />
     </div>
   )
@@ -26,7 +49,10 @@ export const postQuery = graphql`
       frontmatter {
         path
         title
-        date
+        formattedDate
+        episode
+        length
+        description
       }
     }
   }

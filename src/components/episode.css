@@ -5,10 +5,16 @@
   justify-content: center;
   flex-direction: column;
   height: calc(100% - 86px);
+  color: #fff;
 }
 
 .episode-page-header {
-  color: #fff;
+  background: url("../images/brand/episode-header-background.svg") center center
+    no-repeat;
+  padding: 80px;
+  border-radius: 4px;
+  position: relative;
+  top: -80px;
 }
 
 .episode-info {

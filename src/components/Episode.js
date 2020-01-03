@@ -13,16 +13,18 @@ const Episode = ({ episodeInfo }) => {
     length,
   } = episodeInfo.node.frontmatter
   return (
-    <div className="page-flex-horizontal" style={{ marginBottom: "32px" }}>
-      <Link to={path}>
-        <img className="play-button-red" src={playButtonRed} alt="play" />
-      </Link>
-      <div>
-        <h2 className="episode-title">{title}</h2>
-        <p className="episode-date">{`${episode} | ${formattedDate}`}</p>
-        <p>{description}</p>
+    <div className="page-flex-vertical" style={{ marginBottom: "100px" }}>
+      <div style={{ display: "flex" }}>
+        <div>
+          <h2 className="episode-title">{title}</h2>
+          <p className="episode-date">{`${episode} | ${formattedDate}`}</p>
+          <p>{description}</p>
+        </div>
+        <p className="episode-length">{length}</p>
       </div>
-      <p className="episode-length">{length}</p>
+      <Link to={path}>
+        <button className="button button-border">Listen</button>
+      </Link>
     </div>
   )
 }

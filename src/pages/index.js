@@ -10,12 +10,12 @@ const IndexPage = ({ data }) => {
   return (
     <div>
       <SEO title="Ladybug Podcast" />
-      <HomeHeader />
+      <HomeHeader latestEpisode={data.allMarkdownRemark.edges[0]} />
       <main>
         <h2>Recent Episodes</h2>
-        <Episode episodeInfo={data.allMarkdownRemark.edges[0]} />
         <Episode episodeInfo={data.allMarkdownRemark.edges[1]} />
         <Episode episodeInfo={data.allMarkdownRemark.edges[2]} />
+        <Episode episodeInfo={data.allMarkdownRemark.edges[3]} />
       </main>
       <Footer />
     </div>
@@ -34,6 +34,7 @@ export const blogsQuery = graphql`
             description
             episode
             length
+            audio
           }
         }
       }
