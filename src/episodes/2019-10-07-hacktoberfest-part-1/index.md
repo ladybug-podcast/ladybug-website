@@ -1,7 +1,8 @@
 ---
 
 title: Hacktoberfest Part 1
-date: "October 7, 2019"
+formattedDate: "October 7, 2019"
+date: "2019-10-07"
 audio: https://pinecast.com/listen/6d4a761e-1ea7-43e1-876a-62459871cdfc.mp3
 path: "/hacktoberfest-part-1"
 description: "October means it's time for Hacktoberfest. Hacktoberfest is an awesome event where you can get involved in open source whether it's your first time contributing or you're a seasoned pro.

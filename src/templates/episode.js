@@ -6,7 +6,7 @@ import Footer from "../components/Footer"
 export default function Template({ data }) {
   const { title, description, date } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
-  console.log(data)
+
   return (
     <div>
       <PageHeader />

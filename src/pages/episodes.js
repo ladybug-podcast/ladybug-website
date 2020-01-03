@@ -19,7 +19,7 @@ const EpisodesPage = ({ data }) => (
           title,
           description,
           path,
-          date,
+          formattedDate,
           episode,
           length,
         } = post.node.frontmatter
@@ -27,7 +27,7 @@ const EpisodesPage = ({ data }) => (
           <Episode
             title={title}
             description={description}
-            date={date}
+            date={formattedDate}
             path={path}
             episode={episode}
             length={length}
@@ -40,14 +40,14 @@ const EpisodesPage = ({ data }) => (
 )
 
 export const blogsQuery = graphql`
-  query BlogIndexQuery {
+  query {
     allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
       edges {
         node {
           frontmatter {
             path
             title
-            date
+            formattedDate
             description
             episode
             length

@@ -1,6 +1,7 @@
 ---
 title: Level Up With CSS - Part 1
-date: "August 12, 2019"
+formattedDate: "August 12, 2019"
+date: "2019-08-12"
 audio: https://storage.pinecast.net/podcasts/8b501593-cabc-49f4-b076-b7c2e3bca56f/audio/a7e6cbbb-5abb-40f1-a644-32b25edb8f2d/css-p1-with-sponsors.mp3
 path: "/css-part-1"
 description: "Learn all about the fundamentals of CSS: from selectors to the box model."

@@ -1,6 +1,7 @@
 ---
 title: Blogging 101
-date: "July 15, 2019"
+formattedDate: "July 15, 2019"
+date: "2019-07-15"
 audio: https://pinecast.com/listen/3beb3125-a779-49c4-b938-552318d8beea.mp3
 path: "/blogging-101"
 description: "One of the most popular outlets for programmers is through blogging. In this episode, we discuss why each of us got into blogging, the pros and cons of starting your own blog, and tips on how to make your blog a success."

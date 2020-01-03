@@ -1,6 +1,7 @@
 ---
 title: Career Paths in Tech
-date: "August 26, 2019"
+formattedDate: "August 26, 2019"
+date: "2019-08-26"
 audio: https://pinecast.com/listen/7277ecc7-0bbf-44e5-b11f-b4556935a196.mp3
 path: "/career-paths-in-tech"
 description: "There are so many different paths your career can follow in the tech industry. There's frontend, backend, or even full-stack development. You could also be a software engineer, quality assurance engineer, UX engineer, manager, developer advocate, or something else entirely!"

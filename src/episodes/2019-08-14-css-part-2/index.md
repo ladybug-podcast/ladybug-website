@@ -1,6 +1,7 @@
 ---
 title: Level Up With CSS - Part 2
-date: "August 14, 2019"
+formattedDate: "August 14, 2019"
+date: "2019-08-14"
 audio: https://pinecast.com/listen/b3a6126a-b711-4020-b00e-a555a9b330e3.mp3
 path: "/css-part-2"
 description: "In the first part of our CSS episode, we discussed the foundations. In this special bonus episode we'll continue the conversation by covering some more in-depth areas of CSS, like layouts with Grid and Flexbox, animations, media queries, naming conventions, pre-processors, and frameworks."

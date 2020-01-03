@@ -1,7 +1,8 @@
 ---
 
 title: Working Remotely
-date: "November 4, 2019"
+formattedDate: "November 4, 2019"
+date: "2019-11-04"
 audio: https://pinecast.com/listen/cebc92aa-1b41-47fb-b901-74734a2fdc1b.mp3
 path: "/working-remotely"
 description: "In recent years, working remotely has become a more popular office perk not only among startups but enterprise businesses as well. Some companies even ONLY work remotely. In this week’s episode, we’ll discuss our experiences working remotely, the pros and cons from an employer and employee standpoint, and provide some advice on whether or not working remotely is a good fit for you."

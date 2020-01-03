@@ -1,4 +1,5 @@
 import React from "react"
+import { graphql, Link } from "gatsby"
 import SEO from "../components/seo"
 import HomeHeader from "../components/HomeHeader"
 import Episode from "../components/Episode"
@@ -18,5 +19,24 @@ const IndexPage = () => (
     <Footer />
   </div>
 )
+
+export const blogsQuery = graphql`
+  query {
+    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+      edges {
+        node {
+          frontmatter {
+            path
+            title
+            formattedDate
+            description
+            episode
+            length
+          }
+        }
+      }
+    }
+  }
+`
 
 export default IndexPage

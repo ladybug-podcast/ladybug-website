@@ -1,7 +1,8 @@
 ---
 
 title: Design Systems
-date: "September 30, 2019"
+formattedDate: "September 30, 2019"
+date: "2019-09-30"
 audio: https://pinecast.com/listen/a3860cd5-e858-41b5-957b-43ac4cffd9f2.mp3
 path: "/design-systems"
 description: "Design systems are in the world around us from the signs on the side of the highway to the setup of a grocery store and our products are no exception. But what exactly our design systems and how do we build them? In this episode, we'll take a look at the foundations of design systems, the benefits and drawbacks, and the process for creating one from the ground up."

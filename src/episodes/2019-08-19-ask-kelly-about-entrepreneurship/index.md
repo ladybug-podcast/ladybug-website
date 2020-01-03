@@ -1,6 +1,7 @@
 ---
 title: Ask Kelly about Entrepreneurship
-date: "August 19, 2019"
+formattedDate: "August 19, 2019"
+date: "2019-08-19"
 audio: https://pinecast-storage.s3.amazonaws.com/podcasts/8b501593-cabc-49f4-b076-b7c2e3bca56f/audio/025fd729-15a4-4eb6-95d7-526fa5f2d354/entrepreneurship.mp3
 path: "/ask-kelly-about-entrepreneurship"
 description: "Today we are doing a deep dive about entrepreneurship with our in house business owner, Kelly! Everyone can benefit from thinking entrepreneurially, even people who don’t want to start their own business. We’re going to ask Kelly about all the things that we are curious about and scare us about entrepreneurship."
