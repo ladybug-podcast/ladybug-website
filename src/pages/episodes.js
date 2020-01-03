@@ -16,7 +16,7 @@ const EpisodesPage = ({ data }) => (
     <main>
       {data.allMarkdownRemark.edges.map(post => {
         return (
-          <EpisodeBlock episodeInfo={post} key={post.node.frontmatter.id} />
+          <EpisodeBlock episodeInfo={post} key={post.node.frontmatter.path} />
         )
       })}
     </main>

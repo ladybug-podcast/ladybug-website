@@ -93,3 +93,9 @@ progress::-moz-progress-bar {
 .player-total-time {
   align-self: flex-end;
 }
+
+.audio-control {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
