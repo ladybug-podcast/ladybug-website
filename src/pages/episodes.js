@@ -15,24 +15,7 @@ const EpisodesPage = ({ data }) => (
     </div>
     <main>
       {data.allMarkdownRemark.edges.map(post => {
-        const {
-          title,
-          description,
-          path,
-          formattedDate,
-          episode,
-          length,
-        } = post.node.frontmatter
-        return (
-          <Episode
-            title={title}
-            description={description}
-            date={formattedDate}
-            path={path}
-            episode={episode}
-            length={length}
-          />
-        )
+        return <Episode episodeInfo={post} key={post.node.frontmatter.id} />
       })}
     </main>
     <Footer />

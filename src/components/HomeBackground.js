@@ -156,6 +156,7 @@ const HomeBackground = () => {
           let { width, height, backgroundColor, borderRadius } = spotsArray[i]
           return (
             <animated.div
+              key={i}
               className="spot"
               style={{
                 transform: interpolate(

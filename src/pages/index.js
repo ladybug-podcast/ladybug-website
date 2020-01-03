@@ -6,19 +6,21 @@ import Episode from "../components/Episode"
 import Footer from "../components/Footer"
 import "./pages.css"
 
-const IndexPage = () => (
-  <div>
-    <SEO title="Ladybug Podcast" />
-    <HomeHeader />
-    <main>
-      <h2>Recent Episodes</h2>
-      <Episode />
-      <Episode />
-      <Episode />
-    </main>
-    <Footer />
-  </div>
-)
+const IndexPage = ({ data }) => {
+  return (
+    <div>
+      <SEO title="Ladybug Podcast" />
+      <HomeHeader />
+      <main>
+        <h2>Recent Episodes</h2>
+        <Episode episodeInfo={data.allMarkdownRemark.edges[0]} />
+        <Episode episodeInfo={data.allMarkdownRemark.edges[1]} />
+        <Episode episodeInfo={data.allMarkdownRemark.edges[2]} />
+      </main>
+      <Footer />
+    </div>
+  )
+}
 
 export const blogsQuery = graphql`
   query {
