@@ -1,5 +1,4 @@
 ---
-
 title: Working Remotely
 formattedDate: "November 4, 2019"
 date: "2019-11-04"
@@ -8,9 +7,11 @@ path: "/working-remotely"
 description: "In recent years, working remotely has become a more popular office perk not only among startups but enterprise businesses as well. Some companies even ONLY work remotely. In this week’s episode, we’ll discuss our experiences working remotely, the pros and cons from an employer and employee standpoint, and provide some advice on whether or not working remotely is a good fit for you."
 episode: "Season 1 Episode 19"
 length: "38:37"
----## Sponsors
+---
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+# Sponsors
+
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
 
@@ -26,27 +27,20 @@ You can attend a retreat in Brooklyn for one, six, or 12 weeks. RC is free for e
 
 Learn more about RC and how to apply at: [www.recurse.com](www.recurse.com)
 
-## Show notes
+# Show notes
 
-- **What does it mean to work remotely?** - 1:36
-- **What is our experience working remotely?** - 2:34
-- **Pros & cons** - 7:08
-- **What makes a successful remote work experience?** - 21:05
-- **Should you work remotely as your first job?** - 27:11
-- **Personality traits for a healthy remote work experience** - 31:35
-- **Tips for working remotely** - 33:31
+**1:36** - What does it mean to work remotely?  
+**2:34** - What is our experience working remotely?  
+**7:08** - Pros & cons  
+**21:05** - What makes a successful remote work experience?  
+**27:11** - Should you work remotely as your first job?  
+**31:35** - Personality traits for a healthy remote work experience  
+**33:31** - Tips for working remotely
 
-## Resources
+# Resources
 
 - [Tips for working remotely](https://changelog.com/posts/pro-tips-for-devs-working-at-home)
 
-## Help us out
+# Transcript
 
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Nominate A Ladybug Podcast Guest!
-
-Want to nominate yourself, or someone else, to be on the Ladybug Podcast? Fill out our [nomination form](https://forms.gle/SUK6Usk6EnnkTsjG8) to let us know!
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

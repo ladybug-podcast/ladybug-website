@@ -9,9 +9,9 @@ episode: "Season 1 Episode 10"
 length: "49:58"
 ---
 
-## Sponsors
+# Sponsors
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://www.sanity.io/ladybug"><img src="../../images/sponsors/sanity.svg" alt="Sanity.io"></a>
 
@@ -29,7 +29,7 @@ Hear from Chris, Mandy Michael, Katie Sylor-Miller and more at this two-day even
 
 Podcast listeners can save 10% using the discount code “ladybug” when you sign up. You are also encouraged to apply for a diversity scholarship by August 23rd. Hurry—the last two JAMstack events sold out. All the details are at <a target="_blank" href="https://jamstackconf.com/">JAMstackconf.com</a>
 
-## Show notes
+# Show notes
 
 **1:47** - Frontend Developer
 
@@ -51,28 +51,19 @@ Podcast listeners can save 10% using the discount code “ladybug” when you si
 
 **41:30** - Manager
 
-**47:10** - Wins!
-
-- Listener Win - <a target="_blank" href="https://twitter.com/kaitlynbrouwers">Katie Brouwers</a> - started her own freelance business and is close to landing her first client
-- Lindsey - Started making egghead videos again
-- Emma - Went on her honeymoon
-- Ali - Went Camping with Blair
-- Kelly - First open source contribution accepted
+**47:10** - Wins
 
 ## Resources
 
-- <a target="_blank" href="https://www.glassdoor.com/index.htm">Glassdoor</a>
-- <a target="_blank" href="https://www.monster.com/">Monster</a>
-- <a target="_blank" href="https://www.indeed.com/">Indeed</a>
-- <a target="_blank" href="https://www.linkedin.com/jobs">LinkedIn Jobs</a>
-- <a target="_blank" href="https://css-tricks.com/jobs/">CSS Tricks Job Board</a>
-- <a target="_blank" href="https://css-tricks.com/the-great-divide/">The Great Divide</a>
-- <a target="_blank" href="https://www.marythengvall.com/blog/2018/1/31/developer-avocados-the-good-kind-of-fat">Developer Avocados</a>
-- <a target="_blank" href="https://www.youtube.com/watch?v=R3MrhGieYj0">Developer to Manager: A Survival Guide</a>
+- [Glassdoor](https://www.glassdoor.com/index.htm)
+- [Monster](https://www.monster.com/)
+- [Indeed](https://www.indeed.com/)
+- [LinkedIn Jobs](https://www.linkedin.com/jobs)
+- [CSS Tricks Job Board](https://css-tricks.com/jobs/)
+- [The Great Divide](https://css-tricks.com/the-great-divide/)
+- [Developer Avocados](https://www.marythengvall.com/blog/2018/1/31/developer-avocados-the-good-kind-of-fat)
+- [Developer to Manager: A Survival Guide](https://www.youtube.com/watch?v=R3MrhGieYj0)
 
-## Help us out
+# Transcript
 
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

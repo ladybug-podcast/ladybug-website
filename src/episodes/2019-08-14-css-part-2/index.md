@@ -9,78 +9,41 @@ episode: "Season 1 Episode 8"
 length: "41:03"
 ---
 
-## Show links
+# Show notes
 
 **0:32** - Grid and Flexbox
 
-- Grid 2-dimensional layout
-- Flex - one-dimensional layout
-
 **7:07** - Animations
 
-- Transform
-- Translate
-- Rotate
-- Skew
-- Keyframes
-- Transition timing functions
-- Bezier curves
+**15:12** - Media queries
 
-**15:12** - Media Queries
+**19:50** - Naming conventions/hierarchy
 
-- Screen
-- Min-width &amp; max-width
-- Print
-- Prefers-color-scheme
-- Prefers-reduced-motion
+**23:47** - Pre-processessors & tools
 
-**19:50** - Naming Conventions/Hierarchy
-
-- Block-Element-Modifier (BEM)
-- Scalable &amp; Modular Architecture For CSS (SMAACS)
-
-**23:47** - Pre-Processessors/Tools
-
-- Sass
-- Less
-- Stylus
-
-**33:35** - UI Frameworks
-
-- Bootstrap
-- Materialize
-- TailwindCSS
+**33:35** - UI frameworks
 
 **37:50** - Wins
 
-1. <a href="https://twitter.com/geeky_bhavani" target="_blank">Bhavani Ravi</a> - Made my first code contribution to a big open source Python project, one and only Pandas. It was a 6 month effort. The code review process was hectic, I felt down here and there but kept at it and 6 months later, got my first approval. It&#39;s all worth it
-2. Emma - My wedding! I said my vows in German!
-3. Lindsey - Opened up a few new tiers of my patreon - 1 for getting blog posts a day early if you pay and one for 1:1 accessibility sessions once a quarter! Pretty excited about these!
-4. Kelly - We rebranded The Taproom
-5. Ali - Made it through a super tough weekend
+# Resources
 
-## Resources
+- [Flexbox Froggy](https://flexboxfroggy.com/)
+- [Grid Garden](https://cssgridgarden.com/)
+- [CSS Tricks A Complete Guide To Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+- [CSS Tricks A Complete Guide To Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+- [CSS Flexbox vs. CSS Grid](https://levelup.gitconnected.com/when-to-use-css-flexbox-vs-grid-or-both-c1a5f01dc88a)
+- [Flexbox Defense](http://www.flexboxdefense.com/)
+- [Sarah Drasner’s CSS Grid Generator](https://cssgrid-generator.netlify.com/)
+- [Cubic Bezier Generator](https://cubic-bezier.com/#.17,.67,.83,.67)
+- [BEM](http://getbem.com/")
+- [SMAACS](http://smacss.com/")
+- [Bootstrap](https://getbootstrap.com/")
+- [Zurb Foundation](https://foundation.zurb.com/")
+- [Bulma CSS](https://bulma.io/")
+- [TailwindCSS](https://tailwindcss.com/")
+- [Stylus UI Framework](http://stylus-lang.com/")
+- [VSCode Style Lint Plugin](https://github.com/shinnn/vscode-stylelint")
 
-- <a target="_blank" href="https://flexboxfroggy.com/">Flexbox Froggy</a>
-- <a target="_blank" href="https://cssgridgarden.com/">Grid Garden</a>
-- <a target="_blank" href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/">CSS Tricks a Complete Guide To Flexbox</a>
-- <a target="_blank" href="https://css-tricks.com/snippets/css/complete-guide-grid/">CSS Tricks A Complete Guide To Grid</a>
-- <a target="_blank" href="https://levelup.gitconnected.com/when-to-use-css-flexbox-vs-grid-or-both-c1a5f01dc88a">CSS Flexbox vs. CSS Grid</a>
-- <a target="_blank" href="http://www.flexboxdefense.com/">Flexbox Defense</a>
-- <a target="_blank" href="https://cssgrid-generator.netlify.com/">Sarah Drasner’s CSS Grid Generator</a>
-- <a target="_blank" href="https://cubic-bezier.com/#.17,.67,.83,.67">Cubic bezier generator</a>
-- <a target="_blank" href="http://getbem.com/">BEM</a>
-- <a target="_blank" href="http://smacss.com/">SMAACS</a>
-- <a target="_blank" href="https://getbootstrap.com/">Bootstrap</a>
-- <a target="_blank" href="https://foundation.zurb.com/">Zurb Foundation</a>
-- <a target="_blank" href="https://bulma.io/">Bulma CSS</a>
-- <a target="_blank" href="https://tailwindcss.com/">TailwindCSS</a>
-- <a target="_blank" href="http://stylus-lang.com/">Stylus UI Framework</a>
-- <a target="_blank" href="https://github.com/shinnn/vscode-stylelint">VSCode Style Lint Plugin</a>
+# Transcript
 
-## Help us out
-
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

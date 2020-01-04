@@ -1,5 +1,4 @@
 ---
-
 title: What The Heck Is GraphQL?
 formattedDate: "September 16, 2019"
 date: "2019-09-16"
@@ -8,9 +7,11 @@ path: "/what-the-heck-is-graphql"
 description: "GraphQL has taken this industry by storm, but what is it exactly? In this special episode of the Ladybug Podcast we’ve invited 14 GraphQL experts from the community to educate us on all things GraphQL!"
 episode: "Season 1 Episode 11"
 length: "1:05:45"
----## Sponsors
+---
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+# Sponsors
+
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://logrocket.com">
 <img src="../../images/sponsors/logrocket.svg" alt="LogRocket Website"></a>
@@ -25,7 +26,7 @@ Sanity.io is a platform for structured content that comes with an open source ed
 
 Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers">shopify.com/careers</a> today.
 
-## Show notes
+# Show notes
 
 **2:00** - What Is GraphQL? ([Erin Fox](https://twitter.com/erinfoox))
 
@@ -55,33 +56,21 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 **1:01:27** - Making GraphQL Development Easier With Hasura ([Rajoshi Ghosh](https://twitter.com/rajoshighosh))
 
-**1:05:06** - Wins!
+**1:05:06** - Wins
 
-## Listener Win
+# Resources
 
-<a target="_blank" href="https://twitter.com/molly_struve">Molly Struve</a>
-After struggling for 4 days to debug a problem she figured it out and contacted the software creators to update the docs!
+- [Understanding GraphQL](https://medium.com/@erinfoox/understanding-graphql-finally-a75986d8df0a)
+- [Sacha Greif's GraphQL Article](https://www.freecodecamp.org/news/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf/)[
+- [Graphiql](https://electronjs.org/apps/graphiql)
+- [Babel Blade Plugin](https://github.com/sw-yx/babel-blade)
+- [ESlint GraphQL Plugin](https://github.com/apollographql/eslint-plugin-graphql)
+- [Is GraphQL The Future?](https://artsy.github.io/blog/2018/05/08/is-graphql-the-future/)
+- [Shruti Kapoor's Hooks & GraphQL Repo](https://github.com/shrutikapoor08/hooks-graphQL)
+- [GraphQL Editor](https://graphqleditor.com/)
+- [GraphQL Playground](https://github.com/prisma/graphql-playground)
+- [Hasura's GraphQL Tutorials](https://learn.hasura.io/)
 
-## Nominate A Ladybug Podcast Guest!
+# Transcript
 
-Want to nominate yourself, or someone else, to be on the Ladybug Podcast? Fill out our [nomination form](https://forms.gle/SUK6Usk6EnnkTsjG8) to let us know!
-
-## Resources
-
-- <a target="_blank" href="https://medium.com/@erinfoox/understanding-graphql-finally-a75986d8df0a">Understanding GraphQL</a>
-- <a target="_blank" href="https://www.freecodecamp.org/news/so-whats-this-graphql-thing-i-keep-hearing-about-baf4d36c20cf/">Sacha Greif's GraphQL Article</a>
-- <a target="_blank" href="https://electronjs.org/apps/graphiql">Graphiql</a>
-- <a target="_blank" href="https://github.com/sw-yx/babel-blade">Babel Blade Plugin</a>
-- <a target="_blank" href="https://github.com/apollographql/eslint-plugin-graphql">ESlint GraphQL Plugin</a>
-- <a target="_blank" href="https://artsy.github.io/blog/2018/05/08/is-graphql-the-future/">Is GraphQL The Future?</a>
-- <a target="_blank" href="https://github.com/shrutikapoor08/hooks-graphQL">Shruti Kapoor's Hooks & GraphQL Repo</a>
-- <a target="_blank" href="https://graphqleditor.com/">GraphQL Editor</a>
-- <a target="_blank" href="https://github.com/prisma/graphql-playground">GraphQL Playground</a>
-- <a target="_blank" href="https://learn.hasura.io/">Hasura's GraphQL Tutorials</a>
-
-## Help us out
-
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

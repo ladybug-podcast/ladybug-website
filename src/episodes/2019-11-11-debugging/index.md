@@ -1,5 +1,4 @@
 ---
-
 title: Debugging 101
 formattedDate: "November 11, 2019"
 date: "2019-11-11"
@@ -8,9 +7,11 @@ path: "/debugging"
 description: "How often have you encountered a problem and struggled to figure out where to start? Or maybe you aren’t super familiar with the browser tools available to debug your JavaScript code. So today we’ve brought on a special guest, Rebecca Hill, to help us learn about the world of debugging."
 episode: "Season 1 Episode 20"
 length: "27:44"
----## Sponsors
+---
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+# Sponsors
+
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
@@ -30,22 +31,22 @@ You can attend a retreat in Brooklyn for one, six, or 12 weeks. RC is free for e
 
 Learn more about RC and how to apply at: www.recurse.com
 
-## Show notes
+# Show notes
 
-- **Who are you?** - 1:12
-- **How did you learn so much about debugging?** - 2:00
-- **Basic debugging steps** - 3:12
-- **Is debugging language agnostic?** - 6:21
-- **Why don't we teach debugging?** - 9:36
-- **Different types of debugging** - 13:45
-- **Common debugging mistakes** - 17:09
-- **Testing** - 19:39
-- **Browser features for debugging** - 20:50
-- **Tips for new developers** - 22:40
-- **Which browser is best for debugging?** - 24:55
-- **Where can you learn more?** - 26:08
+**1:12** - Who are you?
+**2:00** - How did you learn so much about debugging?
+**3:12** - Basic debugging steps
+**6:21** - Is debugging language agnostic?
+**9:36** - Why don't we teach debugging?
+**13:45** - Different types of debugging
+**17:09** - Common debugging mistakes
+**19:39** - Testing
+**20:50** - Browser features for debugging
+**22:40** - Tips for new developers
+**24:55** - Which browser is best for debugging?
+**26:08** - Where can you learn more?
 
-## Resources
+# Resources
 
 - [Essential JavaScript debugging tools for the modern detective by Rebecca Hill](https://www.youtube.com/watch?v=TtsvMRxmfGA)
 - [Rebecca Hill](https://twitter.com/rebekaka)
@@ -57,13 +58,6 @@ Learn more about RC and how to apply at: www.recurse.com
 - [Chrome Developer](https://developer.chrome.com/home)
 - [Umaar Dev Tips](https://umaar.com/dev-tips/)
 
-## Help us out
+# Transcript
 
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Nominate A Ladybug Podcast Guest!
-
-Want to nominate yourself, or someone else, to be on the Ladybug Podcast? Fill out our [nomination form](https://forms.gle/SUK6Usk6EnnkTsjG8) to let us know!
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

@@ -1,5 +1,4 @@
 ---
-
 title: How To Teach Code
 formattedDate: "September 23, 2019"
 date: "2019-09-23"
@@ -8,16 +7,18 @@ path: "/teaching-code"
 description: "Have you ever wondered what it takes to be an effective teacher in the tech industry? Well, wonder no more. We had the pleasure of chatting with Angie Jones, senior developer advocate at Applitools and director at Test Automation University about her experience as a teacher. And she talks to us about her teaching and learning styles and shares some advice for those looking to get into the world of teaching. And this episode, we'll discuss things like how to teach to multiple skill levels and common misconceptions about being a teacher."
 episode: "Season 1 Episode 12"
 length: "38:31"
----## Sponsors
+---
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+# Sponsors
+
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://logrocket.com">
 <img src="../../images/sponsors/logrocket.svg" alt="LogRocket Website"></a>
 
 How many times have you struggled to figure out an annoying bug in your app? Well struggle no more! Log Rocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. You can see a perfect replay of what your users saw, inspect Redux actions and state at any point in time, view every network request and response, and even inspect console logs and JavaScript errors. Log Rocket lets you support your users without the tedious back and forth conversations. Plus it works with React, Angular, vanilla JavaScript, Redux, Ember, and Vue! Check out Log Rocket today to improve your debugging workflow.
 
-## Show notes
+# Show notes
 
 **5:59** - What drew you into teaching?  
 **7:47** - Did you ever have a memorable teacher?  
@@ -30,20 +31,13 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 **29:52** - How do you learn?  
 **33:42** - What advice would you give someone who wants to get into teaching?
 
-### Teaching Code
+# Resources
 
-- <a target="_blank" href="https://twitter.com/techgirl1908">Angie's Twitter</a>
-- <a target="_blank" href="http://angiejones.tech/">Angie's Website</a>
-- <a target="_blank" href="https://testautomationu.applitools.com/instructors/angie_jones.html">Test Automation University</a>
-- <a target="_blank" href="https://frontendmasters.com/teachers/sarah-drasner/">Sarah Drasner</a>
+- [Angie's Twitter](https://twitter.com/techgirl1908)
+- [Angie's Website](http://angiejones.tech/)
+- [Test Automation University](https://testautomationu.applitools.com/instructors/angie_jones.html)
+- [Sarah Drasner](https://frontendmasters.com/teachers/sarah-drasner/)
 
-## Help us out
+# Transcript
 
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Nominate A Ladybug Podcast Guest!
-
-Want to nominate yourself, or someone else, to be on the Ladybug Podcast? Fill out our [nomination form](https://forms.gle/SUK6Usk6EnnkTsjG8) to let us know!
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>

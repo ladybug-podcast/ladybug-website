@@ -1,5 +1,4 @@
 ---
-
 title: Web Performance
 formattedDate: "November 18, 2019"
 date: "2019-11-18"
@@ -8,9 +7,11 @@ path: "/web-performance"
 description: "Today we’re talking about web performance. Did you know that 40% of users abandon sites that take more than 3s to load? Turns out making your sites fast is pretty important! In this episode we’ll talk about what web performance is, why we should care, and we’ll give you tips for optimizing performance and measuring it."
 episode: "Season 1 Episode 21"
 length: "32:59"
----## Sponsors
+---
 
-Shout out to our sponsors for supporting the LadyBug Podcast!
+# Sponsors
+
+A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
 <a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
@@ -30,28 +31,21 @@ You can attend a retreat in Brooklyn for one, six, or 12 weeks. RC is free for e
 
 Learn more about RC and how to apply at: www.recurse.com
 
-## Show notes
+# Show notes
 
-- **What is web performance?** - 1:18
-- **Why should I care about performance?** - 3:48
-- **The cost of JavaScript** - 6:59
-- **What should I be measuring?** - 14:02
-- **Performance tools** - 17:46
-- **Performance-improving methods** - 19:40
-- **Progressive web apps** - 26:49
+**1:18** - What is web performance?  
+**3:48** - Why should I care about performance?  
+**6:59** - The cost of JavaScript  
+**14:02** - What should I be measuring?  
+**17:46** - Performance tools  
+**19:40** - Performance-improving methods  
+**26:49** - Progressive web apps
 
-## Resources
+# Resources
 
 - [Lighthouse](https://developers.google.com/web/tools/lighthouse)
 - [Gatsby](https://www.gatsbyjs.org/)
 
-## Help us out
+# Transcript
 
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Nominate A Ladybug Podcast Guest!
-
-Want to nominate yourself, or someone else, to be on the Ladybug Podcast? Fill out our [nomination form](https://forms.gle/SUK6Usk6EnnkTsjG8) to let us know!
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
