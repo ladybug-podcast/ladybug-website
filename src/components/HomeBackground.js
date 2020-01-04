@@ -1,11 +1,5 @@
 import React from "react"
-import {
-  animated,
-  useSprings,
-  useSpring,
-  config,
-  interpolate,
-} from "react-spring"
+import { animated, useSprings, interpolate } from "react-spring"
 import "./homeBackground.css"
 
 const windowWidth = window.innerWidth

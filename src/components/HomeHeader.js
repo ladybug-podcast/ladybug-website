@@ -23,17 +23,9 @@ const Header = ({ latestEpisode }) => {
           <img className="logo" src={lightLogo} alt="Ladybug Podcast" />
         </Link>
         <nav className="nav">
-          <ul className="nav-list">
-            <li className="nav-list-item">
-              <Link to="episodes">Episodes</Link>
-            </li>
-            <li className="nav-list-item">
-              <Link to="about">About Us</Link>
-            </li>
-            <li className="nav-list-item">
-              <Link to="contact">Contact</Link>
-            </li>
-          </ul>
+          <Link to="episodes">Episodes</Link>
+          <Link to="about">About Us</Link>
+          <Link to="contact">Contact</Link>
         </nav>
       </div>
       <Player

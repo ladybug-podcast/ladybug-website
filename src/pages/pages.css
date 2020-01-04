@@ -11,14 +11,8 @@ h1,
 h2,
 h3 {
   position: relative;
-  margin-bottom: 60px;
-  margin-top: 0;
-}
-
-main h1,
-main h2,
-main h3 {
-  margin-top: 48px;
+  margin-bottom: 24px;
+  margin-top: 80px;
 }
 
 p {
@@ -38,13 +32,35 @@ main li {
   line-height: 24px;
 }
 
-a {
+ul a,
+p a {
   text-decoration: none;
   color: #3c2829;
+  border-bottom: 2px solid #3c2829;
+  transition: color 0.1s linear, border 0.1s linear;
 }
 
-.highlight {
-  border-bottom: 2px solid #3c2829;
+nav a {
+  border-bottom: 2px solid transparent;
+  transition: color 0.1s linear, border 0.1s linear;
+}
+
+ul a:hover,
+ul a:focus,
+p a:hover,
+p a:focus,
+nav a:hover,
+nav a:focus {
+  color: #f27979;
+  border-bottom: 2px solid #f27979;
+}
+
+ul {
+  padding-left: 16px;
+}
+
+li {
+  margin: 8px 0;
 }
 
 .button {
@@ -117,6 +133,19 @@ a {
 
 .about-content-wrapper {
   margin-left: 24px;
+}
+
+.about-content-wrapper a {
+  color: #3c2829;
+  text-decoration: none;
+  border-bottom: 2px solid #3c2829;
+  transition: border 0.1s linear, color 0.1s linear;
+}
+
+.about-content-wrapper a:hover,
+.about-content-wrapper a:focus {
+  border: 2px solid #f27979;
+  color: #f27979;
 }
 
 .about-image {

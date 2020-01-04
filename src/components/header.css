@@ -24,23 +24,33 @@
   margin-right: 24px;
 }
 
-.nav-list {
-  list-style: none;
-  margin: 0;
-  font-family: "Montserrat";
-  display: flex;
-}
-
-.nav-list-item {
+.nav a {
   margin-left: 24px;
+  text-decoration: none;
+  color: #1f0204;
 }
 
-.header-full .nav-list-item a {
+.header-full a {
   color: #fff;
   text-decoration: none;
+  border-bottom: 2px solid transparent;
+  transition: border 0.1s linear;
 }
 
-.page-header .nav-list-item a {
-  color: #1f0204;
+.header-full a:hover,
+.header-full a:focus {
+  color: #fff;
+  border-bottom: 2px solid #fff;
+}
+
+.header-full .episode a:hover,
+.header-full .episode a:focus {
+  border: 0;
   text-decoration: none;
+}
+
+.image-link,
+.image-link:hover,
+.image-link:focus {
+  border: 0;
 }

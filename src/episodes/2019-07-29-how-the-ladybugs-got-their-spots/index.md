@@ -1,5 +1,4 @@
 ---
-
 title: How the Ladybugs Got Their Spots
 formattedDate: "July 29, 2019"
 date: "2019-07-29"
@@ -8,41 +7,30 @@ path: "/how-the-ladybugs-got-their-spots"
 description: "In this episode, we're getting to know the ladybug hosts, both on technical and non-technical topics. Listen in to learn about our favorite tech stacks, our biggest career milestones, favorite books, and more."
 episode: "Seaon 1 Episode 5"
 length: "37:28"
----## Show notes
+---# Show notes
 
-**Our Favorite Stacks** - 0:36
+**0:36** - Favorite stacks
 
-**Our Favorite food** - 2:36
+**2:36** - Favorite food
 
-**Our Favorite question to be asked** - 6:52
+**6:52** - Favorite question to be asked
 
-**Our Pets** - 10:38
+**10:38** - Our pets
 
-**Our Favorite TV shows** - 13:57
+**13:57** - Favorite TV shows
 
-**Our Favorite books** - 17:31
+**17:31** - Favorite books
 
-**Our Favorite type of code to write** - 22:07
+**22:07** - Favorite type of code to write
 
-**Our Biggest career milestone** - 23:23
+**23:23** - Biggest career milestone
 
-**Our Biggest inspiration, day to day** - 27:54
+**27:54** - Biggest day-to-day inspiration
 
-**Our Non-Tech Dream job** - 31:20
+**31:20** - Non-tech dream job
 
-**Wins!** - 34:07
+**34:07** - Wins
 
-####Wins!
+# Transcript
 
-- <a target="_blank" href="https://twitter.com/hkbarcelo">**Holly**</a> - Completed the first module in Skillcrush Break into Tech blueprint
-- **Kelly** - My husband made me a good cup of coffee
-- **Emma** - I’ve finished over 40 books this year
-- **Ali** - I finished the code for a side project that I’m really excited about!
-- **Lindsey** - Got rid of twitter on my phone
-
-## Help us out
-
-- <a target="_blank" href="https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625">Leave us a review on Apple Podcasts</a>
-- <a target="_blank" href="https://link.chtbl.com/ladybugpodcast">Subscribe to our podcast</a>
-
-## Transcript
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
