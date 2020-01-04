@@ -12,7 +12,7 @@ length: "38:37"
 
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
-<a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../assets/RC_logo.svg" alt="Recurse Center" /></a>
+<a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
 
 When’s the last time you worked on that side project you’re always thinking about? How much progress could you make if you had three months to work and learn in a room full of smart, friendly, intellectually curious programmers?
 

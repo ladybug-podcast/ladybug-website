@@ -13,7 +13,7 @@ length: "39:48"
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
 <a class="image-link" target="_blank" href="https://logrocket.com">
-<img src="../../assets/logrocket.svg" alt="LogRocket Website"></a>
+<img src="../../images/sponsors/logrocket.svg" alt="LogRocket Website"></a>
 
 How many times have you struggled to figure out an annoying bug in your app? Well struggle no more! Log Rocket lets you replay what users do on your site, helping you reproduce bugs and fix issues faster. You can see a perfect replay of what your users saw, inspect Redux actions and state at any point in time, view every network request and response, and even inspect console logs and JavaScript errors. Log Rocket lets you support your users without the tedious back and forth conversations. Plus it works with React, Angular, vanilla JavaScript, Redux, Ember, and Vue! Check out Log Rocket today to improve your debugging workflow.
 

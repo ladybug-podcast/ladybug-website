@@ -13,7 +13,7 @@ length: "20:34"
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
 <p><a class="image-link" target="_blank" href="https://do.co/ladybug">
-<img src="../../assets/digitalocean.svg" alt="Digital Ocean Website">
+<img src="../../images/sponsors/digitalocean.svg" alt="Digital Ocean Website">
 </a>
 </p>
 

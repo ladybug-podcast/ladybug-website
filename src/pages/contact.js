@@ -20,6 +20,7 @@ const ContactPage = () => (
           className="highlight"
           href="https://twitter.com/LadybugPodcast"
           target="_blank"
+          rel="noopener noreferrer"
         >
           Twitter
         </a>{" "}

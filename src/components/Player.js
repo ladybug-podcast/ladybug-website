@@ -84,6 +84,7 @@ const Episode = ({
         <button
           className="audio-control"
           onClick={() => setIsPlaying(!isPlaying)}
+          aria-label={isPlaying ? "Pause podcast" : "Play podcast"}
         >
           {isPlaying ? (
             <img src={pauseButton} alt="Pause episode" />

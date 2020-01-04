@@ -13,7 +13,7 @@ length: "49:05"
 
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
-<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../assets/shopify.svg" alt="Shopify Careers"></a>
+<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
 Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers">shopify.com/careers</a> today.
 

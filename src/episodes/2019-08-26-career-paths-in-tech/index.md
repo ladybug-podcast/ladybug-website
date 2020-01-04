@@ -13,15 +13,15 @@ length: "49:58"
 
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
-<a class="image-link" target="_blank" href="https://www.sanity.io/ladybug"><img src="../../assets/sanity.svg" alt="Sanity.io"></a>
+<a class="image-link" target="_blank" href="https://www.sanity.io/ladybug"><img src="../../images/sponsors/sanity.svg" alt="Sanity.io"></a>
 
 Sanity.io is a platform for structured content that comes with an open source editor that you can customize with React. Sanity.io also comes with tooling that lets you build with structured content in React, Vue, and other frontend technologies like Svelte. It also has powerful APIs for reading and writing so that you can use the same content across any device, channel, or product. You also get powerful APIs for querying your content, you can even listen for changes in real-time, and use the write APIs to patch and make new documents from code. You can get started for free on the standard plan, and add a credit card to pay as you go for usage over the generous standard quotas. If you need advanced features like SSL and Single-Sign-On you can find all the prices and details on Sanity.io's fully transparent pricing page. Listeners of the Ladybug Podcast get a extra special plan with double the usage. Go to <a target="_blank" href="https://www.sanity.io/ladybug">sanity.io/ladybug</a> or use "ladybug" where you fill in the coupon code.
 
-<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../assets/shopify.svg" alt="Shopify Careers"></a>
+<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
 Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers">shopify.com/careers</a> today.
 
-<a class="image-link" target="_blank" href="https://jamstackconf.com/"><img src="../../assets/netlify.svg" alt="JAMStack Conf Website"></a>
+<a class="image-link" target="_blank" href="https://jamstackconf.com/"><img src="../../images/sponsors/netlify.svg" alt="JAMStack Conf Website"></a>
 
 We want to tell you about the JAMStack Conference, happening Oct 16-18 in San Francisco. So what’s the JAMstack? Chris Coyier got to the heart of it when he said the explosion of new APIs and tools are providing front end developers with full stack superpowers. We call this new approach the JAMstack.
 

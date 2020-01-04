@@ -16,10 +16,10 @@ length: "26:17"
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
 <p><a class="image-link" target="_blank" href="https://logrocket.com">
-<img src="../../assets/logrocket.svg" alt="LogRocket Website"></a>
+<img src="../../images/sponsors/logrocket.svg" alt="LogRocket Website"></a>
 </p>
 <p><a class="image-link" target="_blank" href="https://do.co/ladybug">
-<img src="../../assets/digitalocean.svg" alt="Digital Ocean Website">
+<img src="../../images/sponsors/digitalocean.svg" alt="Digital Ocean Website">
 </a>
 </p>
 

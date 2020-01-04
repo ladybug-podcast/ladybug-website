@@ -1,4 +1,3 @@
-import React from "react"
 import emma from "../images/team/emma.jpg"
 import ali from "../images/team/ali.jpg"
 import kelly from "../images/team/kelly.jpg"

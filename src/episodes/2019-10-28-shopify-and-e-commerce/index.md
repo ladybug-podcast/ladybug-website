@@ -12,7 +12,7 @@ length: "34:56"
 
 Shout out to our sponsors for supporting the LadyBug Podcast!
 
-<a class="image-link" target="_blank" href="https://jamstackconf.com/"><img src="../../assets/netlify.svg" alt="JAMStack Conf Website"></a>
+<a class="image-link" target="_blank" href="https://jamstackconf.com/"><img src="../../images/sponsors/netlify.svg" alt="JAMStack Conf Website"></a>
 
 Netlify is the premiere way to build and manage fast modern websites that run without the need for web servers. Deploy sites directly from Git to a worldwide application delivery network for the fastest possible performance. Netlify is built in continuous deployment automatically builds and deploys your site or app whenever you post to your Git repository. You can even attach deploy previews to your pull request and turn each branch into its own staging site. Use modern front end tools and static generators like React Gatsby or Vue and Nuxt. For the back end Netlify can automatically deploy AWS lambda functions right along the rest of your code. Simply set a folder and drop in your functions. Everything else is automatic. There's so much more! Automatic forms, identity management, and tools to manage and transform large images and media. Learn more about Netlify's powerful platform at Netlify.com/ladybug.
 

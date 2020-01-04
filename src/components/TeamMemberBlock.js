@@ -17,6 +17,7 @@ const TeamMemberBlock = ({ name, image, title, location, bio, links }) => (
           style={{ marginRight: "16px" }}
           href={link.link}
           target="_blank"
+          rel="noopener noreferrer"
         >
           {link.title}
         </a>
