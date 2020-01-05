@@ -84,13 +84,13 @@ const spotsArray = [
 ]
 
 const from = () => ({
-  x: Math.random() * windowWidth,
-  y: Math.random() * 500,
+  x: Math.random() * window.innerWidth,
+  y: Math.random() * 600,
 })
 
 const to = () => ({
-  x: Math.random() * windowWidth,
-  y: Math.random() * 500,
+  x: Math.random() * window.innerWidth,
+  y: Math.random() * 600,
 })
 
 const HomeBackground = () => {
