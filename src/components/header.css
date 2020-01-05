@@ -72,4 +72,27 @@
     height: 650px;
     box-sizing: border-box;
   }
+
+  .nav {
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  .nav {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .nav a {
+    margin-bottom: 16px;
+  }
+
+  .header-full {
+    height: 1000px;
+  }
+
+  .header.page-header {
+    height: auto;
+  }
 }

@@ -101,6 +101,16 @@ progress::-moz-progress-bar {
   margin-right: 24px;
 }
 
+@media (max-width: 500px) {
+  .episode {
+    margin-top: 16px;
+  }
+
+  .episode-info {
+    text-align: center;
+  }
+}
+
 @media (max-width: 800px) {
   .player-container {
     width: 80%;

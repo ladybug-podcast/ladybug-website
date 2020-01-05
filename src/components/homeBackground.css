@@ -34,3 +34,9 @@
     height: 710px;
   }
 }
+
+@media (max-width: 500px) {
+  .home-background {
+    height: 1000px;
+  }
+}

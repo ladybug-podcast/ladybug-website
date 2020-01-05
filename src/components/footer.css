@@ -57,3 +57,10 @@
     text-align: center;
   }
 }
+
+@media (max-width: 500px) {
+  .footer {
+    padding: 24px;
+    text-align: center;
+  }
+}

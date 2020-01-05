@@ -147,7 +147,7 @@ li {
 
 .about-content-wrapper a:hover,
 .about-content-wrapper a:focus {
-  border: 2px solid #f05657;
+  border-bottom: 2px solid #f05657;
   color: #f05657;
 }
 
@@ -217,10 +217,6 @@ li {
     flex-direction: column;
   }
 
-  .nav {
-    margin-top: 20px;
-  }
-
   .page-banner {
     width: 80%;
     left: 10%;
@@ -235,5 +231,26 @@ li {
 
   .home-main {
     margin-top: 80px;
+  }
+}
+
+@media (max-width: 500px) {
+  .page-banner {
+    position: relative;
+    top: 0;
+  }
+  main {
+    margin-top: 40px;
+  }
+
+  .about-name,
+  .about-title,
+  .about-location {
+    text-align: center;
+  }
+
+  .about-content-wrapper a {
+    margin-bottom: 16px;
+    display: block;
   }
 }
