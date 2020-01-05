@@ -51,7 +51,7 @@ const BooksPage = ({ data }) => (
 
 export const AllBooksQuery = graphql`
   {
-    atomicHabits: file(relativePath: { eq: "atomic-habits.jpg" }) {
+    atomicHabits: file(relativePath: { eq: "books/atomic-habits.jpg" }) {
       childImageSharp {
         fixed(width: 250) {
           ...GatsbyImageSharpFixed
