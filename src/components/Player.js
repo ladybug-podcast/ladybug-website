@@ -19,8 +19,12 @@ const Episode = ({
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
 
-  const playAudio = audioPlayer => {
-    audioPlayer.play()
+  async function playAudio(audioPlayer) {
+    try {
+      await audioPlayer.play()
+    } catch (err) {
+      console.log(err)
+    }
   }
 
   const pauseAudio = audioPlayer => {
