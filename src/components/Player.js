@@ -19,22 +19,10 @@ const Episode = ({
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
 
-  const togglePlay = async () => {
+  const togglePlay = () => {
     setIsPlaying(!isPlaying)
     let audio = document.getElementById("audio-player")
     isPlaying ? audio.play() : audio.pause()
-  }
-
-  async function playAudio(audioPlayer) {
-    try {
-      await audioPlayer.play()
-    } catch (err) {
-      console.log(err)
-    }
-  }
-
-  const pauseAudio = audioPlayer => {
-    audioPlayer.pause()
   }
 
   const updateDuration = e => {
@@ -61,11 +49,6 @@ const Episode = ({
     setPlayerValue(progressTime)
     setCurrentTime(newListenTime)
   }
-
-  // useEffect(() => {
-  //   const audioPlayer = document.getElementById("audio-player")
-  //   isPlaying ? playAudio(audioPlayer) : pauseAudio(audioPlayer)
-  // })
 
   const formatTime = time => {
     let calculatedTime = time
