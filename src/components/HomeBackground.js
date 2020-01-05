@@ -1,4 +1,4 @@
-import React from "react"
+import React, { useEffect, useState, useRef } from "react"
 import { animated, useSprings, interpolate } from "react-spring"
 import "./homeBackground.css"
 
@@ -83,24 +83,29 @@ const spotsArray = [
   },
 ]
 
+const from = width => ({
+  x: Math.random() * width,
+  y: Math.random() * 600,
+})
+
+const to = width => ({
+  x: Math.random() * width,
+  y: Math.random() * 600,
+})
+
 const HomeBackground = () => {
+  const [windowWidth, setWindowWidth] = useState(null)
   const [props] = useSprings(spotsArray.length, () => ({
-    ...to(),
-    from: from(),
+    ...to(windowWidth),
+    from: from(windowWidth),
     config: {
       duration: "70000",
       friction: "300",
     },
   }))
 
-  const from = () => ({
-    x: Math.random() * window.innerWidth,
-    y: Math.random() * 600,
-  })
-
-  const to = () => ({
-    x: Math.random() * window.innerWidth,
-    y: Math.random() * 600,
+  useEffect(() => {
+    window && setWindowWidth(window.innerWidth)
   })
 
   return (
