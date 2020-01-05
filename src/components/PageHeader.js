@@ -10,9 +10,18 @@ const Header = () => (
         <img className="logo" src={logo} alt="Ladybug Podcast" />
       </Link>
       <nav className="nav">
-        <Link to="episodes">Episodes</Link>
-        <Link to="about">About Us</Link>
-        <Link to="contact">Contact</Link>
+        <Link to="episodes" activeStyle={{ borderBottom: "2px solid #f27979" }}>
+          Episodes
+        </Link>
+        <Link to="books" activeStyle={{ borderBottom: "2px solid #f27979" }}>
+          Book Club
+        </Link>
+        <Link to="about" activeStyle={{ borderBottom: "2px solid #f27979" }}>
+          About Us
+        </Link>
+        <Link to="contact" activeStyle={{ borderBottom: "2px solid #f27979" }}>
+          Contact
+        </Link>
       </nav>
     </div>
   </header>

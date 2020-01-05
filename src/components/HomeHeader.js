@@ -24,6 +24,7 @@ const Header = ({ latestEpisode }) => {
         </Link>
         <nav className="nav">
           <Link to="episodes">Episodes</Link>
+          <Link to="books">Book Club</Link>
           <Link to="about">About Us</Link>
           <Link to="contact">Contact</Link>
         </nav>
