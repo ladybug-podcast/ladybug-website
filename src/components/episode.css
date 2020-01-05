@@ -9,8 +9,10 @@
 }
 
 .episode-page-header {
-  background: url("../images/brand/episode-header-background.svg") center center
-    no-repeat;
+  background: url("../images/brand/episode-header-background.svg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
   padding: 80px;
   border-radius: 4px;
   position: relative;
@@ -128,5 +130,9 @@ progress::-moz-progress-bar {
 
   .audio-control {
     margin-bottom: 16px;
+  }
+
+  .episode-page-header {
+    top: 0;
   }
 }
