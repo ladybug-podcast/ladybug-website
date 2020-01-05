@@ -2,8 +2,6 @@ import React from "react"
 import { animated, useSprings, interpolate } from "react-spring"
 import "./homeBackground.css"
 
-const windowWidth = window.innerWidth
-
 const spotsArray = [
   {
     width: "50px",
