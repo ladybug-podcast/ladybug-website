@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="74px" height="74px" viewBox="0 0 74 74" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 61.2 (89653) - https://sketch.com -->
+    <title>close</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-47.000000, -219.000000)" fill="#FFFFFF" fill-rule="nonzero">
+            <path d="M93.9,256.1 L118.9,231.2 C120.3,229.8 121,227.9 121,226 C121,224.2 120.2,222.5 118.9,221.3 C117.5,219.9 115.7,219.2 113.8,219.2 C112,219.2 110.3,220 109.1,221.3 L84.1,246.2 L58.9,221.1 C57.5,219.7 55.6,219 53.8,219 C52,219 50.3,219.8 49.1,221.1 C47.7,222.5 47,224.4 47,226.3 C47,228.1 47.8,229.8 49.1,231 L74.1,255.9 L49.1,281 C47.7,282.4 47,284.3 47,286.2 C47,288 47.8,289.7 49.1,290.9 C50.4,292.2 52.3,293 54,293 C55.9,293 57.5,292.3 58.9,290.9 L84.1,266 L109.1,290.9 C110.4,292.2 112.3,293 114,293 C115.9,293 117.5,292.3 118.9,290.9 C120.3,289.5 121,287.6 121,285.7 C121,283.9 120.2,282.2 118.9,281 L93.9,256.1 Z" id="close"></path>
+        </g>
+    </g>
+</svg>

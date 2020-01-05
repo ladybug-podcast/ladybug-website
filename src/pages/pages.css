@@ -20,7 +20,7 @@ p {
 }
 
 main {
-  margin: 140px 0;
+  margin: 140px 0 40px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -61,6 +61,10 @@ ul {
 
 li {
   margin: 8px 0;
+}
+
+.home-main {
+  margin-top: 40px;
 }
 
 .button {
@@ -104,9 +108,8 @@ li {
 
 .page-banner {
   background: url("../images/brand/page-header-background.svg");
-  max-width: 800px;
   color: #fff;
-  width: 90vw;
+  width: 50%;
   height: 160px;
   border-radius: 8px;
   display: flex;
@@ -114,7 +117,7 @@ li {
   align-items: center;
   position: absolute;
   top: 170px;
-  left: calc(45vw - 25%);
+  left: 25%;
 }
 
 .page-banner > h1 {
@@ -185,4 +188,52 @@ li {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+.header-full .logo-link:hover,
+.header-full .logo-link:focus {
+  border-bottom: 0;
+}
+
+@media (max-width: 1000px) {
+  .about-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .about-image {
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 800px) {
+  .bookshelf {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
+  .header-content-wrapper {
+    flex-direction: column;
+  }
+
+  .nav {
+    margin-top: 20px;
+  }
+
+  .page-banner {
+    width: 80%;
+    left: 10%;
+    height: 100px;
+    font-size: 0.8em;
+  }
+
+  main {
+    margin-top: 100px;
+    padding: 0 60px;
+  }
+
+  .home-main {
+    margin-top: 80px;
+  }
 }

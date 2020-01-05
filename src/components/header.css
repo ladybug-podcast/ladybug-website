@@ -43,9 +43,13 @@
   border-bottom: 2px solid #fff;
 }
 
-.header-full .episode a:hover,
-.header-full .episode a:focus {
-  border: 0;
+.header-full .home-logo {
+  border-bottom: 0;
+}
+
+.header-full .home-logo:hover,
+.header-full .home-logo:focus {
+  border-bottom: 0;
   text-decoration: none;
 }
 
@@ -58,4 +62,11 @@
 .image-link > img {
   width: 200px;
   margin-top: 40px;
+}
+
+@media (max-width: 700px) {
+  .header-full {
+    height: 650px;
+    box-sizing: border-box;
+  }
 }

@@ -4,8 +4,8 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  height: calc(100% - 86px);
   color: #fff;
+  margin-top: 40px;
 }
 
 .episode-page-header {
@@ -99,4 +99,24 @@ progress::-moz-progress-bar {
   border: none;
   cursor: pointer;
   margin-right: 24px;
+}
+
+@media (max-width: 800px) {
+  .player-container {
+    width: 80%;
+  }
+
+  .player[value] {
+    width: 100%;
+  }
+
+  .episode-info {
+    flex-direction: column;
+    padding: 0 20px;
+    align-items: center;
+  }
+
+  .audio-control {
+    margin-bottom: 16px;
+  }
 }

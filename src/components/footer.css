@@ -29,14 +29,31 @@
   display: flex;
   justify-content: space-around;
   margin-top: 74px;
+  flex-wrap: wrap;
 }
 
 .footer-links > a {
   text-decoration: none;
   color: #353535;
+  margin-right: 16px;
+  margin-bottom: 16px;
 }
 
 .footer-copyright {
   font-size: 0.8em;
   margin-top: 56px;
+}
+
+@media (max-width: 700px) {
+  .footer-links {
+    width: 80%;
+    margin-top: 40px;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-copyright {
+    width: 80%;
+    text-align: center;
+  }
 }

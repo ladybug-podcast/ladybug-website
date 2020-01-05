@@ -11,7 +11,7 @@ const IndexPage = ({ data }) => {
     <div>
       <SEO title="Ladybug Podcast" />
       <HomeHeader latestEpisode={data.allMarkdownRemark.edges[0]} />
-      <main>
+      <main className="home-main">
         <h2>Recent Episodes</h2>
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[1]} />
         <EpisodeBlock episodeInfo={data.allMarkdownRemark.edges[2]} />
