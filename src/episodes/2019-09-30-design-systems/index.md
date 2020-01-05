@@ -20,23 +20,40 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 
 # Show notes
 
-**1:23** - What are design systems?  
-**2:58** - Emma's experience with design systems  
-**3:52** - Ali's experience with design systems  
-**4:41** - Kelly's experience with design systems  
-**5:00** - Do you need a design system and who are design systems for?  
-**7:46** - Benefits of design systems  
-**11:11** - Drawbacks of design systems and team structure  
-**13:11** - How do you measure success?  
-**14:24** - Challenges of building a design system  
-**15:34** - How to build a design system  
-**18:19** - Styling components  
-**19:03** - Documentation tools  
-**21:09** - Style guides  
-**23:42** - Why design systems fail  
-**25:08** - Who builds design systems  
-**29:20** - Tools for building design systems  
-**32:54** - Notable people in design systems  
+**1:23** - What are design systems?
+
+**2:58** - Emma's experience with design systems
+
+**3:52** - Ali's experience with design systems
+
+**4:41** - Kelly's experience with design systems
+
+**5:00** - Do you need a design system and who are design systems for?
+
+**7:46** - Benefits of design systems
+
+**11:11** - Drawbacks of design systems and team structure
+
+**13:11** - How do you measure success?
+
+**14:24** - Challenges of building a design system
+
+**15:34** - How to build a design system
+
+**18:19** - Styling components
+
+**19:03** - Documentation tools
+
+**21:09** - Style guides
+
+**23:42** - Why design systems fail
+
+**25:08** - Who builds design systems
+
+**29:20** - Tools for building design systems
+
+**32:54** - Notable people in design systems
+
 **36:54** - Wins
 
 # Resources

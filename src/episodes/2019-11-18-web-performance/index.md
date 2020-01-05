@@ -33,12 +33,18 @@ Learn more about RC and how to apply at: www.recurse.com
 
 # Show notes
 
-**1:18** - What is web performance?  
-**3:48** - Why should I care about performance?  
-**6:59** - The cost of JavaScript  
-**14:02** - What should I be measuring?  
-**17:46** - Performance tools  
-**19:40** - Performance-improving methods  
+**1:18** - What is web performance?
+
+**3:48** - Why should I care about performance?
+
+**6:59** - The cost of JavaScript
+
+**14:02** - What should I be measuring?
+
+**17:46** - Performance tools
+
+**19:40** - Performance-improving methods
+
 **26:49** - Progressive web apps
 
 # Resources

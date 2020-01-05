@@ -29,12 +29,18 @@ Learn more about RC and how to apply at: [www.recurse.com](www.recurse.com)
 
 # Show notes
 
-**1:36** - What does it mean to work remotely?  
-**2:34** - What is our experience working remotely?  
-**7:08** - Pros & cons  
-**21:05** - What makes a successful remote work experience?  
-**27:11** - Should you work remotely as your first job?  
-**31:35** - Personality traits for a healthy remote work experience  
+**1:36** - What does it mean to work remotely?
+
+**2:34** - What is our experience working remotely?
+
+**7:08** - Pros & cons
+
+**21:05** - What makes a successful remote work experience?
+
+**27:11** - Should you work remotely as your first job?
+
+**31:35** - Personality traits for a healthy remote work experience
+
 **33:31** - Tips for working remotely
 
 # Resources

@@ -15,6 +15,7 @@ length: "26:17"
 # Sponsors
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
+
 <a class="image-link" target="_blank" href="https://logrocket.com">
 <img src="../../images/sponsors/logrocket.svg" alt="LogRocket Website"></a>
 
@@ -27,10 +28,15 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 # Show Notes
 
 **1:57** - What is open source?
+
 **6:51** - What should a first time contributor look for?
+
 **8:12** - Do all open source projects participate?
+
 **8:52** - What advice would you give to a first time contributor?
+
 **16:03** - How did you convert Dev to open source?
+
 **23:45** - What are your favorite open source projects?
 
 # Resources

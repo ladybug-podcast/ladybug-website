@@ -20,14 +20,23 @@ Netlify is the premiere way to build and manage fast modern websites that run wi
 # Show notes
 
 **1:05** - Who are you and what is your role at Shopify?
+
 **1:41** - What does a typical day at Shopify look like?
+
 **3:36** - What was your path in tech?
+
 **7:44** - What is Shopify & e-commerce in general?
+
 **12:41** - What makes Shopify different from competitors?
+
 **13:42** - Why should developers pay attention to Shopify?
+
 **22:09** - What are your favorite things that have been built by Shopify?
+
 **24:28** - How has Shopify's design system, Polaris, changed development?
+
 **30:06** - What tech stack do you recommend focusing on for new Shopify developers?
+
 **31:01** - What does the day in the life of a Shopify developer look like?
 
 # Resources

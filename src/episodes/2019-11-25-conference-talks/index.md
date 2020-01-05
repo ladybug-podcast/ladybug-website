@@ -19,14 +19,22 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 # Show notes
 
-**1:31** - Our speaking experience  
-**8:03** - What can I speak about?  
-**11:51** - What is a CFP?  
-**17:22** - Benefits of speaking  
-**19:53** - Drawback of speaking  
-**24:19** - Speaker fees  
-**32:19** - Preparing your talk  
-**39:27** - Speaking advice  
+**1:31** - Our speaking experience
+
+**8:03** - What can I speak about?
+
+**11:51** - What is a CFP?
+
+**17:22** - Benefits of speaking
+
+**19:53** - Drawback of speaking
+
+**24:19** - Speaker fees
+
+**32:19** - Preparing your talk
+
+**39:27** - Speaking advice
+
 **46:04** - How do I get started?
 
 # Resources

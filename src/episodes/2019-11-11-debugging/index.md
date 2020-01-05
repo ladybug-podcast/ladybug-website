@@ -34,16 +34,27 @@ Learn more about RC and how to apply at: www.recurse.com
 # Show notes
 
 **1:12** - Who are you?
+
 **2:00** - How did you learn so much about debugging?
+
 **3:12** - Basic debugging steps
+
 **6:21** - Is debugging language agnostic?
+
 **9:36** - Why don't we teach debugging?
+
 **13:45** - Different types of debugging
+
 **17:09** - Common debugging mistakes
+
 **19:39** - Testing
+
 **20:50** - Browser features for debugging
+
 **22:40** - Tips for new developers
+
 **24:55** - Which browser is best for debugging?
+
 **26:08** - Where can you learn more?
 
 # Resources

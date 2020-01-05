@@ -20,15 +20,24 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 
 # Show notes
 
-**5:59** - What drew you into teaching?  
-**7:47** - Did you ever have a memorable teacher?  
-**13:40** - How do you teach to students with varying skill levels?  
-**17:56** - What do you struggle with most when it comes to teaching?  
-**23:41** - Do you think, as a developer advocate, that it’s important to know how to teach?  
-**24:29** - What’s your teaching style && how do you appeal to different learning styles?  
-**26:13** - What’s your favorite subject to teach?  
-**27:25** - Who do you look up to in the industry?  
-**29:52** - How do you learn?  
+**5:59** - What drew you into teaching?
+
+**7:47** - Did you ever have a memorable teacher?
+
+**13:40** - How do you teach to students with varying skill levels?
+
+**17:56** - What do you struggle with most when it comes to teaching?
+
+**23:41** - Do you think, as a developer advocate, that it’s important to know how to teach?
+
+**24:29** - What’s your teaching style && how do you appeal to different learning styles?
+
+**26:13** - What’s your favorite subject to teach?
+
+**27:25** - Who do you look up to in the industry?
+
+**29:52** - How do you learn?
+
 **33:42** - What advice would you give someone who wants to get into teaching?
 
 # Resources

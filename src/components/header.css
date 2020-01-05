@@ -54,3 +54,8 @@
 .image-link:focus {
   border: 0;
 }
+
+.image-link > img {
+  width: 200px;
+  margin-top: 40px;
+}

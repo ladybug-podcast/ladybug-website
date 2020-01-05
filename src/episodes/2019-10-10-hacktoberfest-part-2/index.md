@@ -20,16 +20,27 @@ A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested 
 # Show notes
 
 **1:17** - Who is Shannon?
+
 **4:19** - What is open source?
+
 **4:55** - How did you get involved in Hacktoberfest?
+
 **6:27** - What is it like to maintain an open source project?
+
 **7:35** - Tips && tricks for people wanting to work on maintaining an open source project
+
 **8:54** - How to contribute to Hacktoberfest projects?
+
 **11:51** - Advice for beginners getting started in open source
+
 **13:09** - How do you find projects to contribute to?
+
 **14:30** - Hard parts of open source
+
 **15:38** - Best parts of open source
+
 **16:52** - How to gain confidence to contribute
+
 **18:06** - Advice to someone beginning their coding journey
 
 # Resources

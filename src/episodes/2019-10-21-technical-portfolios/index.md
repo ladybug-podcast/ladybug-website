@@ -19,15 +19,23 @@ Netlify is the premiere way to build and manage fast modern websites that run wi
 
 # Show notes
 
-**1:16** - What is a technical portfolio?  
-**8:13** - Do we have portfolios?  
-**8:21** - Why would you want a portfolio?  
-**17:06** - How do you build a portfolio as a backend developer?  
-**18:11** - What can you put in your portfolio?  
-**20:26** - What if I'm bad at design?  
-**23:15** - What should developers focus on when building a portfolio?  
-**25:24** - Fun portfolio examples  
-**29:18**- Wins
+**1:16** - What is a technical portfolio?
+
+**8:13** - Do we have portfolios?
+
+**8:21** - Why would you want a portfolio?
+
+**17:06** - How do you build a portfolio as a backend developer?
+
+**18:11** - What can you put in your portfolio?
+
+**20:26** - What if I'm bad at design?
+
+**23:15** - What should developers focus on when building a portfolio?
+
+**25:24** - Fun portfolio examples
+
+**29:18** - Wins
 
 # Resources
 

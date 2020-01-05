@@ -20,14 +20,23 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 # Show notes
 
 **1:04** - Difference between a library & a framework
+
 **4:37** - Do we even need a framework?
+
 **13:25** - Pros & cons of using frameworks
+
 **16:54** - Popularity of different frameworks
+
 **25:31** - React
+
 **34:14** - Vue.js
+
 **39:34** - Angular
+
 **44:23** - Which framework is right for me?
+
 **45:44** - Evolution & speed of frontend development
+
 **47:31** - Learning these frameworks
 
 # Resources
