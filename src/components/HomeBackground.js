@@ -83,16 +83,6 @@ const spotsArray = [
   },
 ]
 
-const from = () => ({
-  x: Math.random() * window.innerWidth,
-  y: Math.random() * 600,
-})
-
-const to = () => ({
-  x: Math.random() * window.innerWidth,
-  y: Math.random() * 600,
-})
-
 const HomeBackground = () => {
   const [props] = useSprings(spotsArray.length, () => ({
     ...to(),
@@ -102,6 +92,16 @@ const HomeBackground = () => {
       friction: "300",
     },
   }))
+
+  const from = () => ({
+    x: Math.random() * window.innerWidth,
+    y: Math.random() * 600,
+  })
+
+  const to = () => ({
+    x: Math.random() * window.innerWidth,
+    y: Math.random() * 600,
+  })
 
   return (
     <div className="home-background">
