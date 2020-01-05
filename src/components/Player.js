@@ -19,6 +19,12 @@ const Episode = ({
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
 
+  const togglePlay = async () => {
+    setIsPlaying(!isPlaying)
+    let audio = document.getElementById("audio-player")
+    isPlaying ? audio.play() : audio.pause()
+  }
+
   async function playAudio(audioPlayer) {
     try {
       await audioPlayer.play()
@@ -56,10 +62,10 @@ const Episode = ({
     setCurrentTime(newListenTime)
   }
 
-  useEffect(() => {
-    const audioPlayer = document.getElementById("audio-player")
-    isPlaying ? playAudio(audioPlayer) : pauseAudio(audioPlayer)
-  })
+  // useEffect(() => {
+  //   const audioPlayer = document.getElementById("audio-player")
+  //   isPlaying ? playAudio(audioPlayer) : pauseAudio(audioPlayer)
+  // })
 
   const formatTime = time => {
     let calculatedTime = time
@@ -90,7 +96,7 @@ const Episode = ({
       <div className="episode-info">
         <button
           className="audio-control"
-          onClick={() => setIsPlaying(!isPlaying)}
+          onClick={() => togglePlay()}
           aria-label={isPlaying ? "Pause podcast" : "Play podcast"}
         >
           {isPlaying ? (
