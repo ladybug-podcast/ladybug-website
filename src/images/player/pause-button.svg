@@ -18,7 +18,7 @@
                 <g id="play-button">
                     <g id="Oval">
                         <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
-                        <use stroke="#F27979" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                        <use stroke="#F05657" stroke-width="1" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
                     </g>
                 </g>
                 <g id="noun_pause_2770163" transform="translate(23.000000, 21.000000)" fill="#ED626B">

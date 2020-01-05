@@ -51,8 +51,8 @@ p a:hover,
 p a:focus,
 nav a:hover,
 nav a:focus {
-  color: #f27979;
-  border-bottom: 2px solid #f27979;
+  color: #f05657;
+  border-bottom: 2px solid #f05657;
 }
 
 ul {
@@ -74,9 +74,9 @@ li {
   border-radius: 20px;
   border: none;
   background: white;
-  box-shadow: 4px 4px #f27979;
+  box-shadow: 4px 4px #f05657;
   cursor: pointer;
-  color: #f27979;
+  color: #f05657;
   transition: all 0.1s ease-out;
   margin-top: 24px;
 }
@@ -88,7 +88,7 @@ li {
 }
 
 .button-border {
-  border: 2px solid #f27979;
+  border: 2px solid #f05657;
 }
 
 .page-flex-horizontal {
@@ -147,8 +147,8 @@ li {
 
 .about-content-wrapper a:hover,
 .about-content-wrapper a:focus {
-  border: 2px solid #f27979;
-  color: #f27979;
+  border: 2px solid #f05657;
+  color: #f05657;
 }
 
 .about-image {

@@ -43,12 +43,15 @@
   border-bottom: 2px solid #fff;
 }
 
-.header-full .home-logo {
+.header-full .home-logo,
+.header-full .episode-header-button {
   border-bottom: 0;
 }
 
 .header-full .home-logo:hover,
-.header-full .home-logo:focus {
+.header-full .home-logo:focus,
+.header-full .episode-header-button:focus,
+.header-full .episode-header-button:hover {
   border-bottom: 0;
   text-decoration: none;
 }

@@ -120,7 +120,7 @@ const Episode = ({
         <p className="player-current-time">{formatTime(currentTime)}</p>
       </div>
       {!isEpisodeHeader && (
-        <Link to={path}>
+        <Link to={path} className="episode-header-button">
           <button className="button">Read show notes</button>
         </Link>
       )}
