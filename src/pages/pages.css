@@ -116,7 +116,7 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-size: center;
+  background-size: cover;
 }
 
 .page-banner > h1 {
