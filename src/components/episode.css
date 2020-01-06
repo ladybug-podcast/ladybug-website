@@ -101,10 +101,60 @@ progress::-moz-progress-bar {
 }
 
 .audio-control {
-  background: none;
-  border: none;
+  border: 2px solid #f05657;
   cursor: pointer;
   margin-right: 24px;
+  outline: none;
+  background: white;
+  height: 65px;
+  width: 65px;
+  border-radius: 50%;
+  position: relative;
+  box-shadow: 4px 4px rgba(255,255,255,.5);
+  transition: all .1s ease-in;
+}
+
+.audio-control:hover {
+  transform: translate3d(3px, 3px, 0);
+  box-shadow: none;
+}
+
+.audio-control.play:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 15px solid transparent;
+  border-left: 25px solid #f05657;
+  border-bottom: 15px solid transparent;
+  background: none;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-38%, -50%);
+  transition: all .1s ease-in;
+}
+
+.audio-control.pause:before, .audio-control.pause:after {
+  content: "";
+  height: 30px;
+  width: 10px;
+  background: #f05657;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-38%, -50%);
+  transition: all .2s ease-in;
+  padding: 0;
+}
+
+.audio-control.pause:before {
+  transform: translate(-130%, -50%);
+}
+
+.audio-control.pause:after {
+  transform: translate(30%, -50%);
 }
 
 @media (max-width: 500px) {
