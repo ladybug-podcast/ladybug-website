@@ -18,7 +18,7 @@ length: "39:01"
 - [Houdini](https://css-tricks.com/interactive-introduction-to-css-houdini/)
 - [CSS Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
 - [Sub Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout/Subgrid)
-- [CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
+- [CSS Specificity](https://dev.to/emmabostian/css-specificity-1kca)
 - [GraphQL](https://graphql.org/)
 - [Gatsby](https://www.gatsbyjs.org/)
 - [Gatsby Live Stream](https://www.youtube.com/watch?v=W2uTfay3doo)
@@ -34,4 +34,4 @@ length: "39:01"
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/04-web-technologies-were-excited-about.md)!

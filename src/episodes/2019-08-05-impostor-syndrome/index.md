@@ -42,4 +42,4 @@ length: "41:17"
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/06-impostor-syndrome.md)!

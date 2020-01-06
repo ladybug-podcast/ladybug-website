@@ -30,7 +30,7 @@ const ContactPage = () => (
       </p>
       <h2>Sponsorships</h2>
       <p>
-        We're Emma Wedekind, Kelly Vaughn, and Ali Spittel - three seasoned
+        We're Emma Bostian, Kelly Vaughn, and Ali Spittel - three seasoned
         software developers working in different sectors. We wanted to add our
         voices to the podcasting sphere and share our experiences and advice. We
         have great discussions around how to start coding, the hot technologies

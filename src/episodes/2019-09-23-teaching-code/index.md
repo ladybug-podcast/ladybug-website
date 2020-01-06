@@ -49,4 +49,4 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/12-teaching-code.md" target="_blank" class="highlight">here!</a>

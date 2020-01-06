@@ -66,4 +66,4 @@ Podcast listeners can save 10% using the discount code “ladybug” when you si
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/10-career-paths-in-tech.md" target="_blank" class="highlight">here!</a>

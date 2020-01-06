@@ -40,7 +40,7 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 **20:02** - Variables ([Swyx](https://twitter.com/swyx))
 
-**24:24** - Fragments ([Emma Wedekind](https://twitter.com/emmawedekind))
+**24:24** - Fragments ([Emma Bostian](https://twitter.com/emmabostian))
 
 **25:36** - Directives ([Jon Wong](https://twitter.com/jnwng))
 
@@ -73,4 +73,4 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/11-what-the-heck-is-graphql.md" target="_blank" class="highlight">here!</a>

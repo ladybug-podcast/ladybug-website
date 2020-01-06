@@ -30,7 +30,7 @@ length: "47:58"
 # Resources
 
 - [My Favorite Free Resources for New Programmers](https://dev.to/aspittel/my-favorite-free-resources-for-new-programmers-bia)
-- [How To Learn JavaScript](https://dev.to/emmawedekind/how-to-learn-javascript-54i6)
+- [How To Learn JavaScript](https://dev.to/emmabostian/how-to-learn-javascript-54i6)
 - [Start with Why](https://smile.amazon.com/Start-Why-Leaders-Inspire-Everyone/dp/1591846447?sa-no-redirect=1)
 - [General Assembly](https://generalassemb.ly/)
 - [Flat Iron School](https://flatironschool.com/)
@@ -46,4 +46,4 @@ length: "47:58"
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/01-new-career-who-dis.md)!

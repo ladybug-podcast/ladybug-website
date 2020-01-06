@@ -54,4 +54,4 @@ Learn more about RC and how to apply at: www.recurse.com
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/21-web-performance.md" target="_blank" class="highlight">here!</a>

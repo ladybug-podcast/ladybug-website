@@ -39,7 +39,7 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 # Resources
 
-- [Speaking at technical conferences](https://dev.to/emmawedekind/speaking-at-technical-conferences-1kkk)
+- [Speaking at technical conferences](https://dev.to/emmabostian/speaking-at-technical-conferences-1kkk)
 - [Public Speaking as a Developer](https://dev.to/aspittel/public-speaking-as-a-developer-2ihj)
 - [All Things Open conference talks](https://www.youtube.com/channel/UCBhXFK70DbOU15N2BhDQVTg)
 - [Codeland conference](https://codelandconf.com/)
@@ -65,4 +65,4 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/22-conferences.md" target="_blank" class="highlight">here!</a>

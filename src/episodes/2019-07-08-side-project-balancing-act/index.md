@@ -35,9 +35,9 @@ length: "32:03"
 
 - [Full-time, side projects, learning, and staying sane](https://dev.to/simoroshka/full-time-side-projects-learning-and-staying-sane-328l)
 - [How I learned to be more productive with my workdays](https://dev.to/kelly/how-i-learned-to-be-more-productive-with-my-workdays-5f14)
-- [How To Boost Your Productivity &amp; Get Sh\*t Done](https://dev.to/emmawedekind/how-to-boost-your-productivity--get-sht-done-3h5n)
+- [How To Boost Your Productivity &amp; Get Sh\*t Done](https://dev.to/emmabostian/how-to-boost-your-productivity--get-sht-done-3h5n)
 - [Atomic Habits](https://smile.amazon.com/Atomic-Habits-Proven-Build-Break/dp/0735211299?sa-no-redirect=1)
 
 ## Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/02-side-project-balancing-act.md" target="_blank" class="highlight">here!</a>

@@ -1,4 +1,5 @@
 ---
+
 title: How the Ladybugs Got Their Spots
 formattedDate: "July 29, 2019"
 date: "2019-07-29"
@@ -33,4 +34,4 @@ length: "37:28"
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/05-how-the-ladybugs-got-their-spots.md)!

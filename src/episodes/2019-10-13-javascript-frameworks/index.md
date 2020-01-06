@@ -62,4 +62,4 @@ October means Hacktoberfest! We released two episodes ([Part 1](https://ladybug.
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/16-javascript-frameworks.md" target="_blank" class="highlight">here!</a>

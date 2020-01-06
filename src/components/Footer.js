@@ -91,7 +91,7 @@ const Footer = () => (
     </div>
     <p className="footer-copyright">
       © Ladybug Podcast 2019. Produced by Kelly Vaughn, Ali Spittel, and Emma
-      Wedekind.
+      Bostian.
     </p>
   </footer>
 )

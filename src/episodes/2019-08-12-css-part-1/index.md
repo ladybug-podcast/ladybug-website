@@ -43,7 +43,7 @@ Sanity.io is a platform for structured content that comes with an open source ed
 
 # Resources
 
-- [CSS Specificity](https://dev.to/emmawedekind/css-specificity-1kca)
+- [CSS Specificity](https://dev.to/emmabostian/css-specificity-1kca)
 - [CSS: From Zero to Hero](https://dev.to/aspittel/css-from-zero-to-hero-3o16)
 - [CSS Diner](https://flukeout.github.io/")
 - [CanIUse](https://caniuse.com/)
@@ -54,4 +54,4 @@ Sanity.io is a platform for structured content that comes with an open source ed
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts)!
+We provide transcripts for all of our episodes. You can find them [here](https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/07-css-part-1.md)!

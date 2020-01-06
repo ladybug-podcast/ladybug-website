@@ -82,9 +82,9 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 **Books & Articles**
 
 - [Atomic Design](https://bradfrost.com/blog/post/atomic-web-design/)
-- [Documenting React Components With Storybook](https://medium.com/@**emma**wedekind/documenting-react-components-with-storybook-6c83abe7cb29)
-- [Design Systems Part 1 Foundations](https://dev.to/**emma**wedekind/design-systems-part-i-foundations-45hd)
-- [Design Systems Part 2 Design Language](https://dev.to/**emma**wedekind/design-systems-part-ii-design-language-217k)
+- [Documenting React Components With Storybook](https://medium.com/@**emma**bostian/documenting-react-components-with-storybook-6c83abe7cb29)
+- [Design Systems Part 1 Foundations](https://dev.to/**emma**bostian/design-systems-part-i-foundations-45hd)
+- [Design Systems Part 2 Design Language](https://dev.to/**emma**bostian/design-systems-part-ii-design-language-217k)
 
 **People & Conferences**
 
@@ -95,4 +95,4 @@ How many times have you struggled to figure out an annoying bug in your app? Wel
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/13-design-systems.md" target="_blank" class="highlight">here!</a>

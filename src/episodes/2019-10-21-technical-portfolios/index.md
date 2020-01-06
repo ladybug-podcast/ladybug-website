@@ -44,8 +44,8 @@ Netlify is the premiere way to build and manage fast modern websites that run wi
 - [Dribbble](https://dribbble.com/)
 - [Ben Halpern's Portfolio](http://benhalpern.com/)
 - [Julia Khusainova's Portfolio](http://julia.im/)
-- [Developer Portfolios](https://github.com/emmawedekind/developer-portfolios)
+- [Developer Portfolios](https://github.com/emmabostian/developer-portfolios)
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybugpodcast/tree/master/transcripts" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/17-technical-portfolios.md" target="_blank" class="highlight">here!</a>
