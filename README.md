@@ -12,8 +12,6 @@ Hosted by Kelly Vaughn, Ali Spittel, and Emma Wedekind, the Ladybug Podcast is d
 ## About our website
 Our podcast website is built using [Gatsby](https://gatsbyjs.org) and is fully open source! Find a bug? Think something could be better presented? Open a PR or issue and let us know!
 
-Special thank you to [Syntax](https://github.com/wesbos/Syntax) for giving us a starting point for our player code!
-
 ## Get involved
 - [Leave us a review on Apple Podcasts](https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625)
 - [Subscribe to our podcast](https://link.chtbl.com/ladybugpodcast)
