@@ -10,10 +10,11 @@ const EpisodesPage = ({ data }) => (
   <div className="page">
     <SEO title="Ladybug Podcast" />
     <PageHeader />
-    <div className="page-banner">
-      <h1>Episodes</h1>
-    </div>
+
     <main>
+      <div className="page-banner">
+        <h1>Episodes</h1>
+      </div>
       {data.allMarkdownRemark.edges.map(post => {
         return (
           <EpisodeBlock episodeInfo={post} key={post.node.frontmatter.path} />

@@ -10,11 +10,12 @@ const BooksPage = ({ data }) => (
   <div className="page">
     <SEO title="Ladybug Podcast" />
     <PageHeader />
-    <div className="page-banner">
-      <h1>Book Club</h1>
-    </div>
-    <main>
-      <p>
+
+    <main style={{ marginBottom: "40px" }}>
+      <div className="page-banner">
+        <h1>Book Club</h1>
+      </div>
+      <p className="banner-margin">
         We've started a book club! Each month we'll be reading a popular
         non-fiction book and bringing you an extra episode to discuss our
         thoughts.

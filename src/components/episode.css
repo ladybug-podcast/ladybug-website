@@ -19,6 +19,10 @@
   top: -80px;
 }
 
+.banner-margin {
+  margin-top: 40px;
+}
+
 .episode-info {
   display: flex;
   align-items: flex-start;

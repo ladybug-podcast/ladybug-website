@@ -8,10 +8,11 @@ const ContactPage = () => (
   <div className="page">
     <SEO title="Ladybug Podcast" />
     <PageHeader />
-    <div className="page-banner">
-      <h1>Contact Us</h1>
-    </div>
+
     <main>
+      <div className="page-banner">
+        <h1>Contact Us</h1>
+      </div>
       <h2>Get In Touch</h2>
       <p>
         Have some feedback or just want to get in touch? Feel free to send us a

@@ -20,7 +20,8 @@ p {
 }
 
 main {
-  margin: 140px 0 40px;
+  position: relative;
+  top: -80px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -115,9 +116,6 @@ li {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: absolute;
-  top: 170px;
-  left: 25%;
 }
 
 .page-banner > h1 {
@@ -213,33 +211,32 @@ li {
 }
 
 @media (max-width: 700px) {
+  main {
+    top: 0;
+  }
   .header-content-wrapper {
     flex-direction: column;
   }
 
   .page-banner {
-    width: 80%;
+    width: 100vw;
     left: 10%;
     height: 100px;
     font-size: 0.8em;
   }
 
   main {
-    margin: 80px 40px;
+    margin: 0 40px;
   }
 
   .home-main {
-    margin-top: 80px;
+    margin: 40px;
   }
 }
 
 @media (max-width: 500px) {
-  .page-banner {
-    position: relative;
-    top: 0;
-  }
   main {
-    margin-top: 40px;
+    /* margin-top: 40px; */
   }
 
   .about-name,

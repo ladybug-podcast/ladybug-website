@@ -11,10 +11,11 @@ const AboutPage = ({ data }) => (
   <div className="page">
     <SEO title="Ladybug Podcast" />
     <PageHeader />
-    <div className="page-banner">
-      <h1>About Us</h1>
-    </div>
+
     <main>
+      <div className="page-banner">
+        <h1>About Us</h1>
+      </div>
       <TeamMemberBlock
         name={kellyBio.name}
         title={kellyBio.title}
