@@ -15,6 +15,13 @@ Check out our website [here](https://www.ladybug.dev/)!
 
 Our podcast website is built using [Gatsby](https://gatsbyjs.org) and is fully open source! Find a bug? Think something could be better presented? Open a PR or issue and let us know!
 
+## How to use
+
+1. Git Clone or Fork
+1. Run 'yarn' to install requirements
+1. Run 'yarn start' or 'gatsby develop' to run server
+1. View locally: http://localhost:8000
+
 ## Get involved
 
 - [Leave us a review on Apple Podcasts](https://podcasts.apple.com/us/podcast/ladybug-podcast/id1469229625)
