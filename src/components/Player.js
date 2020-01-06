@@ -22,7 +22,7 @@ const Episode = ({
   const togglePlay = () => {
     setIsPlaying(!isPlaying)
     let audio = document.getElementById("audio-player")
-    isPlaying ? audio.play() : audio.pause()
+    isPlaying ? audio.pause() : audio.play()
   }
 
   const updateDuration = e => {
@@ -79,7 +79,7 @@ const Episode = ({
       <div className="episode-info">
         <button
           className="audio-control"
-          onClick={() => togglePlay()}
+          onClick={togglePlay}
           aria-label={isPlaying ? "Pause podcast" : "Play podcast"}
         >
           {isPlaying ? (
