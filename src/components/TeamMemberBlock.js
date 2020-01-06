@@ -1,9 +1,10 @@
 import React from "react"
+import Img from "gatsby-image"
 import "../pages/pages.css"
 
 const TeamMemberBlock = ({ name, image, title, location, bio, links }) => (
   <div className="about-wrapper">
-    <img className="about-image" src={image} alt={name} />
+    <Img fixed={image} className="about-image" />
     <div className="about-content-wrapper">
       <h2 className="about-name">{name}</h2>
       <h4 className="about-title">{title}</h4>

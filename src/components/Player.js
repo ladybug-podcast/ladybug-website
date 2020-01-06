@@ -4,7 +4,7 @@ import playButton from "../images/player/play-button.svg"
 import pauseButton from "../images/player/pause-button.svg"
 import "./episode.css"
 
-const Episode = ({
+const Player = ({
   title,
   audio,
   description,
@@ -119,4 +119,4 @@ const Episode = ({
   )
 }
 
-export default Episode
+export default Player

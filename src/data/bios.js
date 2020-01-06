@@ -1,12 +1,7 @@
-import emma from "../images/team/emma.jpg"
-import ali from "../images/team/ali.jpg"
-import kelly from "../images/team/kelly.jpg"
-
 export const kellyBio = {
   name: "Kelly Vaughn",
   title: "Frontend Developer",
   location: "Atlanta, GA",
-  image: kelly,
   bio: [
     `Kelly Vaughn is a frontend developer and founder of The Taproom, a
         Shopify Plus agency rooted in Atlanta. Kelly and her team have helped
@@ -38,7 +33,6 @@ export const emmaBio = {
   name: "Emma Bostian",
   title: "Software Engineer",
   location: "Karlsruhe, Germany",
-  image: emma,
   bio: [
     `Emma is a Software Engineer at LogMeIn in Karlsruhe, Germany. Born and raised in Upstate New York, Emma graduated from Siena College in Albany with a B.S. in Computer Science and moved to Austin, Texas for three years where she worked as an engineer at IBM.`,
     `Currently Emma is focused on building a design system at LogMeIn and has a multitude of side projects. She founded an open source project, Coding Coach in September of 2018, is a Frontend Masters instructor, Egghead.io instructor, teaches at Lynda.com, and much much more!`,
@@ -59,7 +53,6 @@ export const aliBio = {
   name: "Ali Spittel",
   title: "Software Engineer",
   location: "Digital Nomad",
-  image: ali,
   bio: [
     `Ali teaches people to code. She is a Distinguished Faculty member at General Assembly teaching their Software Engineering Immersive for campus, online, and enterprise programs. She has also taught their Python part-time class, and is part of their Python Product Advisory Board.`,
     `She has also been a software engineer and developer advocate. She also blogs about the things she wished she knew when she was learning to code. Her blog posts have been read well over a million times. She also speaks and gives workshops at conferences all over the world.`,
