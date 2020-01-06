@@ -19,7 +19,7 @@ export default function Template({ data }) {
   return (
     <div>
       <PageHeader />
-      <main style={{ margin: "0" }}>
+      <main>
         <Player
           title={title}
           description={description}
