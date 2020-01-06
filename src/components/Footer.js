@@ -68,7 +68,7 @@ const Footer = () => (
     <div className="footer-links">
       <Link to="/contact">Sponsor Us</Link>
       <a
-        href="https://github.com/ladybug-podcast/ladybugpodcast"
+        href="https://github.com/ladybug-podcast/ladybug-website"
         target="_blank"
         rel="noopener noreferrer"
       >
