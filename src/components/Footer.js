@@ -10,7 +10,7 @@ import "./footer.css"
 
 const Footer = () => (
   <footer className="footer">
-    <div className="footer-find-episodes">
+    <section className="footer-find-episodes">
       <p>
         <span role="img" aria-label="Headphones">
           🎧
@@ -20,7 +20,7 @@ const Footer = () => (
           🎧
         </span>
       </p>
-      <div className="footer-icons">
+      <address className="footer-icons">
         <a
           href="https://twitter.com/LadybugPodcast"
           target="_blank"
@@ -63,8 +63,8 @@ const Footer = () => (
         >
           <img src={rss} alt="RSS Feed" />
         </a>
-      </div>
-    </div>
+      </address>
+    </section>
     <div className="footer-links">
       <Link to="/contact">Sponsor Us</Link>
       <a
