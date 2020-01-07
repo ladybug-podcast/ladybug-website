@@ -18,9 +18,10 @@ Our podcast website is built using [Gatsby](https://gatsbyjs.org) and is fully o
 ## How to use
 
 1. Fork and clone
-1. Run 'yarn' to install requirements
-1. Run 'yarn start' or 'gatsby develop' to run server
-1. View locally: http://localhost:8000
+1. Run `yarn` to install dependencies
+1. Run `yarn start` or `gatsby develop` to start your development server
+1. View your development server: `http://localhost:8000`
+1. View your development server's graphql playground: `http://localhost:8000/__graphql`
 
 ## Get involved
 
