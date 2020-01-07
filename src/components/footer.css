@@ -20,7 +20,7 @@
 }
 
 .footer-icons img {
-  transition: all 0.1s ease-out;
+  transition: box-shadow 0.1s ease-out, transform 0.1s ease-out;
   box-shadow: 4px 4px #f05657;
   border-radius: 50%;
   border: 1px solid #f05657;
