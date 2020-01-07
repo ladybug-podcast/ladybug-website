@@ -253,3 +253,21 @@ li {
     display: block;
   }
 }
+
+@media (prefers-color-scheme: dark) {
+  html body {
+    background-color: #12171c; 
+    color: #fff;
+  }
+  ul a, p a, a.highlight {
+    color: #f05657;
+    border-bottom: 2px solid #f05657;
+  }
+  ul a:hover, p a:hover, a.highlight:hover {
+    color: #f25ea2;
+    border-bottom: 2px solid #f25ea2;
+  }
+  ul img, p img {
+    background: rgba(255,255,255,0.3);
+  }
+}
