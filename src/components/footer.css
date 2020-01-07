@@ -19,8 +19,19 @@
   margin-top: 16px;
 }
 
+.footer-icons img {
+  transition: all 0.1s ease-out;
+  box-shadow: 4px 4px #f05657;
+  border-radius: 50%;
+}
+
 .footer-icons > a {
   margin-right: 16px;
+}
+
+.footer-icons a:hover img {
+  transform: translate3d(3px, 3px, 0);
+  box-shadow: none;
 }
 
 .footer-links {
