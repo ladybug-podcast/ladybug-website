@@ -23,6 +23,7 @@
   transition: all 0.1s ease-out;
   box-shadow: 4px 4px #f05657;
   border-radius: 50%;
+  border: 1px solid #f05657;
 }
 
 .footer-icons > a {
