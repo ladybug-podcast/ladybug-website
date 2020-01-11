@@ -21,7 +21,7 @@ const Player = ({
   const [currentTime, setCurrentTime] = useState(0)
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
-  const [volumeValue, setVolumeValue] = useState(100)
+  const [volumeValue, setVolumeValue] = useState(1)
 
   const updateDuration = e => {
     setDuration(e.currentTarget.duration)
@@ -51,16 +51,16 @@ const Player = ({
   const toggleIsMuted = () => {
     const audioPlayer = document.getElementById("audio-player")
     const nextIsMuted = !isMuted
-    audioPlayer.volume = nextIsMuted ? 0 : volumeValue / 100
+    audioPlayer.volume = nextIsMuted ? 0 : volumeValue
     setIsMuted(nextIsMuted)
   }
 
   const updateVolume = e => {
     const audioPlayer = document.getElementById("audio-player")
     let newUpdatedVolume = 
-      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth) * 100
+      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth)
     if (newUpdatedVolume <= 0) newUpdatedVolume = 0
-    audioPlayer.volume = newUpdatedVolume / 100;
+    audioPlayer.volume = newUpdatedVolume;
     setIsMuted(false);
     setVolumeValue(newUpdatedVolume)
   }
@@ -141,7 +141,7 @@ const Player = ({
               className="volume"
               id="volume"
               max="100"
-              value={isMuted ? 0 : volumeValue}
+              value={isMuted ? 0 : volumeValue * 100}
               onClick={e => updateVolume(e)}
             />
           </div>
