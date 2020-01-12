@@ -99,7 +99,7 @@ li {
 .page-flex-vertical {
   display: flex;
   flex-direction: column;
-  padding: 20px;
+  padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
@@ -242,9 +242,6 @@ li {
 }
 
 @media (max-width: 500px) {
-  main {
-    /* margin-top: 40px; */
-  }
 
   .about-name,
   .about-title,
