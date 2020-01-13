@@ -10,7 +10,9 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-function SEO({ description, lang, meta, title }) {
+import metaImage from '../images/meta/website-image.png'
+
+function SEO({ description, lang, meta, title, episodeInfo }) {
   const { site } = useStaticQuery(
     graphql`
       query {
@@ -25,7 +27,9 @@ function SEO({ description, lang, meta, title }) {
     `
   )
 
-  const metaDescription = description || site.siteMetadata.description
+  const siteURL = `https://www.ladybug.dev/`
+  const metaTitle = title || episodeInfo.title
+  const metaDescription = (episodeInfo && episodeInfo.description) || site.siteMetadata.description
 
   return (
     <Helmet
@@ -40,8 +44,12 @@ function SEO({ description, lang, meta, title }) {
           content: metaDescription,
         },
         {
+          property: `og:url`,
+          content: siteURL,
+        },
+        {
           property: `og:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           property: `og:description`,
@@ -52,8 +60,16 @@ function SEO({ description, lang, meta, title }) {
           content: `website`,
         },
         {
+          property: `og:image`,
+          content: metaImage,
+        },
+        {
+          property: `twitter:url`,
+          content: siteURL,
+        },
+        {
           name: `twitter:card`,
-          content: `summary`,
+          content: `summary_large_image`,
         },
         {
           name: `twitter:creator`,
@@ -61,11 +77,15 @@ function SEO({ description, lang, meta, title }) {
         },
         {
           name: `twitter:title`,
-          content: title,
+          content: metaTitle,
         },
         {
           name: `twitter:description`,
           content: metaDescription,
+        },
+        {
+          property: `twitter:image`,
+          content: metaImage
         },
       ].concat(meta)}
     />
