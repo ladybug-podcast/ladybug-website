@@ -41,8 +41,8 @@ const BooksPage = ({ data }) => (
           <a href={LINK_ATOMIC_HABITS} target="_blank">
             <Img fixed={data.atomicHabits.childImageSharp.fixed} />
           </a>
-          <a href={LINK_ATOMIC_HABITS} target="_blank">
-            <button className="button button-border">Details</button>
+          <a href={LINK_ATOMIC_HABITS} className="button button-border" target="_blank">
+            Details
           </a>
         </div>
         <div className="book">
@@ -50,8 +50,8 @@ const BooksPage = ({ data }) => (
           <a href={LINK_INVISIBLE_WOMAN} target="_blank">
             <Img fixed={data.invisibleWomen.childImageSharp.fixed} />
           </a>
-          <a href={LINK_INVISIBLE_WOMAN} target="_blank">
-            <button className="button button-border">Details</button>
+          <a href={LINK_INVISIBLE_WOMAN} className="button button-border" target="_blank">
+            Details
           </a>
         </div>
         <div className="book">
@@ -59,8 +59,8 @@ const BooksPage = ({ data }) => (
           <a href={LINK_IT_DOESNT_HAVE_TO_BE_CRAZY_AT_WORK} target="_blank">
             <Img fixed={data.itDoesntHaveToBeCrazyAtWork.childImageSharp.fixed} />
           </a>
-          <a href={LINK_IT_DOESNT_HAVE_TO_BE_CRAZY_AT_WORK} target="_blank">
-            <button className="button button-border">Details</button>
+          <a href={LINK_IT_DOESNT_HAVE_TO_BE_CRAZY_AT_WORK} className="button button-border" target="_blank">
+            Details
           </a>
         </div>
       </div>
