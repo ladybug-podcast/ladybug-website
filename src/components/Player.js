@@ -2,6 +2,8 @@ import React, { useState, useEffect } from "react"
 import { Link } from "gatsby"
 import playButton from "../images/player/play-button.svg"
 import pauseButton from "../images/player/pause-button.svg"
+import volumeOn from "../images/player/volume-on.svg"
+import volumeOff from "../images/player/volume-off.svg"
 import "./episode.css"
 
 const Player = ({
@@ -15,9 +17,11 @@ const Player = ({
   isEpisodeHeader = false,
 }) => {
   const [isPlaying, setIsPlaying] = useState(false)
+  const [isMuted, setIsMuted] = useState(false)
   const [currentTime, setCurrentTime] = useState(0)
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
+  const [volumeValue, setVolumeValue] = useState(1)
 
   const updateDuration = e => {
     setDuration(e.currentTarget.duration)
@@ -42,6 +46,23 @@ const Player = ({
     audioPlayer.currentTime = newListenTime
     setPlayerValue(progressTime)
     setCurrentTime(newListenTime)
+  }
+
+  const toggleIsMuted = () => {
+    const audioPlayer = document.getElementById("audio-player")
+    const nextIsMuted = !isMuted
+    audioPlayer.volume = nextIsMuted ? 0 : volumeValue
+    setIsMuted(nextIsMuted)
+  }
+
+  const updateVolume = e => {
+    const audioPlayer = document.getElementById("audio-player")
+    let newUpdatedVolume = 
+      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth)
+    if (newUpdatedVolume <= 0) newUpdatedVolume = 0
+    audioPlayer.volume = newUpdatedVolume;
+    setIsMuted(false);
+    setVolumeValue(newUpdatedVolume)
   }
 
   const formatTime = time => {
@@ -108,7 +129,23 @@ const Player = ({
           value={playerValue}
           onClick={e => jumpAudio(e)}
         />
-        <p className="player-current-time">{formatTime(currentTime)}</p>
+        <div className="current-time-volume-container">
+          <p className="player-current-time">{formatTime(currentTime)}</p>
+          <div className="player-volume-container">
+            {volumeValue === 0 || isMuted ? (
+              <img src={volumeOff} alt="Volume Off" onClick={() => toggleIsMuted()} />
+            ) : (
+              <img src={volumeOn} alt="Volume On" onClick={() => toggleIsMuted()} />
+            )}
+            <progress
+              className="volume"
+              id="volume"
+              max="100"
+              value={isMuted ? 0 : volumeValue * 100}
+              onClick={e => updateVolume(e)}
+            />
+          </div>
+        </div>
       </div>
       {!isEpisodeHeader && (
         <Link to={path} className="episode-header-button">

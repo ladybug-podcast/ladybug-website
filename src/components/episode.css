@@ -149,3 +149,30 @@ progress::-moz-progress-bar {
     width: 100vw;
   }
 }
+
+.volume[value] {
+  width: 130px;
+  height: 8px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: none;
+}
+
+@media (max-width: 700px) {
+  .volume[value] {
+    width: 100px;
+  }
+}
+
+.current-time-volume-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.player-volume-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

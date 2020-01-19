@@ -4,6 +4,8 @@ import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Player from "../components/Player"
 
+import SEO from '../components/seo'
+
 export default function Template({ data }) {
   const {
     title,
@@ -16,8 +18,14 @@ export default function Template({ data }) {
   } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
+  const episodeInfo = {
+    title: title,
+    description: description,
+  }
+
   return (
     <div>
+      <SEO episodeInfo={episodeInfo} />
       <PageHeader />
       <main>
         <Player
