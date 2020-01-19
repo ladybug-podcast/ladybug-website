@@ -27,7 +27,8 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
     `
   )
 
-  const siteURL = `https://www.ladybug.dev/`
+  const siteURL = `https://www.ladybug.dev`
+  const imageURL = `${siteURL}${metaImage}`
   const metaTitle = title || episodeInfo.title
   const metaDescription = (episodeInfo && episodeInfo.description) || site.siteMetadata.description
 
@@ -40,8 +41,16 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
+          name: `title`,
+          content: metaTitle,
+        },
+        {
           name: `description`,
           content: metaDescription,
+        },
+        {
+          property: `og:type`,
+          content: `website`,
         },
         {
           property: `og:url`,
@@ -56,24 +65,16 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
           content: metaDescription,
         },
         {
-          property: `og:type`,
-          content: `website`,
-        },
-        {
           property: `og:image`,
-          content: metaImage,
-        },
-        {
-          property: `twitter:url`,
-          content: siteURL,
+          content: imageURL,
         },
         {
           name: `twitter:card`,
           content: `summary_large_image`,
         },
         {
-          name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          property: `twitter:url`,
+          content: siteURL,
         },
         {
           name: `twitter:title`,
@@ -85,7 +86,11 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
         },
         {
           property: `twitter:image`,
-          content: metaImage
+          content: imageURL
+        },
+        {
+          name: `twitter:creator`,
+          content: site.siteMetadata.author,
         },
       ].concat(meta)}
     />
