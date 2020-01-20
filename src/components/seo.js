@@ -10,7 +10,7 @@ import PropTypes from "prop-types"
 import Helmet from "react-helmet"
 import { useStaticQuery, graphql } from "gatsby"
 
-import metaImage from '../images/meta/website-image.png'
+import metaImage from "../images/meta/website-image.png"
 
 function SEO({ description, lang, meta, title, episodeInfo }) {
   const { site } = useStaticQuery(
@@ -21,15 +21,16 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
             title
             description
             author
+            publicUrl
           }
         }
       }
     `
   )
-
-  const siteURL = `https://www.ladybug.dev/`
+  const { publicUrl, author } = site.siteMetadata
   const metaTitle = title || episodeInfo.title
-  const metaDescription = (episodeInfo && episodeInfo.description) || site.siteMetadata.description
+  const metaDescription =
+    (episodeInfo && episodeInfo.description) || site.siteMetadata.description
 
   return (
     <Helmet
@@ -45,7 +46,7 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
         },
         {
           property: `og:url`,
-          content: siteURL,
+          content: publicUrl,
         },
         {
           property: `og:title`,
@@ -61,19 +62,19 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
         },
         {
           property: `og:image`,
-          content: metaImage,
+          content: publicUrl + metaImage,
         },
         {
           property: `twitter:url`,
-          content: siteURL,
+          content: publicUrl,
         },
         {
           name: `twitter:card`,
-          content: `summary_large_image`,
+          content: `summary`,
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: author,
         },
         {
           name: `twitter:title`,
@@ -84,8 +85,8 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
           content: metaDescription,
         },
         {
-          property: `twitter:image`,
-          content: metaImage
+          name: `twitter:image`,
+          content: publicUrl + metaImage,
         },
       ].concat(meta)}
     />
