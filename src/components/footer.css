@@ -19,6 +19,12 @@
   margin-top: 16px;
 }
 
+.footer-icons img {
+  box-shadow: 4px 4px #f05657;
+  border-radius: 50%;
+  border: 1px solid #f05657;
+}
+
 .footer-icons > a {
   margin-right: 16px;
 }
