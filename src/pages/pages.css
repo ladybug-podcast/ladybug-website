@@ -99,6 +99,9 @@ li {
 .page-flex-vertical {
   display: flex;
   flex-direction: column;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
 }
 
 .play-button-red {
@@ -121,11 +124,11 @@ li {
   background-position: center;
 }
 
-.page-banner > h1 {
+.page-banner>h1 {
   margin: 0;
 }
 
-.page-banner > h1::after {
+.page-banner>h1::after {
   width: 0;
   height: 0;
 }
@@ -217,6 +220,7 @@ li {
   main {
     top: 0;
   }
+
   .header-content-wrapper {
     flex-direction: column;
   }
@@ -238,9 +242,6 @@ li {
 }
 
 @media (max-width: 500px) {
-  main {
-    /* margin-top: 40px; */
-  }
 
   .about-name,
   .about-title,

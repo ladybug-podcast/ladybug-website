@@ -66,6 +66,7 @@
   appearance: none;
   border: none;
 }
+
 progress {
   background-color: white;
   border-radius: 4px;
@@ -76,10 +77,12 @@ progress::-webkit-progress-bar {
   background: white;
   border-radius: 4px;
 }
+
 progress::-webkit-progress-value {
   background: #3c2829;
   border-radius: 4px;
 }
+
 progress::-moz-progress-bar {
   /* style rules */
   background: #3c2829;
