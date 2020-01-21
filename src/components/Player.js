@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react"
+import React, { useState } from "react"
 import { Link } from "gatsby"
 import playButton from "../images/player/play-button.svg"
 import pauseButton from "../images/player/pause-button.svg"
@@ -57,11 +57,10 @@ const Player = ({
 
   const updateVolume = e => {
     const audioPlayer = document.getElementById("audio-player")
-    let newUpdatedVolume = 
-      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth)
+    let newUpdatedVolume = e.nativeEvent.offsetX / e.currentTarget.offsetWidth
     if (newUpdatedVolume <= 0) newUpdatedVolume = 0
-    audioPlayer.volume = newUpdatedVolume;
-    setIsMuted(false);
+    audioPlayer.volume = newUpdatedVolume
+    setIsMuted(false)
     setVolumeValue(newUpdatedVolume)
   }
 
@@ -133,9 +132,17 @@ const Player = ({
           <p className="player-current-time">{formatTime(currentTime)}</p>
           <div className="player-volume-container">
             {volumeValue === 0 || isMuted ? (
-              <img src={volumeOff} alt="Volume Off" onClick={() => toggleIsMuted()} />
+              <img
+                src={volumeOff}
+                alt="Volume Off"
+                onClick={() => toggleIsMuted()}
+              />
             ) : (
-              <img src={volumeOn} alt="Volume On" onClick={() => toggleIsMuted()} />
+              <img
+                src={volumeOn}
+                alt="Volume On"
+                onClick={() => toggleIsMuted()}
+              />
             )}
             <progress
               className="volume"
