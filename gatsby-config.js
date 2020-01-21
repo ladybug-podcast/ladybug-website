@@ -1,10 +1,15 @@
 const path = require(`path`)
 
+const URL = "https://www.ladybug.dev"
+
+const publicUrl = process.env.NODE_ENV === "production" ? URL : ""
+
 module.exports = {
   siteMetadata: {
     title: `Ladybug Podcast`,
     description: `Emma Bostian, Kelly Vaughn, and Ali Spittel talk career and code.`,
     author: `@emmabostian`,
+    publicUrl,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
