@@ -102,6 +102,7 @@ li {
   padding: 40px;
   border-radius: 12px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+  max-width: 640px;
 }
 
 .play-button-red {
@@ -260,18 +261,21 @@ li {
     background-color: #12171c;
     color: #fff;
   }
+
   ul a,
   p a,
   a.highlight {
     color: #f05657;
     border-bottom: 2px solid #f05657;
   }
+
   ul a:hover,
   p a:hover,
   a.highlight:hover {
     color: #f25ea2;
     border-bottom: 2px solid #f25ea2;
   }
+
   ul img,
   p img {
     background: rgba(255, 255, 255, 0.3);
