@@ -22,6 +22,8 @@ const Player = ({
   const [duration, setDuration] = useState(0)
   const [playerValue, setPlayerValue] = useState(0)
   const [volumeValue, setVolumeValue] = useState(1)
+  const [jumpableTime, setJumpableTime] = useState(0)
+  const [showJumpableTime, setShowJumpableTime] = useState(false)
 
   const updateDuration = e => {
     setDuration(e.currentTarget.duration)
@@ -35,17 +37,24 @@ const Player = ({
     setCurrentTime(currentTime)
   }
 
+  const handleMouseMove = e => {
+    let newListenTime = calcNewListenTime(e)
+
+    setJumpableTime(newListenTime)
+    setShowJumpableTime(true)
+  }
+
   const jumpAudio = e => {
     const audioPlayer = document.getElementById("audio-player")
 
-    let newListenTime =
-      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth) * duration
+    let newListenTime = calcNewListenTime(e)
     const progressTime = (newListenTime / duration) * 100
 
     if (Number.isNaN(progressTime)) return
     audioPlayer.currentTime = newListenTime
     setPlayerValue(progressTime)
     setCurrentTime(newListenTime)
+    setShowJumpableTime(false)
   }
 
   const toggleIsMuted = () => {
@@ -57,13 +66,15 @@ const Player = ({
 
   const updateVolume = e => {
     const audioPlayer = document.getElementById("audio-player")
-    let newUpdatedVolume = 
-      (e.nativeEvent.offsetX / e.currentTarget.offsetWidth)
+    let newUpdatedVolume = e.nativeEvent.offsetX / e.currentTarget.offsetWidth
     if (newUpdatedVolume <= 0) newUpdatedVolume = 0
-    audioPlayer.volume = newUpdatedVolume;
-    setIsMuted(false);
+    audioPlayer.volume = newUpdatedVolume
+    setIsMuted(false)
     setVolumeValue(newUpdatedVolume)
   }
+
+  const calcNewListenTime = e =>
+    (e.nativeEvent.offsetX / e.currentTarget.offsetWidth) * duration
 
   const formatTime = time => {
     let calculatedTime = time
@@ -128,9 +139,14 @@ const Player = ({
           max="100"
           value={playerValue}
           onClick={e => jumpAudio(e)}
+          onMouseMove={e => handleMouseMove(e)}
+          onMouseLeave={() => setShowJumpableTime(false)}
         />
         <div className="current-time-volume-container">
-          <p className="player-current-time">{formatTime(currentTime)}</p>
+          <p className="player-current-time">
+            {formatTime(currentTime)}
+            {showJumpableTime && ` Jump to ${formatTime(jumpableTime)}`}
+          </p>
           <div className="player-volume-container">
             {volumeValue === 0 || isMuted ? (
               <img src={volumeOff} alt="Volume Off" onClick={() => toggleIsMuted()} />
