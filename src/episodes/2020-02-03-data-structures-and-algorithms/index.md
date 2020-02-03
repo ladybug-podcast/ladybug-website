@@ -2,7 +2,7 @@
 title: "Data Structures and Algorithms"
 formattedDate: "February 3, 2020"
 date: "2020-02-03"
-audio: https://pinecast.com/listen/9c596021-0887-492f-bf9b-91189f3994c5.mp3
+audio: https://pinecast.com/listen/4ac5b335-b423-4f82-a90a-7a054ae2df9a.mp3
 path: "/data-structures-and-algorithms"
 description: "Computer science concepts like data structures and algorithms can be super intimidating, especially if you’re cramming the night before an interview. In this episode, we’ll discuss common algorithms and data structures and give you some tips for your next whiteboarding challenge."
 episode: "Season 2 Episode 4"
