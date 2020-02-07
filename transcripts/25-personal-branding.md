@@ -4,12 +4,12 @@ Every day we see companies market to us with a specific brand voice. And we coul
 Welcome to the Ladybug podcast. I'm Kelly.
 
 **Ali** 0:32
-I'm Allie.
+I'm Ali.
 
 **Emma** 0:33
 And I'm Emma. And we're debugging the tech industry.
 
-Kelly 0:36
+**Kelly** 0:36
 AWS Amplify is a suite of tools and services that enables developers to build fullstack, serverless and cloud-based web and mobile apps using their framework or technology of choice on the frontend.
 
 **Emma** 0:46
