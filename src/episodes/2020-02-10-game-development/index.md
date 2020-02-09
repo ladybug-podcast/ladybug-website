@@ -6,7 +6,7 @@ audio: "https://pinecast.com/listen/17e9c02c-1bab-470f-8765-3032daa5c133.mp3"
 path: "/game-development"
 description: "This week we’re talking all things game development! Joining us today is Arianna Rudawski, a software engineer with a super cool job. We’ll be discussing what a career in game development is like, the skills needed to become a game developer, and advice for getting into game development."
 episode: "Season 2 Episode 5"
-length: "00:19:19"
+length: "00:28:59"
 ---
 
 # Sponsors
