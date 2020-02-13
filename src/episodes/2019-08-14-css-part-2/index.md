@@ -7,6 +7,7 @@ path: "/css-part-2"
 description: "In the first part of our CSS episode, we discussed the foundations. In this special bonus episode we'll continue the conversation by covering some more in-depth areas of CSS, like layouts with Grid and Flexbox, animations, media queries, naming conventions, pre-processors, and frameworks."
 episode: "Season 1 Episode 8"
 length: "41:03"
+transcript: ../../transcripts/08-css-part-2.md
 ---
 
 # Show notes

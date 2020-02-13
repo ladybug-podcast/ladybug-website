@@ -7,6 +7,7 @@ path: "/css-part-1"
 description: "Learn all about the fundamentals of CSS: from selectors to the box model."
 episode: "Season 1 Episode 7"
 length: "38:38"
+transcript: ../../transcripts/07-css-part-1.md
 ---
 
 # Sponsors

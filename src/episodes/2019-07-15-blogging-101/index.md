@@ -7,6 +7,7 @@ path: "/blogging-101"
 description: "One of the most popular outlets for programmers is through blogging. In this episode, we discuss why each of us got into blogging, the pros and cons of starting your own blog, and tips on how to make your blog a success."
 episode: "Season 1 Episode 3"
 length: "1:06:29"
+transcript: ../../transcripts/03-blogging-101.md
 ---
 
 # Show Notes

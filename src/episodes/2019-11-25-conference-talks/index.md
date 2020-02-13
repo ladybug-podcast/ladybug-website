@@ -7,6 +7,7 @@ path: "/speaking-at-conferences"
 description: "Have you ever watched or attended a conference and been in awe of the speakers? How do they know so much information? How do they prepare a talk? How do they even get the courage to speak in the first place and what is that process like? In this episode we’ll delve into all things conference talks."
 episode: "Season 1 Episode 22"
 length: "49:05"
+transcript: ../../transcripts/22-conferences.md
 ---
 
 # Sponsors

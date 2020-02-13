@@ -7,6 +7,7 @@ path: "/what-the-heck-is-graphql"
 description: "GraphQL has taken this industry by storm, but what is it exactly? In this special episode of the Ladybug Podcast we’ve invited 14 GraphQL experts from the community to educate us on all things GraphQL!"
 episode: "Season 1 Episode 11"
 length: "1:05:45"
+transcript: ../../transcripts/11-what-the-heck-is-graphql.md
 ---
 
 # Sponsors

@@ -7,6 +7,7 @@ path: "/web-performance"
 description: "Today we’re talking about web performance. Did you know that 40% of users abandon sites that take more than 3s to load? Turns out making your sites fast is pretty important! In this episode we’ll talk about what web performance is, why we should care, and we’ll give you tips for optimizing performance and measuring it."
 episode: "Season 1 Episode 21"
 length: "32:59"
+transcript: ../../transcripts/21-web-performance.md
 ---
 
 # Sponsors

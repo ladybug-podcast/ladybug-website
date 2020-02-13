@@ -7,6 +7,7 @@ path: "/teaching-code"
 description: "Have you ever wondered what it takes to be an effective teacher in the tech industry? Well, wonder no more. We had the pleasure of chatting with Angie Jones, senior developer advocate at Applitools and director at Test Automation University about her experience as a teacher. And she talks to us about her teaching and learning styles and shares some advice for those looking to get into the world of teaching. And this episode, we'll discuss things like how to teach to multiple skill levels and common misconceptions about being a teacher."
 episode: "Season 1 Episode 12"
 length: "38:31"
+transcript: ../../transcripts/12-teaching-code.md
 ---
 
 # Sponsors

@@ -10,6 +10,7 @@ description: "October means it's time for Hacktoberfest. Hacktoberfest is an awe
 In this episode we'll discuss what Hacktoberfest is, how you can start contributing to open source, and with our special guests Peter and Jess from Dev, we'll talk about how you can maintain your own open source project."
 episode: "Season 1 Episode 14"
 length: "26:17"
+transcript: ../../transcripts/14-hacktoberfest-part-1.md
 ---
 
 # Sponsors

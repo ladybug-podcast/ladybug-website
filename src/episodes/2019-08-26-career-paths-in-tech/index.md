@@ -7,6 +7,7 @@ path: "/career-paths-in-tech"
 description: "There are so many different paths your career can follow in the tech industry. There's frontend, backend, or even full-stack development. You could also be a software engineer, quality assurance engineer, UX engineer, manager, developer advocate, or something else entirely!"
 episode: "Season 1 Episode 10"
 length: "49:58"
+transcript: ../../transcripts/10-career-paths-in-tech.md
 ---
 
 # Sponsors

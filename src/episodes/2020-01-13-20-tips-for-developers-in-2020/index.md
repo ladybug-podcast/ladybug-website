@@ -7,6 +7,7 @@ path: "/20-tips-for-devs"
 description: "To kick off our new season and a new year, this week we’ll be discussing 20 tips to start off strong in 2020. From mentorship to debugging to strategizing your learning, we'll give you all the advice you need for starting the year off right!"
 episode: "Season 2 Episode 1"
 length: "01:07:03"
+transcript: ../../transcripts/23-20-tips-for-developers-in-2020.md
 ---
 
 # Show notes
