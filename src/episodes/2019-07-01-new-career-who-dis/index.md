@@ -7,6 +7,7 @@ path: "/new-career-who-dis"
 description: "There are several different ways you can learn how to code. In this episode, we discuss computer science degrees, bootcamps, and self-directed learning. Each has benefits and have brought a lot of people into the world of programming. Each also has challenges. We all have had unique paths to programming, so we'll incorporate our experiences and observations."
 episode: "Season 1 Episode 1"
 length: "47:58"
+transcript: ../../transcripts/01-new-career-who-dis.md
 ---
 
 # Show notes

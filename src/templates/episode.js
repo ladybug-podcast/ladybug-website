@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Player from "../components/Player"
 
-import SEO from '../components/seo'
+import SEO from "../components/seo"
 
 export default function Template({ data }) {
   const {
@@ -15,6 +15,7 @@ export default function Template({ data }) {
     length,
     path,
     audio,
+    transcript,
   } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
@@ -46,6 +47,11 @@ export default function Template({ data }) {
             __html: html,
           }}
         />
+        <p
+          dangerouslySetInnerHTML={{
+            __html: transcript.childMarkdownRemark.html,
+          }}
+        />
       </main>
       <Footer />
     </div>
@@ -64,6 +70,11 @@ export const postQuery = graphql`
         length
         description
         audio
+        transcript {
+          childMarkdownRemark {
+            html
+          }
+        }
       }
     }
   }
