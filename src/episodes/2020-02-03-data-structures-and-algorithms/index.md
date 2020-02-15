@@ -7,6 +7,7 @@ path: "/data-structures-and-algorithms"
 description: "Computer science concepts like data structures and algorithms can be super intimidating, especially if you’re cramming the night before an interview. In this episode, we’ll discuss common algorithms and data structures and give you some tips for your next whiteboarding challenge."
 episode: "Season 2 Episode 4"
 length: "00:53:45"
+transcript: ../../transcripts/27-data-structures-and-algorithms.md
 ---
 
 # Sponsors

@@ -7,6 +7,7 @@ path: "/game-development"
 description: "This week we’re talking all things game development! Joining us today is Arianna Rudawski, a software engineer with a super cool job. We’ll be discussing what a career in game development is like, the skills needed to become a game developer, and advice for getting into game development."
 episode: "Season 2 Episode 5"
 length: "00:28:59"
+transcript: ../../transcripts/28-game-development.md
 ---
 
 # Sponsors
@@ -48,7 +49,6 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
 **25:09** - Where can we find you on the internet?
 
 **26:47** - Shoutouts
-
 
 # Resources
 

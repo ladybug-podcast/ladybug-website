@@ -7,6 +7,7 @@ path: "/personal-branding"
 description: "Every day we see companies market to us with a specific brand voice, and we can recognize the differences from one brand to the next. But what about personal brands? You as a person are a brand - it’s how you portray yourself on the internet and how others perceive you. I’m a brand, Emma’s a brand, Ali’s a brand. We’re all our own unique representations of ourselves. This week we’re discussing what it means to have your own personal brand and everything you need to know about building and managing your brand."
 episode: "Season 2 Episode 3"
 length: "00:34:35"
+transcript: ../../transcripts/25-personal-branding.md
 ---
 
 # Sponsors
@@ -27,7 +28,7 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
 
 # Show notes
 
-**1:43** -  What is a personal brand?
+**1:43** - What is a personal brand?
 
 **8:21** - Why would you want to build a brand?
 
