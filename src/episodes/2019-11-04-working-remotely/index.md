@@ -26,7 +26,7 @@ Whether you’ve been programming for six months or 30 years, RC is for you. May
 
 You can attend a retreat in Brooklyn for one, six, or 12 weeks. RC is free for everyone, and offers living expense grants of up to \$7,000 to people from underrepresented groups. They have an integrated recruiting agency, and offer career support whether you’re looking for your first programming job or want to find a senior role at a great company.
 
-Learn more about RC and how to apply at: [www.recurse.com](www.recurse.com)
+Learn more about RC and how to apply at: [www.recurse.com](https://www.recurse.com)
 
 # Show notes
 
