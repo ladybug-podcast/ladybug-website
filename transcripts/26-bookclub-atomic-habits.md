@@ -1,233 +1,363 @@
 **Kelly** 0:00  
-Welcome to the first ever Ladybug podcast book club episode. This is a bonus episode which will occur at the end of each month. This month we're discussing atomic habits by James clear, we're super excited for this book club. And if you want to follow along, you can check out our Goodreads group, which we will have linked on our website at Ladybug Dev slash books. Next month, we'll be reading invisible women data bias in a world designed for men by Caroline preeto. For us. Let's jump in.
+Welcome to the first ever Ladybug Podcast Book Club episode. This is a bonus episode which will occur at the end of each month. This month we're discussing _Atomic Habits_ by James clear. We're super excited for this book club. And if you want to follow along, you can check out our Goodreads group, which we will have linked on our website at ladybug.dev/books. Next month, we'll be reading Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Perez. Let's jump in.
 
-Welcome to the ladybug podcast. I'm Kelly. I'm Allie. And I'm Emma. And we're debugging tech industry.
+Welcome to the ladybug podcast. I'm Kelly.
 
-**Emma** 0:36  
-So I'm pretty sure that I have been talking nonstop about my habits since I was born. And if you follow me on the internet, you probably have seen me raving about it. So this was the second time I read this book, and I'm curious to know your thoughts. So what did you What was your first reaction and what did you think of it? So I think it's also worth noting, Emma, you read the physical copy of the book.
+**Ali** 0:31
+I'm Ali.
 
-Did you receive an E book? Well, the first time I listened to the audio book, the second time I read the physical book, and I will admit the physical book is much better because of all the graphs and everything. And I think this is a small tangent, but Ali, you would mention, like he kept plugging his own website that's only on the audio book, because it's reading the footnotes for things. So it's definitely not as prominent in the physical book. That is a very good point. And I read the Kindle, the Kindle version, okay, I did the audio book, but I also have the physical copy. Now I'm showing it
+**Emma** 0:32
+And I'm Emma. And we're debugging tech industry.
 
-**Ali** 1:33  
-which you cannot see because this is just you. But I would definitely agree that the audio book has some weird quirks with it, where it's constantly talking about his website and look telling you to look at the graphics on there. And so I felt a little bit like, why am I reading a book if you're just telling me to go to your website all the time, but seeing the physical book, that's not the case anymore. So I definitely think that getting the physical book is The
+So I'm pretty sure that I have been talking nonstop about _Atomic Habits_ since I was born. And if you follow me on the internet, you probably have seen me raving about it. So this was the second time I read this book, and I'm curious to know your thoughts. So what did you... What was your first reaction and what did you think of it?
 
-Way to go.
+**Kelly** 0:56
+So I think it's also worth noting, Emma, you read a physical copy of the book. Did you, or did you read an e-book?
+
+**Emma** 1:02
+Well, the first time I listened to the audio book, the second time I read the physical book, and I will admit the physical book is much better because of all the graphs and everything. And I think - this is a small tangent - but Ali, you would mention, like he kept plugging his own website that's only on the audio book, because it's reading the footnotes for things. So it's definitely not as prominent in the physical book.
+
+**Kelly** 1:22
+That is a very good point. And I read the Kindle, the Kindle version.
+
+**Ali** 1:27
+Okay, I did the audio book, but I also have the physical copy now. I'm showing it. Which you cannot see because this is just audio. But I would definitely agree that the audio book has some weird quirks with it, where it's constantly talking about his website and like telling you to look at the graphics on there. And so I felt a little bit like, why am I reading a book if you're just telling me to go to your website all the time, but seeing the physical book, that's not the case anymore. So I definitely think that getting the physical book is the way to go.
 
 **Kelly** 2:01  
-I also think it's worth noting on the Kindle version. I think it's like at 62% you actually finish the book. So that was super misleading when they do yeah, I thought I was like, I want to have to spend so much more time finishing this book. But no, I reached the end. I was like, oh, okay, cool.
+I also think it's worth noting on the Kindle version. I think it's like at 62% you actually finish the book. So that was super misleading.
+
+**Emma** 2:08
+I hate when they do that.
+
+**Kelly** 2:10
+Yeah, I thought I was like, I want to have to spend so much more time finishing this book. But no, I reached the end. I was like, oh, okay, cool.
 
 **Ali** 2:17  
-Definitely Have you over at the Power of Habit
+Definitely. Have you all read the _Power of Habit_ too?
 
 **Emma** 2:19  
-too. I have read the Power of Habit and I really liked it. I believe I read it prior to reading atomic habits. So atomic habits and the Power of Habit are both about habits. I don't know if you could tell. I really liked the Power of Habit. That might be another one we can read as well. There are a lot of anecdotes and that one and I really like books. I have like real life anecdotes. I think. I did. Yeah.
+I have read _The Power of Habit_ and I really liked it. I believe I read it prior to reading _Atomic Habits_. So _Atomic Habits_ and _The Power of Habit_ are both about habits. I don't know if you could tell. I really liked _The Power of Habit_. That might be another one we can read as well. There are a lot of anecdotes in that one and I really like books that have like real life anecdotes. I think... Did you read it, Ali?
 
 **Ali** 2:42  
-I have it right on that bookshelf right there.
+Yes. Yep. I have it right on that bookshelf right there.
 
-Unknown Speaker 2:45  
-So they talk about toothpaste and that Yep,
+**Emma** 2:45  
+Do they talk about toothpaste in that one?
 
 **Ali** 2:47  
-yes. And how this was so yeah, the foaming this or is it the minty taste
+Yep, yes. And how...
 
-**Kelly** 2:53  
-something it was the middle of the day. Okay.
+**Emma** 2:49
+This was so cool.
+
+**Ali** 2:50
+Yeah, the foamingness or is it the minty taste? Something...
+
+**Emma** 2:53  
+It was the minty taste.
+
+**Ali** 2:54
+Okay.
 
 **Emma** 2:55  
-So like, I don't remember exactly, but I do think the premise was The creators of toothpaste we're having a very hard time selling it because people had not ingrained the habit of brushing their teeth. It was not something that they did. And it wasn't until they added this minty fresh flavor and coined it as like, oh, you'll have great smelling breath that people like it caught on. So it talked about how you can kind of market your products simply to change people's habits, which I thought was fascinating. Yeah,
+So like, I don't remember exactly, but I do think the premise was the creators of toothpaste were having a very hard time selling it because people had not ingrained the habit of brushing their teeth. It was not something that they did. And it wasn't until they added this minty fresh flavor and coined it as like, oh, you'll have great smelling breath that people... like it caught on. So it talked about how you can kind of market your products simply to change people's habits, which I thought was fascinating.
 
 **Ali** 3:22  
-they had that about Fabrice to that they had to change the mapping for it. So many good stories in that book. But I think that atomic habits was way more actionable, which I really liked. And from an educational perspective, I really liked the diagrams and also the summaries at the end of every chapter. I think that that was really awesome about atomic habits, but if you're looking for something a little bit more novel like that has all these stories then the Power of Habit is really great.
+Yeah, they had that about Fabreze too. That they had to change the marketing for it. So many good stories in that book. But I think that _Atomic Habits_ was way more actionable, which I really liked. And from an educational perspective, I really liked the diagrams and also the summaries at the end of every chapter. I think that that was really awesome about _Atomic Habits_. But if you're looking for something a little bit more novel-like, that has all these stories, then _The Power of Habit_ is really great.
 
 **Kelly** 3:49  
-That's really funny. I did not like the summaries at the end of each chapter. I'm like, Oh, look, so words I can skip. I just read the chapter. I know.
+That's really funny. I did not like the summaries at the end of each chapter. I'm like, Oh, look, some words I can skip. Because I just read the chapter. I know what it's about.
 
 **Emma** 3:57  
-I do find I do find some books when I do some is at the end, they're basically just repetitive. But at the same time, it's a really good that like at a glance, you know,
+Yeah. I do find some books when I do some is at the end, they're basically just repetitive. But at the same time, it's a really good that... like at a glance, you know.
 
 **Kelly** 4:06  
-especially want to refer back to the book later.
+That's true. Especially if you want to refer back to the book later.
 
 **Ali** 4:08  
-Definitely, like if you wanted to go back through the book, you could just go to those summaries not necessarily read the whole thing over again.
+Definitely, like if you wanted to go back through the book, you could just go to those summaries and not necessarily read the whole thing over again.
 
 **Emma** 4:15  
-So I think we should just jump in and talk about some of our favorite parts. I'll kick it off, because I have a quote here, or an example. That's one of my favorite things in the whole book. And it's something that I remember, I have remembered since I read it. So first of all, one of the things he says is the quality of our life depends on the quality of our habits. And he talks about this aggregation of marginal gains, which has a lot of syllables and a lot of big words, but essentially just means break everything down breaking down. Let me rephrase this, break down everything that goes into a task and improve it by 1%. It's a significant improvement when you put it all together. And he uses this example of an airline pilot who's flying out of LA x headed to New York City and if they adjust the the airplane heading 3.5 degrees to the set You don't think that's a big difference. 3.5 degrees doesn't sound like a huge change. But actually you would land in Washington DC instead of New York City, which is a difference of 225 miles. So it, the whole premise is be more concerned with your trajectory than the current results that you're seeing.
+So I think we should just jump in and talk about some of our favorite parts. I'll kick it off, because I have a quote here, or an example, that's one of my favorite things in the whole book. And it's something that I remember... I have remembered since I read it.
+
+So first of all, one of the things he says is the quality of our life depends on the quality of our habits. And he talks about this aggregation of marginal gains, which has a lot of syllables and a lot of big words, but essentially just means break everything down... Breaking down... Let me rephrase this, break down everything that goes into a task and improve it by 1%. It's a significant improvement when you put it all together. And he uses this example of an airline pilot who's flying out of LAX headed to New York City and if they adjust the the airplane heading 3.5 degrees to the south, you don't think that's a big difference. 3.5 degrees doesn't sound like a huge change. But actually you would land in Washington DC instead of New York City, which is a difference of 225 miles. So it... the whole premise is be more concerned with your trajectory than the current results that you're seeing.
 
 **Kelly** 5:18  
-I think that's a really a really good thing to point out, especially because being so future focused and being so focused on specifically what's going to happen at the end of this or what your end goal is, we tend to lose sight of what we need to do to get there because we're so focused on the endgame
+I think that's a really good thing to point out, especially because being so future-focused and being so focused on specifically what's going to happen at the end of this, or what your end goal is, we tend to lose sight of what we need to do to get there. Because we're so focused on the endgame.
 
 **Ali** 5:35  
-especially, we want to get there really fast, too. And you think it's going to be this linear trajectory, but there's really a kind of curve to it. And I talked about this all the time with learning to is that there are ups and downs and it's more cyclical than it is just a linear trajectory. And when people are in the low points of learning, it makes it really really hard to keep learning because you think that you're in this like pit of despair and it's never going to get better, but you have to Go through those lows to get to the highs. And I think the same thing is true for building habits is that it sucks sometimes like
-
-Unknown Speaker 6:07  
-working out or whatever or
-
-**Ali** 6:08  
-eating healthy. It's not always fun. But you have to break through the hard parts in order to get the results that you want.
+Especially when we want to get there really fast, too. And you think it's going to be this linear trajectory, but there's really a kind of curve to it. And I talk about this all the time with learning too, is that there are ups and downs and it's more cyclical than it is just a linear trajectory. And when people are in the low points of learning, it makes it really really hard to keep learning because you think that you're in this like pit of despair and it's never going to get better, but you have to go through those lows to get to the highs. And I think the same thing is true for building habits is that it sucks sometimes. Like working out or whatever or eating healthy. It's not always fun. But you have to break through the hard parts in order to get the results that you want.
 
 **Emma** 6:16  
-Absolutely. And I think one of the things that I found really interesting was this concept of systems as opposed to goals. So goals are the results that you want to actually achieve, such as I want to be, I don't know, 200 pounds, right. If I if I'm trying to lose weight, let's say I want to be to two pounds. That's my goal. The systems are actually the processes that lead to those results. And so he suggest focusing on these systems. So for example, if your goal is to win a soccer championship, but your system is going to be how you recruit and manage players or run your practices. So while goals are really good for setting a direction systems are really really good for making progress. So change the systems that caused the results. And by default, obviously, your results will change. I think we talked about this in our Africa. What about episode it was where we talked about maybe it was social media know that in season one, we had an episode we discussed the number of followers and how you can come become obsessed with this number. So, you know, I would see random tweets of people being like I want to reach 1000 followers and reach 10,000 followers by the end of the year. And this is an example of focusing on the goal and not the system. Well, if instead you focus on producing quality content consistently, by nature, you're going to achieve your goal and you'll be much happier because you know, you're not focused on one specific number. This is kind of one example that we see in the social media tech world. That kind of proves this case,
+Absolutely. And I think one of the things that I found really interesting was this concept of systems as opposed to goals. So goals are the results that you want to actually achieve, such as I want to be, I don't know, 200 pounds, right. If I'm trying to lose weight, let's say I want to be 200 pounds. That's my goal. The systems are actually the processes that lead to those results. And so he suggest focusing on these systems.
+
+So for example, if your goal is to win a soccer championship, but... Your system is going to be how you recruit and manage players or run your practices. So while goals are really good for setting a direction, systems are really really good for making progress. So change the systems that cause the results. And by default, obviously, your results will change.
+
+I think we talked about this in our... I forget what episode it was where we talked about... Maybe it was social media? No. In season one, we had an episode we discussed the number of followers and how you can become obsessed with this number. So, you know, I would see random tweets of people being like I want to reach 1,000 followers, I want to reach 10,000 followers by the end of the year. And this is an example of focusing on the goal and not the system. Well, if instead you focus on producing quality content consistently, by nature, you're going to achieve your goal and you'll be much happier because you know, you're not focused on one specific number. So this is kind of one example that we see in the social media tech world. That kind of proves this case.
 
 **Kelly** 7:38  
-for sure. And it also, you know, jumping off of that if you're always producing quality content, you tend to enjoy the process of actually producing that content as well because it you know, leads to more interesting conversations and things like that. So it drives you to keep that in mind. While you might have like an end goal, your focus still on the process. Absolutely. So
+For sure. And it also, you know, jumping off of that if you're always producing quality content, you tend to enjoy the process of actually producing that content as well because it, you know, leads to more interesting conversations and things like that. So it drives you to keep that in mind. While you might have like an end goal, your focus is still on the process.
 
 **Emma** 8:01  
-what about this concept of three layers of behavioral change? Who wants to take this?
+Absolutely. So what about this concept of three layers of behavioral change? Who wants to take this?
 
-**Ali** 8:06  
-Ali, you take this? Awesome. So one thing that he talked about was the layers of change. So the first one is identity and focusing on what you believe in identifying strongly with that. Like, I think the example that he gave was somebody identifying as a nonsmoker, if they're trying to quit smoking. That was one of the examples given in there. Then there's the process of what you're trying what you actually do in order to stick to that identity and then there's the outcome. So the outcome is finally what happens when you follow through on these habits.
+**Kelly** 8:06  
+Ali, you take this.
+
+**Ali** 8:07
+Awesome. So one thing that he talked about was the layers of change. So the first one is identity and focusing on what you believe and identifying strongly with that. Like, I think the example that he gave was somebody identifying as a non-smoker, if they're trying to quit smoking. That was one of the examples given in there. Then there's the process of what you're trying... what you actually do in order to stick to that identity and then there's the outcome. So the outcome is finally what happens when you follow through on these habits.
 
 **Emma** 8:46  
-I want to quickly talk about that smoker example because this also was kind of a mind shift to me. So he gives an example of two people who are offered a cigarette and they both typically or have smoked in the past and the first person No thanks. I'm trying to quit. And the second person says no things I'm not a smoker and you can very clearly see in the second person that they've identified as a nonsmoker. And as a result, their habits are much easier to change. I thought that was so like mind shifting to me.
+I want to quickly talk about that smoker example because this also was kind of a mind shift to me. So he gives an example of two people who are offered a cigarette and they both typically or have smoked in the past and the first person says, "No thanks. I'm trying to quit". And the second person says, "No thanks, I'm not a smoker". And you can very clearly see in the second person that they've identified as a non-smoker. And as a result, their habits are much easier to change. I thought that was so like mind shifting to me.
 
 **Kelly** 9:12  
-It is Yeah, I mean, it's, I hate the phrase, like fake it till you make it. But even if you are a smoker, but you're trying to quit, if you will, if you identify as a nonsmoker, you're much more likely to shift your own identity to follow, you know, follow suit with that. And I mean, that's the whole point that that clears making here is to focus more on the identity, then the process or the outcome, your habits are much more likely to stick.
+It is. Yeah, I mean, it's, I hate the phrase, like fake it till you make it. But even if you are a smoker, but you're trying to quit, if you identify as a non-smoker, you're much more likely to shift your own identity to follow, you know, follow suit with that. And I mean, that's the whole point that that Clear is making here is to focus more on the identity than the process or the outcome and your habits are much more likely to stick.
 
 **Emma** 9:37  
-Absolutely. And I think, you know, it's gonna seem really difficult at first to try to change your habits and we'll talk about how habits form in just a second. But you know, habits reduce cognitive load. So these improvements are temporary until they become part of your unconscious part of who you are. So So speaking of all of this Kelly doing a kind of like, tell us how we actually form him.
+Absolutely. And I think, you know, it's gonna seem really difficult at first to try to change your habits and we'll talk about how habits form in just a second. But you know, habits reduce cognitive load. So these improvements are temporary until they become part of your unconscious, part of who you are. So speaking of all of this, Kelly doing a kind of like, tell us how we actually form habits.
 
 **Kelly** 9:58  
-Yeah, yeah. So there are full stages essentially for how habits form, the first is going to be the Q, which is the what triggers the brain to actually initiate the behavior. Next step will be the craving which is the motivation, the motivation behind the habit, the response is the habit itself and then the reward is the end goal for what you get for taking on that behavior. So, in order to create a good habits, clear talks about what you can do for each of these steps, so, for Q you want to make it make it obvious, and I think do you remember the specific example that was given for for make it obvious
+Yeah, yeah. So there are four stages essentially for how habits form. The first is going to be the cue, which is what triggers the brain to actually initiate the behavior. Next step will be the craving, which is the motivation behind the habit. The response is the habit itself and then the reward is the end goal for what you get for taking on that behavior. So, in order to create a good habits, Clear talks about what you can do for each of these steps, so, for cue you want to make it obvious, and I think... Do you remember the specific example that was given for for make it obvious?
 
-Unknown Speaker 10:38  
-I don't but I think like as an example, like if you are trying to drink more water, maybe fill up a ton of water bottles and leave them around the house where you can actually see them That's right.
+**Emma** 10:38  
+I don't but I think like as an example, like if you are trying to drink more water, maybe fill up a ton of water bottles and leave them around the house where you can actually see them.
 
 **Kelly** 10:48  
-Or like if you if you're trying to get to the gym more often lay out your clothes.
+That's right. Or like if you're trying to get to the gym more often, lay out your clothes.
 
 **Ali** 10:52  
-Yeah, I think that was actually the example or maybe that was the example for making easy,
+Yeah, I think that was actually the example. Or maybe that was the example for make it easy. But...
 
-**Kelly** 10:57  
-but oh, maybe because I kind of For both making it obvious This is right in front of you. And then there's also make it attractive for craving. Again, I don't remember this one maybe.
+**Emma** 10:57  
+Oh maybe.
+
+**Kelly** 10:59
+I guess it can apply for both. You're making it obvious because it is right in front of you. And then there's also make it attractive for craving. Again, I don't remember this one.
 
 **Emma** 11:09  
-So if we take the concept of working out, maybe it's like you go out and buy some really cute new workout clothes. So you're excited to go with
+Maybe... So if we take the concept of working out, maybe it's like you go out and buy some really cute new workout clothes. So you're excited to go wear them.
 
 **Ali** 11:15  
-Yeah, or you do workouts that you really enjoy. Like, right now I'm doing aerial yoga, which is so much fun. And you get to do all these like flips and stuff. And so it almost doesn't even feel like working out. But it is a good workout. I'm sore the next day, but it's so much fun that it almost doesn't feel like it and same is true with like rock climbing or whatever, where you're really enjoying the activity.
+Yeah, or you do workouts that you really enjoy. Like, right now I'm doing aerial yoga, which is so much fun. And you get to do all these like flips and stuff. And so it almost doesn't even feel like working out. But it is a good workout. I'm sore the next day. But it's so much fun that it almost doesn't feel like it and same is true with like rock climbing or whatever, where you're really enjoying the activity.
 
 **Emma** 11:37  
-Did they make you sound like a waiver saying you're not gonna sue them?
+Did they make you sign like a waiver saying you're not gonna sue them if you break your neck?
 
-Unknown Speaker 11:40  
-I think so. Yeah.
+**Ali** 11:40  
+I think so. Yeah. But it is so much fun.
 
-**Ali** 11:42  
-But it is so much fun. I would definitely do it. So cool. And I really want to take like Instagram pictures. Because I feel like it's really pretty.
+**Emma** 11:43
+I would definitely do that.
+
+**Ali** 11:44
+Oh my goodness it's so cool. And I really want to take like Instagram pictures one time I go because I feel like it's really pretty.
 
 **Kelly** 11:52  
-I'm pretty sure people do that all the time. So you'd be in good company. So for the response, which again is the actual headline Self you want to make it easy so get rid of any kind of barriers that you're kind of putting in your way to you know actually initiate the habit maybe it's cooking at home makes you how the ingredients at home I guess that's an example of that. And then the reward for actually initiating the habit make it satisfying. I'm still stuck on food because I just ate lunch. I shouldn't be hungry, but you know, make it satisfying the food itself if I want to eat healthy let me make a really delicious healthy meal.
+I'm pretty sure people do that all the time.
+
+**Emma** 11:54
+I think you should.
+
+**Kelly** 11:55
+So you'd be in good company. So for the response, which again is the actual habit itself, you want to make it easy. So get rid of any kind of barriers that you're kind of putting in your way to, you know, actually initiate the habit. Maybe it's cooking at home. Make sure you have the ingredients at home. I guess that's an example of that. And then the reward for actually initiating the habit, make it satisfying. I'm still stuck on food because... I just ate lunch so I shouldn't be hungry. But, you know, make it satisfying the food itself if I want to eat healthy let me make a really delicious healthy meal.
 
 **Emma** 12:27  
-I'm like, if I go to the gym, I can eat a doughnut. That's my
+I'm like, if I go to the gym, I can eat a doughnut. That's my...
 
-Unknown Speaker 12:33  
-like I I'm kidding. I don't go to the gym. Oh, I
+**Kelly** 12:31
+Oh, I do that all the time. Like I...
+
+**Emma** 12:33  
+Oh, I'm kidding. I don't go to the gym.
 
 **Kelly** 12:36  
-I go to I do a specific workout that people think I'm crazy. It's called hot works. So they have things like yoga and polities and like core workouts, they're like 30 to 45 minutes total. But the kicker is that you're in a sauna. So the entire thing is like 30 to 45 minutes in a sauna. So it's between like 120 and 125 degrees and you sweat so much. And each workout I burn anywhere between like 506 hundred calories and it's short amount of time. I love it though I hated it at first and my body had to adjust to being in a sauna for that long and also working out at the same time. But I get to enjoy, you know, the aftermath of it and seeing my, how much more how many more calories I can consume. There are no
+Oh, I go to... I do a specific workout that people think I'm crazy. It's called hot works. So they have things like yoga and pilates and like core workouts, they're like 30 to 45 minutes total. But the kicker is that you're in a sauna. So the entire thing is like 30 to 45 minutes in a sauna. So it's between like 120 and 125 degrees and you sweat so much. And each workout I burn anywhere between like 500 and 600 calories and it's a short amount of time. I love it though. I hated it at first and my body had to adjust to being in a sauna for that long and also working out at the same time. But I get to enjoy, you know, the aftermath of it and seeing my... how many more calories I can consume.
+
+**Emma** 13:25
+And your abs.
+
+**Kelly** 13:26
+There are no abs there.
 
 **Emma** 13:28  
-sounds like when I used to walk to my car after work in Texas. I was sweaty and tired by the end of it. But
+Sounds like when I used to walk to my car after work in Texas. I was sweaty and tired by the end of it. But...
 
 **Kelly** 13:35  
-yeah, that sounds about right.
+Yeah, that sounds about right.
 
 **Emma** 13:36  
-So this sounds really great, Kelly, but I mean, to be honest, I've got a lot of bad habits. So can you tell me maybe like how to actually break them? Yeah,
+So all this sounds really great, Kelly, but I mean, to be honest, I've got a lot of bad habits. So can you tell me maybe like how to actually break them?
 
 **Kelly** 13:43  
-so for creating a good habit, you're just going to take the opposite of everything for breaking a bad habit. So for the queue if you want to make it obvious, make it invisible instead. In this case, I have a tendency to pick up my phone phone in the morning as soon as I wake up. So a good example of this would be to put my phone away so I don't see it and be more likely to grab it for craving where you are making it attractive, make it unattractive instead. Do you have an example of a habit that you're trying to break?
+Yeah, so for creating a good habit, you're just going to take the opposite of everything for breaking a bad habit. So for the cue, if you want to make it obvious, make it invisible instead. In this case, I have a tendency to pick up my phone in the morning as soon as I wake up. So a good example of this would be to put my phone away so I don't see it and be more likely to grab it. For craving, where you are making it attractive, make it unattractive instead. Do you have an example of a habit that you're trying to break?
 
-Unknown Speaker 14:18  
-I mean, I'm trying not to drink as much alcohol I'm trying to think of a way to make that unattractive. Maybe I just have to drink so much that I just don't want
+**Emma** 14:18  
+I mean, I'm trying not to drink as much alcohol. I'm trying to think of a way to make that unattractive. Maybe I just have to drink so much that I just don't want to drink any more.
 
 **Kelly** 14:27  
-that sounds not great. Imagine that was maybe you only buy crappy alcohol or something? I don't know.
+That sounds not great.
+
+**Emma** 14:28
+Yeah, imagine that was what he suggests in his book.
+
+**Kelly** 14:31
+Maybe you only buy crappy alcohol or something? I don't know.
 
 **Emma** 14:36  
-Yeah, that's true. It's just like,
+Yeah, that's true. It's just like...
 
 **Kelly** 14:38  
-like the tacos of the world like this super like the bottles that come in like it's like a plastic bottle of vodka,
+Like the tacos of the world. Like the super... Like the bottles that come in... like it's like a plastic bottle of vodka, or something like that.
 
 **Emma** 14:45  
-or something like that. only allowed to buy friends. Yeah, exactly. I mean, to be honest, I have no hate against Franzia. Okay, so that's the concept of making it unattractive. What about making it difficult?
+Like I'm only allowed to buy Franzia and like Crystal Palace gin.
+
+**Kelly** 14:46
+Yeah, exactly.
+
+**Emma** 14:51
+I mean, to be honest, I have no hate against Franzia. Okay, so that's the concept of making it unattractive. What about making it difficult?
 
 **Kelly** 14:58  
-Yeah. So instead of making the habit easy make it difficult instead. And this is for the
+Yeah. So instead of making the habit easy make it difficult instead. And this is for the response.
 
 **Emma** 15:04  
-child locks on all of my bottles. Okay, go.
+So put child locks on all of my bottles.
 
-**Kelly** 15:06  
-Yeah. And then for reward make it satisfying. instead make it unsatisfying. And maybe this is where you come in for the
+**Kelly** 15:06
+There you go. Yeah. For reward, make it satisfying, instead make it unsatisfying. And maybe this is where you come in for the...
 
 **Emma** 15:14  
-so this is where I could probably do like if I drink I have to do like a live stream, right? That sounds really horrible
+So this is where I could probably do like if I drink I have to do like a live stream, right? That sounds really horrible to me.
 
 **Kelly** 15:18  
-to me. Or you have a history of drinking and then doing an Ask me anything on Twitter. I know I ended up muting it because I was so embarrassed. I woke up the next morning, like, what have I done, but I think I handled it. Another example of this instead of embarrassing yourself in public is if I wanted to, if I wanted to have an extra glass of wine at night, I also have to do 20 push ups. I hate push ups.
+Or you have a history of drinking and then doing an Ask Me Anything on Twitter.
+
+**Emma** 15:22
+I know I ended up muting it because I was so embarrassed. I woke up the next morning, like, what have I done, but I think I handled it well.
+
+**Kelly** 15:29
+You did handle it well. Another example of this, instead of embarrassing yourself in public is if I wanted to have an extra glass of wine at night, I also have to do 20 push ups. I hate push ups.
 
 **Emma** 15:45  
-Oh, that's a good idea. So
+Oh, that's a good idea. So I'm over here like public humiliation. You're like just...
 
-Unknown Speaker 15:48  
-I'm over here like public humiliation. You're like just
+**Kelly** 15:52
+Just working out.
 
-Unknown Speaker 15:52  
-just working that sounds that sounds like habit stacking, which is something he also talks about. I mean, you're speaking in the negative sense So like if I do x then I have to do why but you can also use this to your benefit to gain new habits so when situation exercises I'm going to perform response why so already pick up a habit that you really enjoy for me. I really enjoyed drinking coffee in the morning and so I wanted to read more books so what I would do is I'd get up in the morning a little bit earlier and then drink coffee and I'd read my book and then get ready for work. So by I mean I also like to read so it was like that hard for me to do. But by stacking you know, a new habit with one you already have ingrained is definitely going to help you be more successful.
+**Emma** 15:52  
+That sounds that sounds like habit stacking, which is something he also talks about. I mean, you're speaking in the negative sense. So like if I do X then I have to do Y but you can also use this to your benefit to gain new habits. So when situation X arises I'm going to perform response Y. So already pick up a habit that you really enjoy. For me, I really enjoy drinking coffee in the morning and so I wanted to read more books so what I would do is I'd get up in the morning a little bit earlier and I'd drink coffee and I'd read my book and then I'd get ready for work. So by... I mean I also like to read so it wasn't like that hard for me to do. But by stacking, you know, a new habit with one you already have ingrained is definitely going to help you be more successful.
 
 **Ali** 16:34  
-Well, I think adding something to your morning like get ready your routine or whatever, like you brush your teeth every morning if you're trying to do skincare, that adding that right after you brush your teeth as they're pretty easy. Next step, that's a good one.
+Well, I think adding something to your morning like get ready routine or whatever. Like you brush your teeth every morning. If you're trying to do skincare, then adding that right after you brush your teeth, as they're a pretty easy next step.
+
+**Kelly** 16:46
+That's a good one.
 
 **Emma** 16:47  
-I have that problem with like taking my makeup off at night because like by the end of the day, I'm so tired and then I go to sleep with it all on and I wake up looking like a trash raccoon. So I need to find a way to have it sex something in there. I mean, I do brush my teeth every night so maybe I should just try it and there but I just I don't know I don't know.
+I have that problem with like taking my makeup off at night because like by the end of the day, I'm so tired and then I go to sleep with it all on and I wake up looking like a trash raccoon. So I need to find a way to have it stack something in there. I mean, I do brush my teeth every night so maybe I should just try it in there but I just I don't know. I don't know.
 
 **Kelly** 17:01  
-Well we can also look at in terms of temptation bundling since you're more likely to find a behavior attractive if you get to do it with one of your favorite things as you said, you want to read more so you read why you drink your coffee because he really enjoyed drinking your coffee.
+Well we can also look at in terms of temptation bundling since you're more likely to find a behavior attractive if you get to do it with one of your favorite things. As you said, you want to read more so you read while you drink your coffee because you really enjoy drinking your coffee.
 
 **Emma** 17:16  
-You know what I do like to do and I did help me with working out because I hated cardio. I just got really bored as I would pre download like YouTube videos or Netflix and watch third like a 30 minute episode while I was on the fake peloton or whatever, pick peloton so that's a good way to
+You know what I do like to do. And I... This did help me with working out because I hated cardio. I just got really bored. Is I would pre-download like YouTube videos or Netflix and watch like a 30 minute episode while I was on the fake peloton or whatever.
+
+**Kelly** 17:30
+The fake peloton.
+
+**Emma** 17:31
+So that's a good way to...
 
 **Kelly** 17:33  
-that's actually a something that I know some people do is that they'll download like a TV show that they really like. They only watch it while they're working out.
+That's actually something that I know some people do is that they'll download like a TV show that they really like. They only watch it while they're working out. So that's their reward.
 
-**Emma** 17:40  
-So that's their reward. Yeah, it's super useful like that. I also like the idea of doing reward systems. I read this book, I've downloaded a habit tracker on my phone called done. I've been trying to add new habits every week, like a group of them that all make sense together. That's been working really well because you get this kind of Artificial reward for doing the habit of having it go up in count every time that you do it, and it turns a different color and all that so i mean it's it's a false incentive or kind of a fake one but I really like it and so I liked the idea of the habit tracking. I was looking for a habit tracker like online so I'm happy that you mentioned that because like one of my things is I try not to spend money because I'm on like a serious debt payoff journey at this moment and so like any day, I don't spend money as like a like a good day like when I bring my lunch to work or you know, ride my bike as opposed to taking the tram people like visual motivation I mean, with any goal I don't know about when you were paying off your debt Kelly but one thing I want to do is actually visualize how much I pay off each Oh yes, actually, like coloring in like a square is like 1000 euro or something. It's like every thousand year I color in a square. And you can visually see over time I was obsessed with watching my net worth as well. Like every single payment I make every single dollar I save it adjusts my net worth to increase it or what I was paying off my student loans, for example, I was slowly getting out of the negative net worth level. So just you know, whatever is whatever works for you. And that visual component like using that done out, for example. I mean, it kind of almost leads to like gamification, which has proven to, to be successful for businesses in general and it that that same behavior can definitely be applied to your personal life. Well, speaking of habit tracking some of the people in our Ladybug Goodreads group, which if you are not a member of you should definitely go check it out. We have it on our website. You can also find out what books we're reading and all of that on our website Ladybug Dev slash books. We've pulled some quotes from people in our Goodreads chat and, you know, in future episodes, we'd love to, you know, chat more with you. But in terms of habit tracking, we got some really good one. So Gerard said, I found a combination of 100 days of code and my GitHub Street to be really motivating habit tracker. I really doubt I would have come Completed four rounds 100 days of code if I didn't have the satisfaction of seeing the GitHub heatmap turn, Oh, I love that forgot like GitHub is it?
+**Emma** 17:40
+Yeah, it's super useful.
+
+**Ali** 17:43
+I like that. I also like the idea of doing a reward system. Since I read this book, I've downloaded a habit tracker on my phone called Done. I've been trying to add new habits every week, like a group of them that all make sense together. That's been working really well because you get this kind of artificial reward for doing the habit of having it go up in count every time that you do it, and it turns a different color and all that. So I mean it's a false incentive, or kind of a fake one, but I really like it and so I lik the idea of the habit tracking.
+
+**Emma** 18:17
+I was looking for a habit tracker like online so I'm happy that you mentioned that. Because like one of my things is I try not to spend money because I'm on like a serious debt payoff journey at this moment. And so like any day I don't spend money is a like a good day. Like when I bring my lunch to work or you know, ride my bike as opposed to taking the tram. People like visual motivation. I mean, with any goal I don't know about when you were paying off your debt Kelly but one thing I want to do is actually visualize how much I pay off each month.
+
+**Kelly** 18:42
+Oh yeah.
+
+**Emma** 18:43
+So actually like coloring in like a square is like 1000 euro or something. It's like every thousand euro I color in a square. And you can visually see over time.
+
+**Kelly** 18:51
+I was obsessed with watching my net worth as well. Like every single payment I make, every single dollar I save, it adjusts my net worth to increase it. Or when I was paying off my student loans, for example, I was slowly getting out of the negative net worth level. So just you know, whatever... it's whatever works for you. And that visual component like using that Done app, for example. I mean, it kind of almost leads to like gamification, which has proven to be successful for businesses in general and it... That same behavior can definitely be applied to your personal life.
+
+**Emma** 19:25
+Well, speaking of habit tracking, some of the people in our Ladybug Goodreads group... Which if you are not a member of, you should definitely go check it out. We have it on our website. You can also find out what books we're reading and all of that on our website ladybug.dev/books. We've pulled some quotes from people in our Goodreads chat and, you know, in future episodes, we'd love to, you know, chat more with you. But in terms of habit tracking, we got some really good ones. So Gerard said, "I found a combination of 100 Days of Code and my GitHub streak to be a really motivating habit tracker. I really doubt I would have completed four rounds 100 Days of Code if I didn't have the satisfaction of seeing the GitHub heatmap turn green.
+
+**Ali** 20:05
+Oh, I love that.
+
+**Emma** 20:06
+I totally forgot like GitHub is a habit tracker.
+
+**Kelly** 20:08
+Absolutely.
 
 **Ali** 20:09  
-I didn't even think of that. That is so I really love that.
+I didn't even think of that. That is so cool. I really love that.
 
 **Kelly** 20:12  
-Also, can we just talk about four rounds of 100 days of code? That's a year. Yeah, that's a long time. That's really impressive. Wow.
+Also, can we just talk about four rounds of 100 Days of Code?
 
-**Ali** 20:21  
-Now I'm like, oh, my goodness, I want to do this. I my GitHub graph is definitely not like that, especially since I I work on GitHub enterprise, which is an internal merge to GitHub. So my stuff doesn't get pushed to GitHub. But
+**Ali** 20:16
+That is so impressive.
+
+**Kelly** 20:17
+That's over a year.
+
+**Ali** 20:19
+Yeah, that's a long time.
+
+**Kelly** 20:20
+That's really impressive.
+
+**Ali** 20:21
+Wow. Now I'm like, Oh, my goodness, I want to do this. I... My GitHub graph is definitely not like that, especially since I work on GitHub enterprise, which is an internal version to GitHub. So my stuff doesn't get pushed to GitHub.
+
+**Kelly** 20:34
+Aww.
 
 **Emma** 20:35  
-yeah, I use bit bucket.
+Yeah, I use Bitbucket. So...
 
 **Kelly** 20:36  
-So we there was another quote as well, from the Goodreads group from Julieta. She says, I use habit trackers on my bullet journal. So I have small calendars where I'm working an extra days I have done my habit. I have to say that my German language habit tracker is currently empty but my workout and watercolor painting ones are doing okay my German language habit trackers also.
+There was another quote as well, from the Goodreads group, from Julieta. She says, "I use habit trackers on my bullet journal. So I have small calendars where I mark with an x the days I have done my habit. I have to say that my German language habit tracker is currently empty, but my workout and watercolor painting ones are doing okay."
+
+**Emma** 20:54
+My German language habit tracker is also empty, Julieta.
+
+**Kelly** 20:56
+I was just going to ask.
 
 **Emma** 20:57  
-Fine. It's been empty for Wow,
+So it's fine. It's been empty for a while...
 
 **Kelly** 21:00  
-although watercolor painting is pretty quiet, tried to do bullet journaling,
+Although watercolor painting is pretty cool.
 
-**Ali** 21:03  
-I feel like it's just so much work, but it's so impressive that she's really good at it. I know people do like more minimalist ones too. And that's probably more achievable. I've seen
+**Ali** 21:02
+I tried to do bullet journaling. I feel like it's just so much work, but it's so impressive that she's really good at it. And I know people do like more minimalist ones too. And that's probably more achievable.
 
-Unknown Speaker 21:12  
-some beautiful ones. I watch like YouTube tutorials on making bullet journals, but I am like artistically challenged. So I can't
+**Emma** 21:12  
+I've seen some beautiful ones.
+
+**Ali** 21:13
+Oh, so pretty.
+
+**Emma** 21:14
+I watch like YouTube tutorials on making bullet journals, but I am like artistically challenged, so I can't. I can't make it pretty.
 
 **Kelly** 21:19  
-Yeah, I can't make it pretty. I'm also going to plug this journal that I bought since I don't do bullet journaling, because I think it's too much work. I bought this notebook, it's five best self. And basically each you fill out a page each day and I am just now remembering that I didn't do today. So I'm going to do that as soon as we're done recording this episode, where you put on what are your three targets for the day? And what are you grateful for? What's your goal for the day, but each like each day you're able to track where you're like how you're progressing on, on hitting your goals each day of the week. It's really cool because I don't have to draw anything. I just have to write things love that. There are so many They're
+I'm also going to plug this journal that I bought. Since I don't do bullet journaling, because I think it's too much work. I bought this notebook, it's five best self. And basically each you fill out a page each day and I am just now remembering that I didn't do today. So I'm going to do that as soon as we're done recording this episode, where you put on what are your three targets for the day? And what are you grateful for? What's your goal for the day, but each like each day you're able to track where you're like how you're progressing on, on hitting your goals each day of the week. It's really cool because I don't have to draw anything. I just have to write things love that. There are so many They're
 
 Unknown Speaker 22:00  
 like that. So I want to quickly maybe shift a little bit and talk about what makes habits attractive. So one of the things he was saying was to have my calves and my audio box. I'm not going to cut this out because I think this is funny. My cat has just crawled inside of my cardboard box containing all of my audio equipment. So you know, they don't chew wires or anything. Does anyone else have pets that like totally interrupt at the wrong time? I do
