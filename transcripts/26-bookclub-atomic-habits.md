@@ -1,7 +1,7 @@
 **Kelly** 0:00  
 Welcome to the first ever Ladybug Podcast Book Club episode. This is a bonus episode which will occur at the end of each month. This month we're discussing _Atomic Habits_ by James clear. We're super excited for this book club. And if you want to follow along, you can check out our Goodreads group, which we will have linked on our website at ladybug.dev/books. Next month, we'll be reading Invisible Women: Data Bias in a World Designed for Men by Caroline Criado Perez. Let's jump in.
 
-Welcome to the ladybug podcast. I'm Kelly.
+Welcome to the Ladybug Podcast. I'm Kelly.
 
 **Ali** 0:31
 I'm Ali.
@@ -18,7 +18,7 @@ So I think it's also worth noting, Emma, you read a physical copy of the book. D
 Well, the first time I listened to the audio book, the second time I read the physical book, and I will admit the physical book is much better because of all the graphs and everything. And I think - this is a small tangent - but Ali, you would mention, like he kept plugging his own website that's only on the audio book, because it's reading the footnotes for things. So it's definitely not as prominent in the physical book.
 
 **Kelly** 1:22
-That is a very good point. And I read the Kindle, the Kindle version.
+That is a very good point. And I read the Kindle version.
 
 **Ali** 1:27
 Okay, I did the audio book, but I also have the physical copy now. I'm showing it. Which you cannot see because this is just audio. But I would definitely agree that the audio book has some weird quirks with it, where it's constantly talking about his website and like telling you to look at the graphics on there. And so I felt a little bit like, why am I reading a book if you're just telling me to go to your website all the time, but seeing the physical book, that's not the case anymore. So I definitely think that getting the physical book is the way to go.
@@ -33,7 +33,7 @@ I hate when they do that.
 Yeah, I thought I was like, I want to have to spend so much more time finishing this book. But no, I reached the end. I was like, oh, okay, cool.
 
 **Ali** 2:17  
-Definitely. Have you all read the _Power of Habit_ too?
+Definitely. Have you all read _The Power of Habit_ too?
 
 **Emma** 2:19  
 I have read _The Power of Habit_ and I really liked it. I believe I read it prior to reading _Atomic Habits_. So _Atomic Habits_ and _The Power of Habit_ are both about habits. I don't know if you could tell. I really liked _The Power of Habit_. That might be another one we can read as well. There are a lot of anecdotes in that one and I really like books that have like real life anecdotes. I think... Did you read it, Ali?
@@ -261,10 +261,10 @@ I have that problem with like taking my makeup off at night because like by the 
 Well we can also look at in terms of temptation bundling since you're more likely to find a behavior attractive if you get to do it with one of your favorite things. As you said, you want to read more so you read while you drink your coffee because you really enjoy drinking your coffee.
 
 **Emma** 17:16  
-You know what I do like to do. And I... This did help me with working out because I hated cardio. I just got really bored. Is I would pre-download like YouTube videos or Netflix and watch like a 30 minute episode while I was on the fake peloton or whatever.
+You know what I do like to do. And I... This did help me with working out because I hated cardio. I just got really bored. Is I would pre-download like YouTube videos or Netflix and watch like a 30 minute episode while I was on the fake Peloton or whatever.
 
 **Kelly** 17:30
-The fake peloton.
+The fake Peloton.
 
 **Emma** 17:31
 So that's a good way to...
@@ -357,97 +357,160 @@ Oh, so pretty.
 I watch like YouTube tutorials on making bullet journals, but I am like artistically challenged, so I can't. I can't make it pretty.
 
 **Kelly** 21:19  
-I'm also going to plug this journal that I bought. Since I don't do bullet journaling, because I think it's too much work. I bought this notebook, it's five best self. And basically each you fill out a page each day and I am just now remembering that I didn't do today. So I'm going to do that as soon as we're done recording this episode, where you put on what are your three targets for the day? And what are you grateful for? What's your goal for the day, but each like each day you're able to track where you're like how you're progressing on, on hitting your goals each day of the week. It's really cool because I don't have to draw anything. I just have to write things love that. There are so many They're
+I'm also going to plug this journal that I bought. Since I don't do bullet journaling, because I think it's too much work. I bought this notebook. It's by BestSelf. And basically each... You fill out a page each day - And I am just now remembering that I didn't do today, so I'm going to do that as soon as we're done recording this episode - where you put in what are your three targets for the day? And what are you grateful for? What's your goal for the day, but each... like each day you're able to track where you're... like how you're progressing on hitting your goals each day of the week. It's really cool because I don't have to draw anything. I just have to write things.
 
-Unknown Speaker 22:00  
-like that. So I want to quickly maybe shift a little bit and talk about what makes habits attractive. So one of the things he was saying was to have my calves and my audio box. I'm not going to cut this out because I think this is funny. My cat has just crawled inside of my cardboard box containing all of my audio equipment. So you know, they don't chew wires or anything. Does anyone else have pets that like totally interrupt at the wrong time? I do
+**Ali** 21:58
+Love that. There are so many out there like that.
+
+**Emma** 22:00  
+So I want to quickly maybe shift a little bit and talk about what makes habits attractive. So one of the things he was saying was to have... My cat is in my audio box. I'm not going to cut this out because I think this is funny. My cat has just crawled inside of my cardboard box containing all of my audio equipment. So you know, they don't chew wires or anything. Does anyone else have pets that like totally interrupt at the wrong time? I do.
 
 **Kelly** 22:26  
-know I do. But I do have a husband that does that. Oh, my goodness.
+No. But I do have a husband that does that.
 
-**Ali** 22:30  
-Blair. We had to push back recording because she was literally sick all night. I got like three hours asleep.
+**Ali** 22:29
+Oh, my goodness. Blair. We had to push back recording because she was literally sick all night. I got like three hours of sleep.
 
 **Kelly** 22:37  
-If you like, it just threw Daniel under the bus. I'm totally lying. I don't record episodes at home. So he's not actually here when I'm recording episodes.
+I feel like I just threw Daniel under the bus. I'm totally lying. I don't record episodes at home. So he's not actually here when I'm recording episodes.
 
-Unknown Speaker 22:45  
-New It was a funny joke.
+**Emma** 22:45  
+Yeah, but it was a funny joke.
 
 **Kelly** 22:46  
-I just want to make sure make sure everybody knows that. I do love my husband. Uh huh.
+I just want to make sure everybody knows that I do love my husband.
 
 **Emma** 22:52  
-Anyway, back to habits. James Taylor talks about how you can reframe habits to highlight their benefits. So one of these mindset shifts is different. I get two verses I have two says like, I have to go to the gym. It's like no, I get to go to the gym. So that's really interesting. And he also talked about how habits are not formed based on time. Like we would think, oh, how long is it going to take me to form this habit? Is it going to take weeks? That's not necessarily what determines it? It's based on frequency so you know, it's not necessarily it might take person a three weeks to develop the habit of going to the gym every day. Or it might take person be I don't know half as long as they go twice a day. I don't know why you would go to the gym twice a day some people do I don't even go once a day.
+Uh huh. Anyway, back to habits. James Clear talks about how you can reframe habits to highlight their benefits. So one of these mindset shifts is the phrase "I get to" versus "I have to". So instead of like, I have to go to the gym. It's like no, I get to go to the gym. So that's really interesting. And he also talked about how habits are not formed based on time. Like we would think, oh, how long is it going to take me to form this habit? Is it going to take weeks? That's not necessarily what determines it. It's based on frequency. So you know, it's not necessarily... it might take person A three weeks to develop the habit of going to the gym every day. Or it might take person B I don't know half as long if they go twice a day. I don't know why you would go to the gym twice a day, some people do, I don't even go once a day.
 
-Unknown Speaker 23:35  
+**Ali** 23:34
+I used to.
+
+**Emma** 23:35  
 Really?
 
 **Ali** 23:36  
-Yeah, I used to be like absurdly in shape. I was training for a marathon and then weightlifting at the same time so I would work out like multiple hours a day it was absurd, but not anymore.
+Yeah, I used to be like absurdly in shape. I was training for a marathon and then weightlifting at the same time so I would work out like multiple hours a day. It was absurd. But not anymore.
 
 **Kelly** 23:50  
-Different focus now that's totally fine. I think another really good one for making things attractive or just kind of pushing yourself to to you know, actually start making this habit was the two minute rule, basically just do anything for two minutes. And that's if you do that you've shown up, you've made the effort. And you know, the more you do it, you're going to start doing it for longer than two minutes and things like that. But it's it's an easier bar to hit than being like, I used to go to the gym for an hour and a half and I don't know whatever it might be. So some people from our Goodreads group also talked about the two minute rule actually was a pretty popular topic. So Jacob, for example, he said, I struggle with moderation, I tend to jump into anything new headfirst. For example, if I decided to pick up a hobby, it's normal for me to spend hours on it daily for weeks or months. Occasionally, those things do turn into long term passions, but usually I burn out. by enforcing some level of moderation on myself, I am more likely to stick with habits that exhibit exponential returns over time. I completely agree. Like I get super into an idea and then I just like go totally had first zero to 100 limitless really, really drive this thing. Home, and then I get tired of it real fast so never actually becomes.
+Different focus now that's totally fine.
+
+**Ali** 23:53
+Different focus.
+
+**Kelly** 23:54
+I think another really good one for making things attractive or just kind of pushing yourself to, you know, actually start making this habit, was the two minute rule. Basically just do anything for two minutes. And that's... If you do that you've shown up, you've made the effort. And, you know, the more you do it, you're going to start doing it for longer than two minutes and things like that. But it's an easier bar to hit than being like, I need to go to the gym for an hour and a half and I don't know, whatever it might be.
+
+So some people from our Goodreads group also talked about the two minute rule. Actually it was a pretty popular topic. So Jacob, for example, he said, "I struggle with moderation, I tend to jump into anything new headfirst. For example, if I decided to pick up a hobby, it's normal for me to spend hours on it daily for weeks or months. Occasionally, those things do turn into long term passions, but usually I burn out. By enforcing some level of moderation on myself, I am more likely to stick with habits that exhibit exponential returns over time." I completely agree. Like I get super into an idea and then I just like go totally head first, 0 to 100, let me just really, really drive this thing home. And then I get tired of it real fast so it never actually becomes a habit.
 
 **Ali** 25:04  
-So really to that. When I started blogging, I think I've said this before on the podcast, but my whole theme to it was that I wrote a blog post every week on a new technology I was learning that I built an app with. And so it was like hours and hours and hours and hours. That's how I started blogging. It was like 40 hours a week, two blog posts, and totally burnt out of that really fast, especially because people were asking me to speak about it and stuff, too. So. So relate to that idea of burning out on new things. And trying to scale back.
+So relate to that. When I started blogging, I think I've said this before on the podcast, but my whole theme to it was that I wrote a blog post every week on a new technology I was learning that I built an app with. And so it was like hours and hours and hours and hours.
+
+**Kelly** 25:20
+That's so much work.
+
+**Ali** 25:21
+That's how I started blogging. It was like 40 hours a week to write a blog post, and totally burnt out of that really fast, especially because people were asking me to speak about it and stuff, too. So... So relate to that idea of burning out on new things. And trying to scale back.
 
 **Emma** 25:37  
-Yeah. And also, we know, we had another comment from Sophie. She said, we're trying the two minute rule by putting on my workout clothes and running in place for two minutes. So once that was established, I'll start slowly building up. And yeah, it definitely starts with those little atomic habits. And he talked about this idea of a commitment device, which I really, really liked. And this was one other thing that stuck with me, which is The choice that you make in the present that controls your actions in the future. So you making decisions about your future self in the present. And I do this with my current debt payment plan, where like, as soon as I get paid, I make a budget and I immediately like pay off my debt, I pay myself first and then there's other room for having fun, right? But like, if I just left that money in there to the end of the month, like all pay my, you know, my debt at the end of the month, you're not gonna, you're not going to do it as intensely. And so I'm definitely controlling my future actions, my future spending my making those choices now.
+Yeah. And also, we know, we had another comment from Sophie. She said, "I've been trying the two minute rule by putting on my workout clothes and running in place for two minutes. So once that habit's established, I'll start slowly building up." And yeah, it definitely starts with those little atomic habits. And she talked about this idea of a commitment device, which I really, really liked. And this was one other thing that stuck with me, which is, a choice that you make in the present that controls your actions in the future. So you're making decisions about your future self in the present. And I do this with my current debt payment plan, where like, as soon as I get paid, I make a budget and I immediately like pay off my debt, I pay myself first and then there's other room for having fun, right? But like, if I just left that money in there to the end of the month, like, Oh, I'll pay my, you know, my debt at the end of the month, you're not gonna... you're not going to do it as intensely. And so I'm definitely controlling my future actions, my future spending by making those choices now.
 
 **Kelly** 26:34  
-That's so that's totally true. And also on the business side on the same topic. A book I recommend to a lot of businesses is called profit first, and I know I've talked about it in other podcasts, and it's still at the same kind of idea of, you know, taking your profit first surprise, just making sure your business is always profitable because you're always setting that money aside into another account. That's out of sight. out of mind, you don't have any kind of, you don't like see it, you're like, Well, you know, I could just pull out of the profit account and buy a new MacBook or you know, whatever it might be. It just it helps you kind of create that more responsible habit of putting money aside and saving it. So that's definitely on the business side, same kind of concept. Absolutely. So you know, what's immediately rewarded is repeated and when is immediately punished is avoided. So, find a way to reward yourself in the present day.
+That's so... That's totally true. And also on the business side on the same topic. A book I recommend to a lot of businesses is called _Profit First_, and I know I've talked about it in other podcasts. And it's still the same kind of idea of, you know, taking your profit first - surprise! - just making sure your business is always profitable because you're always setting that money aside into another account. That's out of sight. out of mind, you don't have any kind of... You don't like see it and you're like, Well, you know, I could just pull out of the profit account and buy a new MacBook or, you know, whatever it might be. It just... It helps you kind of create that more responsible habit of putting money aside and saving it. So that's definitely on the business side, same kind of concept.
 
-Unknown Speaker 27:30  
-Give yourself incentive to start a habit, and then change your identity to actually sustain it.
+**Emma** 27:20
+Absolutely. So you know, what's immediately rewarded is repeated and what is immediately punished is avoided. So, find a way to reward yourself in the present day. Give yourself incentive to start a habit, and then change your identity to actually sustain it.
 
-**Emma** 27:36  
-So, you know, this was my second time reading this book. I thoroughly enjoyed it. I definitely enjoyed it more reading the physical copy. Stefan, oh, Stefan, I'm not really sure how to say it. My German pronunciations are coming into play here. You know, you said I think I have to read the book a second time before starting to implement something more. This is definitely a very actionable and dense book and it's something I personally will probably read once a year just to keep my motivate And going but if if it was just a lot for you, I would definitely recommend, you know, let it digest and then maybe pick it up again another year and see what you think
+So, you know, this was my second time reading this book. I thoroughly enjoyed it. I definitely enjoyed it more reading the physical copy. Stefano... I'm not really sure how to say it. My German pronunciations are coming into play here. You know, you said, "I think I have to read the book a second time before starting to implement something more." This is definitely a very actionable and dense book and it's something I personally will probably read once a year just to keep my motivation going but if it was just a lot for you, I would definitely recommend, you know, let it digest and then maybe pick it up again another year and see what you think then.
 
 **Kelly** 28:08  
-then I agree, I think there's a lot of value in revisiting this book frequently, even if you're already so you know, establishing some of your habits. It's just a good reminder in general,
+I agree. I think there's a lot of value in revisiting this book frequently, even if you're already, you know, establishing some of your habits. It's just a good reminder in general.
 
 **Ali** 28:18  
-yeah, I almost felt like it was reading it a second time, even though it was the first time because the Power of Habit is super similar to this book. So I almost feel like reading them in tandem could be a really good motivator. And then at atomic habits is a little bit more actionable. So I think that that was a good sequence there. But I totally agree that I will be integrating listen to my routine and rereading it periodically. Especially the physical copy now that I have that I didn't love the audio book, just some weird tendencies, but I really liked paper copy, so
+Yeah, I almost felt like I was reading it a second time, even though it was the first time because _The Power of Habit_ is super similar to this book. So I almost feel like reading them in tandem could be a really good motivator. And then _Atomic Habits_ is a little bit more actionable. So I think that that was a good sequence there. But I totally agree that I will be integrating this into my routine and rereading it periodically. Especially the physical copy now that I have that. I didn't love the audio book, just some weird tendencies, but I really like the paper copy, so highly recommend that.
 
-**Kelly** 28:49  
-highly recommend that awesome. So let's finish this up by each writing the book, because it's a book club. I feel like we should probably read the book. So unless Go scale from one to five five being the best one being this is a terrible book and should ever been written. Emma, punch Jana,
+**Emma** 28:49  
+Awesome.
+
+**Kelly** 28:50
+So let's finish this up by each rating the book, because it's a book club. I feel like we should probably rate the book. So on... let's go scale from one to five, five being the best, one being this is a terrible book and should never have been written. Emma?
 
 **Emma** 29:09  
-I give this five stars.
+Fünf Sterne. I give this five stars. I still... I'm going to continue to preach about this. Like it wasn't a perfect book, but I will say this is one of the most memorable for me. I read a lot of books, I read a lot of nonfiction and this is definitely one, along with _The Power of Habit_ that has stuck with me. So I'll give it five.
 
-**Kelly** 29:12  
-I
-
-**Emma** 29:14  
-I still I'm going to continue to preach about this like it wasn't a perfect book, but I will say is one of the most memorable for me. I read a lot of books, I read a lot of nonfiction and this is definitely one along with the Power of Habit that has stuck with me. So I'll give it five. Ellie, what about you?
+**Kelly** 29:28
+Ali, what about you?
 
 **Ali** 29:29  
-I would also give it a five paper copy, I would give a five probably give a four to the audio book. But again, I think it's really actionable. I like you Oh, it has summaries. I like how it has pictures. So it's integrating multiple learning styles. And I think everything in it is really actionable. So great book.
+I would also give it a five. The paper copy, I would give a five. Probably give a four to the audio book. But again, I think it's really actionable. I like how it has summaries. I like how it has pictures. So it's integrating multiple learning styles. And I think everything in it is really actionable. So great book.
 
 **Kelly** 29:45  
-Awesome. And I had also give it five stars. I think that these kind of self help self improvement books tend to get a bad rap. But this book in particular was a very easy read. It didn't I feel like it was overwhelming and I feel like it can be applied to so many different areas of your life whether personal or professional, that it just makes it a very approachable book especially if you're not really into the the self help kind of books in general.
+Awesome. And I would also give it five stars. I think that these kind of self-help, self-improvement books tend to get a bad rap. But this book in particular was a very easy read. It did not feel like it was overwhelming and I feel like it can be applied to so many different areas of your life, whether personal or professional, that it just... it makes it a very approachable book. Especially if you're not really into the the self-help kind of books in general.
 
-**Emma** 30:13  
-Definitely. I think we need to write these and ladybugs and so stars so we all gave it five Oh, you're right.
+**Ali** 30:13  
+Definitely.
+
+**Emma** 30:14
+I think we need to rate these in ladybugs instead of stars. So we all gave it five ladybugs.
+
+**Kelly** 30:18
+Oh, you're right.
 
 **Ali** 30:19  
-So cute. I love it. I think it's worth saying that we are also pretty critical of self help books in general. Like you can go through our Goodreads because we're we all are pretty dear friend, please. For friends on Goodreads. But you can read our reviews on there. And overall, I think we're all pretty critical of them. So
+Oh that's so cute. I love it.
+
+**Kelly** 30:21
+Five little ladybugs.
+
+**Ali** 30:22
+I think it's worth saying that we are also pretty critical of self-help books in general. Like you can go through our Goodreads because we're we all are pretty active on there. Be our friend, please. Looking for friends on Goodreads. But you can read our reviews on there. And overall, I think we're all pretty critical of them. So...
 
 **Emma** 30:44  
-yeah, I can tell you a few that I just set this in perspective. We had conversations about I did not like the girl wash your face book. I thought that was not great. I'm gonna I'm gonna leave it at that. I didn't I didn't think it was great for many reasons. And another one that's really popular was subtle art of not giving us a lot of love. Yeah, exactly. I thought it was a little lover, right? Yeah, I just think it was a little overrated. It just felt like they wanted to drop f bombs all over the place, just you know, to be relevant, or I think
+Yeah, I can tell you a few that I... Just set this in perspective. We had conversations about... I did not like the _Girl Wash Your Face_ book. I thought that was not great. I'm gonna leave it at that. I didn't think it was great, for many reasons. And another one that's really popular was...
+
+**Kelly** 31:04
+_Subtle Art of Not Giving a F\*ck_.
+
+**Emma** 31:06
+Subtle Art of...
+
+**Ali** 31:07
+Of Bleep...
+
+**Emma** 31:08
+Yeah, exactly.
+
+**Ali** 31:09
+... you mean. Just kidding.
+
+**Kelly** 31:10
+It's the actual title.
+
+**Emma** 31:11
+I thought it was a little over-rated.
+
+**Ali** 31:12
+Oh, I hated that book.
+
+**Emma** 31:13
+Yeah. I just think it was a little overrated. It just felt like they wanted to drop f bombs all over the place, just you know, to be relevant, or...
 
 **Kelly** 31:21  
-so. Yeah. The most hilarious part of that book for me is I read the book twice, because I didn't remember reading it the first time. That's how much it did not stick with me
+I think so. Yeah. The most hilarious part of that book for me is... I read the book twice, because I didn't remember reading it the first time. That's how much it did not stick with me.
 
 **Emma** 31:30  
-if you don't remember a nonfiction book than it like in terms of like self help, quote, unquote. It really didn't do its job. So yeah, Sally's point. We're quite critical of the things that we read and the fact that we all give us five stars. kind of speaks volumes to that. But if you enjoyed our first ever book club episode, please go check out our Goodreads. Join our Goodreads get involved in the chat. You can again go find that Ladybug Dev books, and again in February we're going to be reading invisible women. Data bias in a world designed for men and I already started it because it was a gift, a lovely gift in it. I'm like, enthralled by it. Just the things in the world that we take for granted. Or we could think, Oh my gosh, this could never be sexist in any way. Well, actually, if you look at the data, well actually,
+If you don't remember a nonfiction book than it... Like in terms of like self-help, quote, unquote. It really didn't do its job. So yeah, to Ali's point. We're quite critical of the things that we read and the fact that we all give this five stars kind of speaks volumes to that.
 
-Unknown Speaker 32:21  
-you know, just unbelievable things. So, you know, tune in in February that in February, to hear more about that,
+But if you enjoyed our first ever Book Club episode, please go check out our Goodreads. Join our Goodreads, get involved in the chat. You can again go find that at Lldybug.dev/books, and again in February we're going to be reading _Invisible Women: Data Bias in a World Designed for Men_ and I already started it because it was a gift. A lovely gift. And it... I'm like, enthralled by it. Just the things in the world that we take for granted. Or we could think, Oh my gosh, this could never be sexist in any way. Well, actually, if you look at the data - "Well actually" - You know, just unbelievable things. So, you know, tune in in February the end of February, to hear more about that.
 
 **Ali** 32:28  
-though, excited that we're doing this, and excited to talk more more books.
+So excited that we're doing this, and excited to talk more books.
 
 **Kelly** 32:33  
-Until next month. See y'all Monday. Bye.
+Until next month.
+
+**Emma** 32:34
+See y'all Monday.
+
+**Ali** 32:36
+Bye.
