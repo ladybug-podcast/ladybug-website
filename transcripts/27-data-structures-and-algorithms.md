@@ -210,124 +210,185 @@ There are kind of these patterns that you notice and you use those to group your
 Okay, that makes more sense.
 
 **Emma** 13:24
-And we just need to be clear that like when we say O(n), n is really just the upper bound, right? So like, in a sense, so let me explain that. So when we have a for loop we do like ``for (let i = 0; i < n; i++)`` Well, in this case for is listen, and it's going to run and times if we change that to I don't know, okay? It would be okay. So it's just like an arbitrary value that we are setting for things and this gets more. This becomes more important when we have nested for loops. And this is going to kind of lead us into our first algorithm, which is called bubblesort, which you may or may not have heard of it is a sorting algorithm. So if we have an array of different integers, we want to sort them From the lowest to the highest, for example, and bubblesort is notoriously bad in terms of bingo performance, and you'll hear it, it's going to be called O of n squared, because for every single element in this array, you have to compare it to every other element. So you're doing n times n comparisons, you're running through that list for each item, comparing it to every other item. So that's where we get the O of n squared. But in cases where you have nested for loops that are on different numbers are like a different set of numbers with different values. Let's say we have two arrays, one is of size five, and one is the size of seven. If we have two nested for loops, one is the outer one, for example, will run five times in the inner one run seven times. And you can't just say that's n squared, because those are two different values, right? So you would have to assign different ones like oh of, and M, for example, because they're two different values.
+And we just need to be clear that like when we say O(n), n is really just the upper bound, right? So like, in a sense, so let me explain that. So when we have a for loop we do like `for (let i = 0; i < n; i++)` Well, in this case for is listen, and it's going to run and times if we change that to I don't know, okay? It would be okay. So it's just like an arbitrary value that we are setting for things and this gets more. This becomes more important when we have nested for loops. And this is going to kind of lead us into our first algorithm, which is called bubblesort, which you may or may not have heard of it is a sorting algorithm. So if we have an array of different integers, we want to sort them From the lowest to the highest, for example, and bubblesort is notoriously bad in terms of bingo performance, and you'll hear it, it's going to be called O of n squared, because for every single element in this array, you have to compare it to every other element. So you're doing n times n comparisons, you're running through that list for each item, comparing it to every other item. So that's where we get the O of n squared. But in cases where you have nested for loops that are on different numbers are like a different set of numbers with different values. Let's say we have two arrays, one is of size five, and one is the size of seven. If we have two nested for loops, one is the outer one, for example, will run five times in the inner one run seven times. And you can't just say that's n squared, because those are two different values, right? So you would have to assign different ones like oh of, and M, for example, because they're two different values.
 
 **Ali** 14:52  
-Yeah, sorting algorithms are really common family of algorithms to know I for me, I heard that a rule that you're supposed to know, to good sorting algorithms for interviewing I don't know if you all have heard that rule either. But so I mostly memorized like merge sort and quicksort when I was interviewing.
+Yeah, sorting algorithms are a really common family of algorithms to know. I... For me, I heard the rule that you're supposed to know two good sorting algorithms for interviewing. I don't know if you all have heard that rule either. But so I mostly memorized like merge sort and quicksort when I was interviewing.
 
 **Emma** 15:14  
-Yeah, I would say that's right, like bubblesort is really something you would just learn is in terms of like, why is it so bad? And why is it such a joke that like even famous people with zero technical knowledge, understand how bad it is? Yeah, if you're starting out, or if you're practicing for a whiteboard interview, I would recommend knowing mergesort and quicksort. And those are primarily due to the fact that they are dividing conquer algorithms and not like brute force algorithms, if that makes sense. I don't know if that's the proper term for them. But the essentially is you're breaking down the problem into smaller and smaller partitions, until you can't divide it into any smaller partitions and then you build it back up. So divide it first and then conquer it second.
+Yeah, I would say that's right. Like bubble sort is really something you would just learn in terms of like, why is it so bad? And why is it such a joke that like even famous people with zero technical knowledge, understand how bad it is?
+
+Yeah, if you're starting out, or if you're practicing for a whiteboard interview, I would recommend knowing merge sort and quicksort. And those are primarily due to the fact that they are divide and conquer algorithms and not like brute force algorithms, if that makes sense. I don't know if that's the proper term for them. But the... essentially is you're breaking down the problem into smaller and smaller partitions, until you can't divide it into any smaller partitions and then you build it back up. So divide it first and then conquer it second.
 
 **Ali** 15:52  
-Yeah, definitely. And you're breaking the problem into smaller, smaller problems until the problem is easily solvable, and then you're putting the race back together. bubble, sir is probably the one that you if you were to ask a brand new coder, how to start an array, that was probably be how they would do it because it's a really brute force for brute force algorithm. Words are so hard. And I am also going to link in the show notes, this really awesome visualizer that shows all these different algorithms and visualizes them really, really well. So I am going to link that in the show notes. I think that that's really great, especially for these sorting algorithms.
+Yeah, definitely. And you're breaking the problem into smaller, smaller problems until the problem is easily solvable, and then you're putting the arrays back together. Bubble sort is probably the one that... if you were to ask a brand new coder, how to start an array, that would probably be how they would do it because it's a really brute force... brute force algorithm. Words are so hard. I am also going to link in the show notes, this really awesome visualizer that shows all these different algorithms and visualizes them really, really well. So I am going to link that in the show notes. I think that that's really great, especially for these sorting algorithms.
 
 **Emma** 16:33  
-Yeah, for sure. We just mentioned the couple. So bubblesort. To visualize it, just take, let's say we started the first element in array. Let's say it's a four. Compare it to the next item to its right, and let's say it's a seven. Well, seven is greater than four. So at that point, we don't need to switch them. They're already in their order. But if we move up to the seven now, well, what's the item to the right, let's say it's the three. Well, seven is larger than three, so we have to swap them and we do this until seven gets to its proper position or you know, Like I said, you have to compare every element against each other. So this is very non performance and versus like immersed or quicksort. Like Ali said, You break this problem into smaller and smaller parts until you can't anymore. So like mergesort, you divide each. So take our bigger, right divided into, and then take the left half and divide it into. And so you can't divide any of these arrays anymore until they're all just single elements. And that's the point where we start to sort them and say, oh, is the left one greater than the right one? If it is swapped them otherwise, just merge it back? So like, Yeah, well, we'll link some of these in the show notes. It's really hard to like explain visualizations over a podcast. I didn't expect that.
+Yeah, for sure. We just mentioned a couple. So bubble sort. To visualize it, just take... Let's say we start at the first element in an array. Let's say it's a four. Compare it to the next item to its right, and let's say it's a seven. Well, seven is greater than four. So at that point, we don't need to switch them. They're already in their order. But if we move up to the seven now, well, what's the item to the right, let's say it's the three. Well, seven is larger than three, so we have to swap them and we do this until seven gets to its proper position or you know... Like I said, you have to compare every element against each other.
+
+So this is very non-performant. And versus like a merge sort or quicksort, like Ali said, you break this problem into smaller and smaller parts until you can't anymore. So like merge sort, you would divide each... So take our big array, divid it in two, and then take the left half and divide it in two, until you can't divide any of these arrays anymore, until they're all just single elements. And that's the point where we start to sort them and say, oh, is the left one greater than the right one? If it is, swap them, otherwise, just merge it back. So like, yeah, we'll link some of these in the show notes. It's really hard to like explain visualizations over a podcast. I didn't expect that.
 
 **Ali** 17:39  
-Yeah, it's super hard. So let's just say that merge sort and quicksort are probably the ones that you'll see most often an interview type studying. And those would be the ones that I would learn if I were to learn to have these absolutely awesome. Other types of algorithms that I have seen a lot and I know Google really likes these as well. graph traversal algorithms. So we're going to talk about what graphs are in the data structure section. But essentially, they're a data structure that allows you to have relationships between data in any sort of way. And graph traversal algorithms are for moving from one data item to another data item. And a lot of trying to find like the shortest paths between things like think about Google Maps, all of that runs on graph traversal algorithms. And so those will be things that you would most likely see a lot if you're going to be interviewing, especially at the big companies right now.
+Yeah, it's super hard. So let's just say that merge sort and quicksort are probably the ones that you'll see most often in an interview type setting. And those would be the ones that I would learn if I were to learn two of these.
 
-**Unknown Speaker** 18:32  
-Yeah. And you can take the example of the Traveling Salesman is a very popular well known problem. This is a believer graph traversal, where you have a salesman who needs to visit, I don't know seven houses, let's say and there are different paths to get between each house and each path has a weight to it has a different length. How can he actually traverse all of these houses visiting each house once in the shortest time possible or the shortest distance possible so that that would be a grafter result. Or if you think about a practical example, FedEx or you know the UPS or DHL or whatever package delivery service that you use, they need to optimize their deliveries, especially during the holidays. That's a very popular time for shipping packages. And how do they actually optimize this path? That's a graph traversal type of problem. Definitely.
+**Emma** 17:53
+Absolutely
+
+**Ali** 17:54
+Awesome. Other types of algorithms that I have seen a lot and I know Google really likes these is graph traversal algorithms. So we're going to talk about what graphs are in the data structures section. But essentially, they're a data structure that allows you to have relationships between data in any sort of way. And graph traversal algorithms are for moving from one data item to another data item. And a lot of trying to find like the shortest paths between things. Like think about Google Maps, all of that runs on graph traversal algorithms. And so those will be things that you would most likely see a lot if you're going to be interviewing, especially at the big companies right now.
+
+**Emma** 18:32  
+Yeah. And you can take the example... The Traveling Salesman is a very popular, well-known problem. This is,I believe, a graph traversal, where you have a salesman who needs to visit, I don't know seven houses, let's say, and there are different paths to get between each house and each path has a weight to it. Has a different length. How can he actually traverse all of these houses, visiting each house once in the shortest time possible, or the shortest distance possible, so that that would be a graph traversal. Or if you think about a practical example, FedEx or, you know, the UPS or DHL or whatever package delivery service that you use, they need to optimize their deliveries, especially during the holidays. That's a very popular time for shipping packages. And how do they actually optimize this path? That's a graph traversal type of problem.
 
 **Ali** 19:20  
-Another one is searching algorithms. So going through data structure and trying to find an element within it. That's something that you may see as well. I have gotten binary search questions in interviews before binary searching is when an array is sorted. You can search within it within smaller and smaller sections of it, finding the midpoint of that smaller section and seeing if your item that you're searching for is greater than or less than that point that you're searching for and only then search that segment of the array and this only works for sorted arrays, but it's a Very common algorithm and something that you might see. So I wanted to find that as well.
+Definitely. Another one is searching algorithms. So going through a data structure and trying to find an element within it. That's something that you may see as well. I have gotten binary search questions in interviews before. Binary searching is when an array is sorted. You can search within it, within smaller and smaller sections of it, finding the midpoint of that smaller section and seeing if your item that you're searching for is greater than or less than that point that you're searching for, and only then search that segment of the array and this only works for sorted arrays, but it's a very common algorithm and something that you might see. So I wanted to flag that as well.
 
 **Emma** 20:04  
-Okay, so we've talked a lot about algorithms, but they kind of relate really well to some of these data structures. Like we can't talk about graph derosa without talking about graphs. So let's just jump right into talking data structures. Now, certain programming languages have. I don't know, the data structures can kind of change from language to language. This is could be a little bit tricky for us to discuss this. So I think as some of these differences show, while we're talking about these things, let's kind of denote them. So let's just let me bring up an example. So when we talk about arrays, arrays are very common data structure. And what's interesting is that in JavaScript arrays are they're not a finite length, you can just keep adding elements to an array versus in a language like Java arrays have a fixed size. So you actually have to declare the size that it's at instantiation and you can't put anything other than that limit that number of items into your array. I think there's also ArrayList, which is not a fixed size. It's a variable size that that would be more like a JavaScript array. But yeah, I would say razor are probably like the base arrays and objects together are probably the two most common data structures. But just be aware, they do kind of change in terms of behavior across languages.
+Okay, so we've talked a lot about algorithms, but they kind of relate really well to some of these data structures. Like we can't talk about graph derosa without talking about graphs. So let's just jump right into talking data structures.
+
+Now, certain programming languages have... I don't know, the data structures can kind of change from language to language. This is could be a little bit tricky for us to discuss this. So I think as some of these differences show, while we're talking about these things, let's kind of denote them. So let's just... let me bring up an example. So when we talk about arrays, arrays are a very common data structure. And what's interesting is that in JavaScript arrays are... they're not a finite length, you can just keep adding elements to an array, versus in a language like Java arrays have a fixed size. So you actually have to declare the size that it's at instantiation and you can't put anything other than that limit, that number of items into your array. I think there's also ArrayList, which is not a fixed size. It's a variable size that that would be more like a JavaScript array. But yeah, I would say arrays are probably like the base... Arrays and objects together are probably the two most common data structures. But just be aware, they do kind of change in terms of behavior across languages.
 
 **Ali** 21:16  
-Yeah. And so when we talk about these data structures, and we're comparing whether you should use one for a certain use case or not, we're going to go back to that big discussion. So a lot of the operations that you might do with an any data structure would be insertion. So adding a new item to it, deletion, removing an item from it, searching it, trying to find an item within it. I'm sorting it, trying to put it in order.
+Yeah. And so when we talk about these data structures, and we're comparing whether you should use one for a certain use case or not, we're going to go back to that Big O discussion. So a lot of the operations that you might do with an... any data structure would be insertion. So adding a new item to it. Deletion, removing an item from it. Searching it, trying to find an item within it. Sorting it, trying to put it in order. Anything else that I'm missing?
 
-**Unknown Speaker** 21:44  
-Anything else I'm missing? I can't
-
-**Unknown Speaker** 21:47  
-think so.
+**Emma** 21:47  
+I can't think so.
 
 **Ali** 21:48  
-Accessing accessing, so getting one item out of that.
+Accessing. Accessing, so getting one item out of that data structure.
 
 **Unknown Speaker** 21:52  
-D is not sir. Oh, I guess that's not searching. Yeah, they are different.
+Isn't that search? Oh, I guess that's not searching. Yeah, they are different.
 
 **Ali** 21:55  
-So those are the common operations and so when we're talking about these That's going to come into play and decide whether you should be using one data structure and another.
+So those would be common operations and so when we're talking about these, that's going to come into play and decide whether you should be using one data structure and another.
 
 **Emma** 22:06  
-Absolutely. So let's get started. Let's just start with the race because it's the most alphabetically.
-
-**Unknown Speaker** 22:13  
-It starts with the letter A, I don't know how to English well, and plus,
+Absolutely. So let's get started. Let's just start with the arrays because it's the most alphabetically... It starts with the letter A. I don't know how to English.
 
 **Ali** 22:17  
-most people are probably going to know what arrays are. So I think they're a good way to start with
+Well and, plus, most people are probably going to know what arrays are. So I think they're a good one to start with.
 
-**Unknown Speaker** 22:21  
-if you're if you think it's also you know, worth noting, like I again, I don't really know from like, the bigger standpoint what these things are, but I'm very familiar with a lot of these data structures. So I think my my base knowledge of what arrays and objects are and things like that are going to be really cool to see okay, what's actually going to be best to us,
+**Emma** 22:21  
+I know.
+
+**Ali** 22:22
+If you're writing code.
+
+**Kelly** 22:23
+I think it's also, you know, worth noting, like I again, I don't really know from like, the Big O standpoint what these things are, but I'm very familiar with a lot of these data structures. So I think my base knowledge of what arrays and objects are and things like that are going to be really cool to see, Okay, what's actually going to be best to use?
 
 **Emma** 22:40  
-Kelly, what's your favorite data structure? I'm not answering the question.
+Kelly, what's your favorite data structure?
 
-**Unknown Speaker** 22:43  
-Oh, what do you like? How don't you
+**Kelly** 22:42
+I'm not answering that question.
 
-**Emma** 22:46  
+**Emma** 22:43  
+Oh.
+
+**Ali** 22:44
+What?
+
+**Emma** 22:45
+You like HashMaps, don't you?
+
+**Kelly** 22:46
+I use...
+
+**Emma** 22:47  
 I know you're a hashmap kind of girl.
 
 **Unknown Speaker** 22:48  
-No, I use objects a lot. key value pairs are my gym. Don't tell me they're not performance. Or you will like break my heart.
+No, I use objects a lot. Key value pairs are my jam. Don't tell me they're not performant. Or you will like break my heart.
 
 **Ali** 22:58  
-They are and in JavaScript. Especially like objects are a great, great everything. Okay, yeah.
+They are. And in JavaScript especially like objects are...
 
-**Unknown Speaker** 23:05  
-So let's talk about arrays. So arrays are essentially container objects that holds a number of values in Java, that is a fixed number of values in JavaScript, which is I'm going to be referring to JavaScript because that's what I primarily work in these days. But maybe I'll you can give some information on the Python side of things or, you know, a back end of your language. In terms of inserting something into an array in JavaScript, it's constant time. It's over one.
+**Emma** 23:01
+A great, great...
+
+**Ali** 23:02
+Everything.
+
+**Kelly** 23:03
+Okay, good.
+
+**Ali** 23:04
+Yeah.
+
+**Emma** 23:05  
+So let's talk about arrays. So arrays are essentially container objects that hold a number of values. In Java, that is a fixed number of values, in JavaScript, which is... I'm going to be referring to JavaScript because that's what I primarily work in these days. But maybe, Ali, you can give some information on the Python side of things or, you know, a backendier language. In terms of inserting something into an array in JavaScript, it's constant time. It's O(1).
 
 **Ali** 23:27  
-Yeah, with arrays. There's, there's this concept of abstract data structures. So abstract data structures are essentially like sets of rules for how data structures are implemented. They're like the concept of a data structure. And you could implement them across languages. And so traditionally, arrays were these things that you cannot add to without moving them in memory, like they were really efficient because you could put them all in one contiguous block of memory or one piece of memory all together on your computer. And that's changed over time, with the More dynamically, which is where instead of storing the actual item at that index in the array in the memory of the computer instead of storing a reference, and that allows you to add more dynamic information and different types of data to that array. And so that's how that's evolved over time with more dynamic languages like JavaScript. And so traditionally, adding an item to an array was an O of n operation, because you had to copy that whole entire right into a new block of memory. But again, these more dynamic languages like JavaScript, they actually pre allocate memory so you have extra space to add new items to the array and it becomes closer to have one
+Yeah, with arrays there's... there's this concept of abstract data structures. So abstract data structures are essentially like sets of rules for how data structures are implemented. They're like the concept of a data structure. And you could implement them across languages.
 
-**Unknown Speaker** 24:38  
-You sound so smart because you are smart,
+And so traditionally, arrays were these things that you could not add to without moving them in memory. Like they were really efficient because you could put them all in one contiguous block of memory, or one piece of memory all together on your computer. And that's changed over time, with more dynamic languages, where instead of storing the actual item at that index in the array in the memory of the computer, instead it's storing a reference. And that allows you to add more dynamic information and different types of data to that array. And so that's how that's evolved over time with more dynamic languages like JavaScript.
+
+And so, traditionally, adding an item to an array was an O(n) operation, because you had to copy that whole entire array into a new block of memory. But again, these more dynamic languages like JavaScript, they actually pre-allocate memory so you have extra space to add new items to the array and it becomes closer to O(1).
+
+**Emma** 24:38  
+You sound so smart because you are smart. And I like it.
+
+**Kelly** 24:40
+That's a pretty good reason.
 
 **Ali** 24:42  
-pretty good reader know these things like fascinate we, I don't know why. And they're not things that we necessarily use every day as developers. But I think understanding the the under the core of programming language is something that just fascinates me and maybe someday, build my own Language, probably not. But
+I don't know, these things like fascinate me, I don't know why. And they're not things that we necessarily use every day as developers. But I think understanding the under... the core of programming languages is something that just fascinates me and maybe someday, build my own Language, probably not. But that's okay.
 
-**Emma** 25:01  
-that's okay. That's a lot of work.
+**Kelly** 25:01  
+That's a lot of work.
 
-**Unknown Speaker** 25:03  
+**Ali** 25:03  
 That sounds like a lot of work.
 
-**Unknown Speaker** 25:05  
-Hard just started racing at the thought of doing that
+**Kelly** 25:05  
+I think my heart just started racing at the thought of doing that.
 
-**Unknown Speaker** 25:07  
-this big cheat sheet that I'm linking in the show notes has common data structure operation. So it basically is a table of all of our different data structures. And it tells you how much time or what the bingo runtime for accessing searching insertion, deletion, those kinds of things are in the average and in the worst cases. So just to kind of like wrap up or raise. So we said accessing is approximate, like, oh, have one for JavaScript, or in general now, searching would be O of n, because think about it. If you're searching for a value, and it's not in the array, that means you've searched every single element, or Oh event, right. That's the worst case scenario. It's not in there to insert. I don't well, insertion we said was of n.
+**Emma** 25:07  
+This Big O cheat sheet that I'm linking in the show notes has common data structure operations. So it basically has a table of all of our different data structures. And it tells you how much time or what the Big O runtime for accessing, searching, insertion, deletion, those kinds of things are, in the average and in the worst cases.
+
+So just to kind of like wrap up arrays. So we said accessing is approximate, like, O(1) for JavaScript, or in general now, searching would be O(n), because think about it. If you're searching for a value, and it's not in the array, that means you've searched every single element, or O(n), right? That's the worst case scenario. It's not in there. To insert. I don't... well, insertion we said was O(n).
 
 **Ali** 25:52  
-Yeah. insertion is close to the end. Yeah. But in programming in languages like JavaScript, it's more efficient than that.
+Yeah. Insertion is close to O(n).
 
-**Unknown Speaker** 26:00  
-Correct. Yeah. And same with the lesion, I'd say,
+**Emma** 25:55
+Yeah.
+
+**Ali** 25:27
+But in programming in languages like JavaScript, it's more efficient than that.
+
+**Emma** 26:00  
+Correct. Yeah. And same with deletion, I'd say.
 
 **Ali** 26:03  
-yeah. Our next one is going to be linked lists, which are one of my favorite data structures. I wrote a blog post last year correlating link lists to Ariana Grande news, Thank you Next, and got some intent, got some interest on the internet, but had a lot of fun with it. And linkless have kind of become one of my favorite data structures. As a result,
+Yeah. Our next one is going to be linked lists, which are one of my favorite data structures. I wrote a blog post last year correlating link lists to Ariana Grande's Thank You, Next. And got some intense... got some interest on the internet, but had a lot of fun with it. And linked lists have kind of become one of my favorite data structures, as a result.
 
-**Unknown Speaker** 26:29  
-I will say like that that post, which we will definitely be leaking in the show notes was really helpful for me to understand linkless as well. So you lie to us, you do have knowledge. I told you, I know these data structures, but the technical stuff behind it. I do not know I know how to use things. I don't know why I'm using things
+**Kelly** 26:29  
+I will say like that post, which we will definitely be linking in the show notes, was really helpful for me to understand linked lists as well.
 
-**Unknown Speaker** 26:47  
-for the next for the next data structure then.
+**Emma** 26:35
+So you lied to us, you do have knowledge.
 
-**Unknown Speaker** 26:51  
-No, I'm not. Do not put me on No, no, we're not playing that game. So Alex,
+**Kelly** 26:36
+I told you, I know these data structures, but the technical stuff behind it I do not know. I know how to use things. I don't know why I'm using things. How about that?
+
+**Emma** 26:47  
+So you're up for the next data structure then?
+
+**Kelly** 26:51  
+I don't think so. No, I'm not. Do not put me on the... No, no, we're not playing that game.
 
 **Emma** 26:56  
-can you tell me more about what a link list is?
+So, Ali, can you tell me more about what a linked list is?
 
 **Ali** 26:59  
-So a link live is actually technically a graph data structure. And we'll talk about what graphs are and a little bit. And what that means is that it has nodes and edges. nodes are pieces of information edges are references to the next item in the link twist in this this case. So each item has a piece of data. And then it also says, Okay, my next piece of data is stored at this place in memory, go look for my next piece of data there. And these are really efficient, because again, like we said, with arrays, they had to be stored in one contiguous block of memory. So you had to have all the amount of memory in one place on your computer in order to create an array of linked lists. They can be stored all across your memory and your computer and so instead of having to re move every single item when you insert to that array, instead with linked lists, insertion and deletion is an of one operation where it's really efficient to add a new item to that link list. So that's why linked lists are used. They're especially useful if you're trying to access data in a sequence. So if you're trying to always access the data in the same order, you're not trying to access items or anything like that, then only list could be great for that. The one thing with them is that they don't have indexing like arrays do. So accessing one individual item is much more difficult. So if you're trying to do that, you should go with an array and said,
+So a linked list is actually technically a graph data structure. And we'll talk about what graphs are in a little bit. And what that means is that it has nodes and edges. Nodes are pieces of information, edges are references to the next item in the linked list, in this case.
+
+So each item has a piece of data. And then it also says, Okay, my next piece of data is stored at this place in memory, go look for my next piece of data there. And these are really efficient, because again, like we said, with arrays, they had to be stored in one contiguous block of memory. So you had to have all the amount of memory in one place on your computer in order to create an array. Linked lists, they can be stored all across your memory in your computer and so instead of having to re-move every single item when you insert to that array, instead, with linked lists, insertion and deletion is an O(1) operation, where it's really efficient to add a new item to that linked list.
+
+So that's why linked lists are used. They're especially useful if you're trying to access data in a sequence. So if you're trying to always access the data in the same order, you're not trying to access items or anything like that, then a linked list could be great for that. The one thing with them is that they don't have indexing like arrays do. So accessing one individual item is much more difficult. So if you're trying to do that, you should go with an array instead.
 
 **Unknown Speaker** 28:36  
 I will say like, you can have pointers though, which is super nice. So what that means is, if you want to search for an element, you can have a left pointer and a right pointer, that star on opposite ends of your list and they each migrate inward towards each other. So in half the amount of time you can see whether or not an item is found in that list, which is really cool. That's a that's a good benefit of using a linked list.
