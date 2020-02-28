@@ -42,12 +42,12 @@ export default function Template({ data }) {
         <Link to="/episodes">
           <button className="button button-border">Back to episodes</button>
         </Link>
-        <p
+        <div
           dangerouslySetInnerHTML={{
             __html: html,
           }}
         />
-        <p
+        <div
           dangerouslySetInnerHTML={{
             __html: transcript.childMarkdownRemark.html,
           }}
