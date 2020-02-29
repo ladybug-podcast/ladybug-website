@@ -390,183 +390,294 @@ So each item has a piece of data. And then it also says, Okay, my next piece of 
 
 So that's why linked lists are used. They're especially useful if you're trying to access data in a sequence. So if you're trying to always access the data in the same order, you're not trying to access items or anything like that, then a linked list could be great for that. The one thing with them is that they don't have indexing like arrays do. So accessing one individual item is much more difficult. So if you're trying to do that, you should go with an array instead.
 
-**Unknown Speaker** 28:36  
-I will say like, you can have pointers though, which is super nice. So what that means is, if you want to search for an element, you can have a left pointer and a right pointer, that star on opposite ends of your list and they each migrate inward towards each other. So in half the amount of time you can see whether or not an item is found in that list, which is really cool. That's a that's a good benefit of using a linked list.
+**Emma** 28:36  
+I will say, like, you can have pointers though, which is super nice. So what that means is, if you want to search for an element, you can have a left pointer and a right pointer, that start on opposite ends of your list and they each migrate inward towards each other. So in half the amount of time you can see whether or not an item is found in that list. Which is really cool. That's a good benefit of using a linked list.
 
 **Ali** 28:59  
-Definitely There are two types of link lists singly linked lists, where each node just has a reference to the next item in that link list. And then there's also a doubly linked list where each node points to the previous node in the next one.
+Definitely. There are two types of link lists: singly linked lists, where each node just has a reference to the next item in that link list. And then there's also a doubly linked list, where each node points to the previous node and the next one.
 
-**Unknown Speaker** 29:15  
-Absolutely. Cool. So let's move on. And let's talk about sets. So I actually don't know too much about sets, but they are quite useful if you are trying to store a set of unique values. So they can be primitive values or object references primitive meaning like, I don't know, like integers or strings. So yeah, they let you start unique values of any type. I believe, like if you pass it in like a list of values, and there are duplicates, it'll just remove them right
+**Emma** 29:15  
+Absolutely. Cool. So let's move on. And let's talk about sets. So I actually don't know too much about sets, but they are quite useful if you are trying to store a set of unique values. So they can be primitive values or object references. Primitive meaning like, I don't know, like integers or strings. So yeah, they let you start unique values of any type. I believe, like if you pass it in like a list of values, and there are duplicates, it'll just remove them, right?
 
 **Ali** 29:43  
-yet sets are my most underrated data structure. They're one of my favorites. And the reason for that is that searching in them is super super performance. So it's, oh roughly Oh of one to search a set, whereas searching an array or a linked list is going to be You closer to the end. And so if you're trying to see if an item is in a collection of data, using a set is the best option there because it's really, really efficient. So doing code challenges, like with massive data sets, things like Google's code GM, or advent of code sets come in handy is so much in those types of challenges.
+Yeah. Sets are my most underrated data structure. They're one of my favorites. And the reason for that is that searching in them is super, super performance. So it's roughly O(1) to search a set. Whereas searching an array or a linked list is going to be closer to O(n). And so if you're trying to see if an item is in a collection of data, using a set is the best option there because it's really, really efficient. So doing code challenges, like with massive data sets, things like Google's Code Jam, or Advent of Code, sets come in handy so much in those types of challenges.
 
-**Unknown Speaker** 30:22  
-So sets are super useful, and you should definitely be aware of them if you're going to have a whiteboarding challenge. And with that, let's kind of transition into talking about objects, maps and heaps because they're all pretty similar. So objects are just a collection of key value pairs. And we use them for a lot of things, especially in JavaScript, because JavaScript uses prototypal inheritance. So Kelly, do you want to explain how you use objects in your day to day programming life since that, I think is probably your favorite data structure.
+**Emma** 30:22  
+So sets are super useful, and you should definitely be aware of them if you're going to have a whiteboarding challenge. And with that, let's kind of transition into talking about objects, maps and heaps because they're all pretty similar.
 
-**Unknown Speaker** 30:53  
-I already said it is. Um, so in, in the case of Shopify in the theme development that we do All of the product data is all stored within an object. So all you have like the key value pairs, you know, the product title, the product description, the product, price, and so on. So you can grab a very specific value within that, that key value pair to display it wherever you need to do that. And there are there are like objects within objects as well, which I'm not going to go into because then it's nobody cares about the details of how everything is set up on Shopify, but I use these very regularly some, so those
+So objects are just a collection of key value pairs. And we use them for a lot of things, especially in JavaScript, because JavaScript uses prototypal inheritance. So Kelly, do you want to explain how you use objects in your day to day programming life since that, I think, is probably your favorite data structure.
+
+**Kelly** 30:53  
+I already said it is. So in the case of Shopify, in the theme development that we do, all of the product data is all stored within an object. So all... You have like the key value pairs, you know, the product title, the product description, the product, price, and so on. So you can grab a very specific value within that key value pair to display it wherever you need to do that. And there are like objects within objects as well, which I'm not going to go into because then it's nobody cares about the details of how everything is set up on Shopify, but I use these very regularly.
 
 **Ali** 31:32  
-are objects, and then they're also
+Awesome. So those are objects, and then they're also maps. I don't know, Emma, you might be able to correct me on this, but I see maps as pretty much the same thing as objects, just within different languages. That being said, maps remember the original insertion order, which dictionaries now do in Python, by default. JavaScript objects don't. So that's one difference between maps and objects, but for the most part they're pretty similar.
 
-**Unknown Speaker** 31:35  
-maps. I don't know,
-
-**Ali** 31:38  
-Emma, you might be able to correct me on this, but I see maps as pretty much the same thing as objects just within different languages. That being said, maps. Remember the original insertion order, which dictionaries now do in Python, by default, JavaScript objects don't. So that's one difference between maps and objects, but for the most part, they're they're pretty similar
-
-**Unknown Speaker** 32:03  
-out of curiosity, is there a particular benefit for remembering the original insertion order?
+**Kelly** 32:03  
+Out of curiosity, is there a particular benefit for remembering the original insertion order?
 
 **Ali** 32:09  
-If you want to iterate through them in a certain order, then it becomes handy there, okay? Or you have them sorted in some sort of way. So if you want your object to be sorted alphabetically, and output it alphabetically or something like that, then having a map where the insertion order is
+If you want to iterate through them in a certain order, then it becomes handy there.
 
-**Unknown Speaker** 32:31  
-there for you, that becomes helpful.
+**Kelly** 32:15
+Okay.
 
-**Unknown Speaker** 32:33  
-Okay? I'm honestly kind of curious, like, Why even bother at that point? Why didn't they just build it into objects? Like, it doesn't really seem like it makes that much sense to have a separate data structure for that, although I think for the key, you can have primitive and objects as the actual key, which is very interesting. So that's another difference from plain objects, but I'm just kind of curious, like, why did they split that into another data structure and JavaScript,
+**Ali** 32:16
+Or you have them sorted in some sort of way. So if you want your object to be sorted alphabetically, and output it alphabetically, or something like that, then having a map where the insertion order is there for you, that becomes helpful.
+
+**Kelly** 32:33  
+Okay.
+
+**Emma** 32:34
+I'm honestly kind of curious. Like, Why even bother at that point? Why didn't they just build it into objects? Like, it doesn't really seem like it makes that much sense to have a separate data structure for that. Although I think for the key, you can have primitive and objects as the actual key, which is very interesting. So that's another difference from plain objects, but I'm just kind of curious, like, why did they split that into another data structure in JavaScript. I don't know.
 
 **Ali** 32:56  
-not a no, I'm pretty sure that they're more memory efficient, like object are more memory efficient. And so then maps then would become less memory efficient. It also may be less performant to search for items as well, in maps relative to objects, actually really an interesting conversation because Python dictionaries which are analogous to objects in JavaScript, they used to not preserve search or put order like objects do in JavaScript. But they actually recently with a new version of Python, meet it so that the insertion order is there. So now I guess, Python dictionaries are maps instead of objects. Awesome. So let's move on to heaps. I don't know that much about heaps, to be honest. And I think I previously said that they were similar to objects, but I think that's incorrect. They're actually it's a tree based data structure trees or data structures where there is a parent node. Again, a note is a piece of data. And then they have children. So It's a hierarchical data structure, whereas most of our other data structures that we've talked about have been linear where you kind of can iterate through them or move through them in a linear way. Instead, these trees are hierarchical, where one has a hierarchy, over another. They're like parent and children, kind of like the DOM and HTML, or sorry, not the dominant HTML, but like the DOM in JavaScript or HTML, where there's a parent tag and then children ties within that that would count as a tree or your file structure on your computer. You may hear that as the file tree and there are a couple more specific types of trees. One of these is a heap, which allows you to get the maximum values or the minimum values and have them in a sorted manner. binary trees are also a really common one. These ones are aware, each parent can only have two children. A lot of times you'll see binary search trees, which allows you to sort data really well through that and then access the data in that sorted order.
+I'm pretty sure that they're more memory efficient. Like object are more memory efficient. And so then maps then would become less memory efficient. It also may be less performant to search for items as well, in maps relative to objects.
 
-**Unknown Speaker** 35:06  
-So as an FYI, I had an interview question to check whether a binary tree had a broken edge. So whether there was a cycle in the binary search tree. And so if you have a whiteboarding interview coming up, I would highly recommend knowing binary trees binding your search tree is really, really well, especially if you're not doing a front end interview. If you're doing a back end interview, I cannot recommend learning them enough. And even if you are doing a front end interview, I would still be familiar with them. I'm gonna link in the show notes every great egghead course that was done by Kyle shovelin, where he actually builds all these different data structures with JavaScript. And I cannot tell you how much that helped me in understanding binary trees as well as some of the one the data structures we're going to talk about in just a second.
+It's actually really an interesting conversation because Python dictionaries, which are analogous to objects in JavaScript, they used to not preserve search or input order, like objects do in JavaScript. But they actually, recently with a new version of Python, made it so that the insertion order is there. So now I guess, Python dictionaries are maps instead of objects.
+
+**Emma** 33:40
+Awesome. So let's move on to heaps. I don't know that much about heaps, to be honest. And I think I previously said that they were similar to objects, but I think that's incorrect. They're actually... It's a tree based data structure.
+
+**Ali** 33:52
+Trees are data structures where there is a parent node. Again, a node is a piece of data. And then they have children. So it's a hierarchical data structure, whereas most of our other data structures that we've talked about have been linear, where you kind of can iterate through them or move through them in a linear way.
+
+Instead, these trees are hierarchical, where one has a hierarchy, over another. They're like parent and children, kind of like the DOM in HTML, or sorry, not the DOM in HTML, but like the DOM in JavaScript or HTML, where there's a parent tag and then children tags within that. That would count as a tree or your file structure on your computer. You may hear that as the file tree. And there are a couple more specific types of trees.
+
+One of these is a heap, which allows you to get the maximum values or the minimum values and have them in a sorted manner. Binary trees are also a really common one. These ones are aware, each parent can only have two children. A lot of times you'll see binary search trees, which allows you to sort data really well through that and then access the data in that sorted order.
+
+**Emma** 35:06  
+So as an FYI, I had an interview question to check whether a binary tree had a broken edge. So whether there was a cycle in the binary search tree. And so if you have a whiteboarding interview coming up, I would highly recommend knowing binary trees, binary search trees really, really well. Especially if you're not doing a frontend interview. If you're doing a backend interview, I cannot recommend learning them enough. And even if you are doing a frontend interview, I would still be familiar with them.
+
+I'm gonna link in the show notes a really great Egghead course that was done by Kyle Shevlin, where he actually builds all these different data structures with JavaScript. And I cannot tell you how much that helped me in understanding binary trees as well as some of the one... the data structures we're going to talk about in just a second.
 
 **Ali** 35:47  
-So two related data structures that you'll hear talks about in conjunction with each other a lot are stacks and queues. And these are data structures where you access the data in a certain order stacks are like a stack of books where if you put a book on top of the stack, that's the book that you're going to take off first, or maybe a stack of plates. So they're all glass, or they're all like ceramic or glass. And if you take one out of the middle that will break all the other ones.
+So two related data structures that you'll hear talked about in conjunction with each other a lot are stacks and queues. And these are data structures where you access the data in a certain order. Stacks are like a stack of books where if you put a book on top of the stack, that's the book that you're going to take off first. Or maybe a stack of plates. So they're all glass, or they're all like ceramic or glass. And if you take one out of the middle that will break all the other ones.
 
 **Emma** 36:18  
-Well, that's not true. Because I do that all the time at home when I'm too lazy. Just pull out the middle. And
+Well, that's not true. Because I do that all the time at home when I'm too lazy. I just pull out the middle one. But that's not how it works in data world.
 
-**Unknown Speaker** 36:23  
-that's not how it works in data world. I love how another tangent but like you're too lazy. So you use more effort to pull out a plate from the middle of the stack.
+**Kelly** 36:25
+I love how... I know this is another tangent but like you're too lazy. So you use more effort to pull out a plate from the middle of the stack.
 
 **Ali** 36:36  
-Oh, that's a really good analogy.
+Oh, that's a really good analogy. Yeah.
 
-**Emma** 36:38  
-Yeah. Is it an analogy or is it just Kelly being lazy? I might know but my whole thing is that it takes more effort. So why why can you see you're being lazy because I can't physically hold all of the plates on top of the plate that I want to get to. Is that plate special? Is it like your your Disney print plate or something?
+**Emma** 36:39
+Is it an analogy or is it just Kelly being lazy?
 
-Well, don't you ever stack like smaller plates on bigger plates and then somebody You need a bigger plate, but it's under all the smaller plates. They're in different. Yeah.
+**Kelly** 36:43
+But no... But my whole thing is that it takes more effort. So why can you see you're being lazy?
 
-**Ali** 37:03  
-But I just have to be really careful in that case.
+**Emma** 36:48
+Because I can't physically hold all of the plates on top of the plate that I want to get to.
 
-**Unknown Speaker** 37:06  
-Well, some of us in Europe don't have large kitchens like you, Kelly. Anyway.
+**Kelly** 36:51
+Is that plate special? Is it like your your Disney print plate or something?
 
-**Unknown Speaker** 37:13  
-No, no. The other
+**Emma** 36:54
+Well, don't you ever stack like smaller plates on bigger plates and then sometimes you need a bigger plate, but it's under all the smaller plates.
 
-**Ali** 37:14  
-analogy that people always use is, if you remember in elementary school they have or cafeterias in general, yes. They have those like stacks of trays. And you can take one off the top and they kind of all like pop up a little bit, and then you can put one on top, and they'll kind of sing down a little bit
+**Kelly** 37:00
+They're in different stacks.
 
-**Unknown Speaker** 37:33  
-later. Yeah, I know.
+**Ali** 37:02
+Yeah.
+
+**Kelly** 37:03  
+But...
+
+**Ali** 37:04
+You just have to be really careful in that case.
+
+**Emma** 37:06  
+Well, some of us in Europe don't have large kitchens like you, Kelly.
+
+**Kelly** 37:10
+Thanks
+
+**Emma** 37:11
+Anyway. Sorry, continue.
+
+**Ali** 37:13  
+No, no. The other analogy that people always use is... If you remember in elementary school they have... or at cafeterias in general, I guess. They have those like stacks of trays. And you can take one off the top and they kind of all like pop up a little bit, and then you can put one on top, and they all kind of sink down a little bit.
+
+**Kelly** 37:32
+I like that.
+
+**Ali** 37:33
+Does anybody remember that?
+
+**Kelly** 37:33  
+I know what you're talking about.
 
 **Ali** 37:35  
-Yeah. Okay. Those are cool. Making sure. Yeah, super fancy. So I hear that as an analogy for sex all the time. And so the methods that you'll see on those stacks are push pop and peak pushes for adding a new item pop is for taking one off and peak is for checking to see what is the next item that would be coming off of it. I don't
+Yeah. Okay.
 
-**Unknown Speaker** 37:53  
-think I've ever used peak before. And what's the bigger runtime for the so like to add a new item? It's just oh of one right? It's just coming Some time, right?
+**Emma** 37:36
+Those are cool.
+
+**Ali** 37:37
+Just making sure. Yeah, super fancy. So I hear that as an analogy for stacks all the time. And so the methods that you'll see on those stacks are push, pop, and peek. Push is for adding a new item, pop is for taking one off, and peek is for checking to see what is the next item that would be coming off of it.
+
+**Kelly** 37:53  
+I don't think I've ever used peek before.
+
+**Emma** 37:56
+And what's the Big O runtime for these. So like to add a new item? It's just O(1), right? It's just constant time, right?
 
 **Ali** 38:00  
-So it depends on how you implement them actually. So usually under the hood, you're going to use a link to list and in that case, then it would be over one. That being said, I see a lot of people also implement them with like arrays. And in that case, you would take on the efficiency of the array. So it would be closer to Oh, event. So
+So it depends on how you implement them actually. So usually under the hood, you're going to use a linked list and in that case, then it would be O(1). That being said, I see a lot of people also implement them with like arrays. And in that case, you would take on the efficiency of the array. So it would be closer to O(n).
 
 **Unknown Speaker** 38:18  
-just to be clear, stacks in queues are not indigenous data types in a language. So you actually have to build them out with other data structures. I'm sorry, not, they're not data types. They're not indigenous data structures. So like, you wouldn't have like a stack or a queue data structure in JavaScript, you physically have to build them, whether that's with like, I don't know, like Kyle shovelin and of course, I think build some dysfunctions and you have different functions within that or he builds them as classes or something like that. So we have a class for a stack and then within that you have push, pop peak, and then how you actually implement it like you said, it could be with a linguist could be with an array, definitely. And that's the same that the same is true for a lot of these is that they're like more of these abstract data types are abstract data structures where
+So just to be clear, stacks and queues are not indigenous data types in a language. So you actually have to build them out with other data structures. I'm sorry, not, they're not data types. They're not indigenous data structures. So like, you wouldn't have like a stack or a queue data structure in JavaScript, you physically have to build them, whether that's with like, I don't know... Like Kyle Shevlin in his course, I think, built some as functions and you have different functions within that or he builds them as classes or something like that. So where you have a class for a stack and then within that you have push, pop, peek, and then how you actually implement it, like you said, Ali, it could be with a linked list, it could be with an array.
 
-**Ali** 39:04  
-they're not implemented in every single programming languages. And they might look a little bit different across them. So same thing with like trees. And up until recently sets in JavaScript though now JavaScript has set to
+**Ali** 38:54
+Definitely. And that's the same that... The same is true for a lot of these is that they're like more of these abstract data types or abstract data structures where they're not implemented in every single programming language. And they might look a little bit different across them. So same thing with like trees. And up until recently sets in JavaScript, though now JavaScript has sets too.
 
-**Unknown Speaker** 39:17  
-absolutely. So speaking of stacks and queues, let's talk about the second half that which is cues. They're very, very similar to stocks, with the exception of the the order that things are kind of like, removed. So cues are a first and first out data structure. So we can think of a queue as simply a queue or a line to buy a movie ticket. So the person who's been waiting the longest is closer to actually being able to buy the ticket than the person who's just joined the line. So the first person who gets in the line is going to be the first person who is serviced. You can also buy this using arrays or linkless. But the methods that you use are going to be a little bit different. They're called n q, dq and peak again peak is just show me the the item that's next up to be popped off. Essentially, I shouldn't use the word pop. Show me the next item, that's going to be the next dq item. But essentially, it's to insert and remove items, they just have turned terminology,
+**Emma** 39:17  
+ABsolutely. So speaking of stacks and queues, let's talk about the second half that which is queues. They're very, very similar to stacks, with the exception of the order that things are kind of like, removed. So queues are a first in first out data structure. So we can think of a queue as simply a queue or a line to buy a movie ticket. So the person who's been waiting the longest is closer to actually being able to buy the ticket than the person who's just joined the line. So the first person who gets in the line is going to be the first person who is serviced.
+
+You can also build this using arrays or linked lists. But the methods that you use are going to be a little bit different. They're called enqueue, dequeue and peek. Again peek is just show me the the item that's next up to be popped off. Essentially. I shouldn't use the word pop. Show me the next item, that's going to be the next dequeued item. But essentially it's to insert and remove items, they just have turned terminology.
 
 **Ali** 40:08  
-awesome. And a lot of these data structures that we've been talking about fall under the category of graphs and graphs are data structures that have nodes and edges. nodes are pieces of data edges are references to other nodes. And so, cues, anything that's implemented with a linked list falls under that graph category. Same thing with these trees, they fall into the graph category as well. I think a lot of the recent developments and the kind of first frontiers right now of computer science are going under graphs.
+Awesome. And a lot of these data structures that we've been talking about fall under the category of graphs. And graphs are data structures that have nodes and edges. Nodes are pieces of data, edges are references to other nodes. And so, queues... Anything that's implemented with a linked list falls under that graph category. Same thing with these trees, they fall into the graph category as well. I think a lot of the recent developments and the kind of first frontiers right now of computer science are going under graphs.
 
-**Unknown Speaker** 40:42  
-Yeah, absolutely. I think they're a great type of data structure to know and honestly, once you kind of understand the paradigm of using graphs, it's, you're really going to enjoy using them and you're going to understand why they're more efficient than others. And you're going to recognize use cases as they become apparent in your day to day work.
+**Emma** 40:42  
+Yeah, absolutely. I think they're a great type of data structure to know. And, honestly, once you kind of understand the paradigm of using graphs, it's... You're really going to enjoy using them and you're going to understand why they're more efficient than others. And you're going to recognize use cases as they become apparent in your day to day work.
 
-**Unknown Speaker** 40:58  
-Definitely. So
+**Ali** 40:58  
+Definitely.
 
-**Unknown Speaker** 41:00  
-That's really a high level introduction to all of the data structures and algorithms that you may or may not encounter in a whiteboarding interview. And we'll link again, some really great resources down in the show notes for you. And when we talk about whiteboarding interviews, things that you should know for those, you should know the basic data structures, some of the ones that we've covered like objects, arrays, linked lists, I would recommend doing stacks and queues as well as graphs and trees. And then, you know, we mentioned earlier that if you're going to know a couple of sorting algorithms, you should definitely know to maybe like mergesort and quicksort. Be also going to want to be familiar with recursion, which isn't something that we've talked about in this podcast Valley. Do you want to give a quick overview of recursion?
+**Emma** 41:00  
+So. That's really a high level introduction to all of the data structures and algorithms that you may or may not encounter in a whiteboarding interview. And we'll link again, some really great resources down in the show notes for you. And when we talk about whiteboarding interviews, things that you should know for those, you should know the basic data structures, some of the ones that we've covered like objects, arrays, linked lists. I would recommend knowing stacks and queues as well as graphs and trees.
+
+And then, you know, we mentioned earlier that if you're going to know a couple of sorting algorithms, you should definitely know two, maybe like merge sort and quicksort. But you're also going to want to be familiar with recursion, which isn't something that we've talked about in this podcast. But, Ali, do you want to give a quick overview of recursion?
 
 **Ali** 41:42  
-Yeah, so recursion is when a function calls itself within itself. So you're continuously calling the same function. Usually this is so that you can break a problem into smaller problems and then solve that smaller problem with the same sort of function. You have problems that Kind of repeat themselves. recursion is great for that. My caveat with recursion is that it's always going to be less efficient than using a while loop. And you can always use a while loop or like a, potentially a for loop. In place of recursion. recursion is just another way of looping. And I think with recruitment is that it needs to take up space on the call stack, if you're programming languages uses call stack to hold function calls. And so this leads to things like stack overflows, which is when you have too many function calls on that call stack, and it can no longer keep doing that. And so I have had people in interviews in the past tell me not to use recursion, but sometimes people will tell you to refactor to use recursion. It's usually more programmer friendly to use recursion usually the implementation is a little bit cleaner and clearer there. That being said, for the computer, in most programming languages, it's going to be more efficient to use loops. The exception is that being functional programming languages, a lot of functional programming languages have what's called tail call optimization built in. And that means that recursion is more efficient. And those that being said, that's not the case in JavaScript or Python, which are the languages we've been talking about mostly. So production is going to be less efficient in those languages, then easy loops,
+Yeah, so recursion is when a function calls itself within itself. So you're continuously calling the same function. Usually this is so that you can break a problem into smaller problems and then solve that smaller problem with the same sort of function. You have problems that kind of repeat themselves, recursion is great for that.
 
-**Unknown Speaker** 43:20  
+My caveat with recursion is that it's always going to be less efficient than using a while loop. And you can always use a while loop or like potentially a for loop in place of recursion. Recursion is just another way of looping. And I think with recursion is that it needs to take up space on the call stack. If your programming languages uses call stack to hold function calls. And so this leads to things like stack overflows, which is when you have too many function calls on that call stack, and it can no longer keep doing that.
+
+And so I have had people in interviews in the past tell me not to use recursion, but sometimes people will tell you to refactor to use recursion. It's usually more programmer friendly to use recursion. Usually the implementation is a little bit cleaner and clearer there. That being said, for the computer, in most programming languages, it's going to be more efficient to use looping. The exception is that being functional programming languages, a lot of functional programming languages have what's called tail call optimization built in. And that means that recursion is more efficient in those. That being said, that's not the case in JavaScript or Python, which are the languages we've been talking about mostly. So recursion is going to be less efficient in those languages than using loops.
+
+**Kelly** 43:20  
 I have one additional note to add about recursion. If you've never done a Google search for recursion, I highly recommend it.
 
-**Kelly** 43:27  
-Let us know if you do that and tell us your thoughts. Also, as a quick note, merge sore is going to be one of those algorithms that typically you'll see recursion and it recursively brakes on the problem until you get to the base case, which is another like important facet of recursions. You have to have a base case, say you know, recursively, call myself until I hit this condition. If you forget to base case, you're gonna hit StackOverflow and everything's going to break it's gonna be horrible. So it's important to understand recursion it can be tricky, but highly recommend learning it. And then just a few other tips for your interview. So one thing that I was taught early is to speak what's in your mind because the interviewer, you might know what's in your mind that interviewer is not going to know what you're thinking. So definitely, if you have something in your mind you're thinking about, tell them what you're thinking. And ask for clarification, if you're uncertain about things, because often these these whiteboarding questions that they give you, there are different pieces of information they have explicitly left out because they want you to question it, they want you to think about the problem find, you know, different areas that they haven't explicitly told you about and ask them. So those are two What about you, Kelly and Allie, like, what tips would you give people for interviews? I have one that goes, you know, beyond basically for any kind of interview, if you're not sure about something, so you're not sure that's totally fine. Instead of like, coming up with a an answer that doesn't actually make sense where you don't really know what you're talking about. It is totally okay to be like, I'm not sure but I have maybe approached the issue this way and see what would work there. See if it was That's totally fine. I'm a little surprised Kelly said no, bullshitting. I didn't say it. Well, you didn't. But it's inferred. No, it just the premise of like, if you're not sure, don't bs things, right? Like, just admit it. Like there's no shame. And actually, when I was at IBM, I had a manager telling me that one of the biggest things that you saw in candidates, I think that one of the reasons candidates weren't getting hired as they tried to be as an answer, not knowing if it was correct or not, but they acted like they knew it was correct. And so don't bs your way through something like just openly admit you don't know, but take educated guesses.
+**Emma** 43:27  
+Let us know if you do that and tell us your thoughts. Also, as a quick note, merge sort is going to be one of those algorithms that typically you'll see recursion in. It recursively breaks down the problem until you get to the base case, which is another like important facet of recursions. You have to have a base case. Say, you know, recursively call myself until I hit this condition. If you forget a base case, you're gonna hit stack overflow and everything's going to break. It's gonna be horrible.
+
+So it's important to understand recursion. It can be tricky, but highly recommend learning it. And then just a few other tips for your interviews. So one thing that I was taught early is to speak what's in your mind. Because the interviewer... You might know what's in your mind; the interviewer is not going to know what you're thinking. So definitely, if you have something in your mind you're thinking about, tell them what you're thinking.
+
+And ask for clarification, if you're uncertain about things, because often these whiteboarding questions that they give you, there are different pieces of information they have explicitly left out because they want you to question it, they want you to think about the problem, find, you know, different areas that they haven't explicitly told you about and ask them. So those are two. What about you, Kelly and Ali, like, what tips would you give people for interviews?
+
+**Kelly** 44:35
+I have one that goes, you know, beyond... Basically for any kind of interview, if you're not sure about something, say you're not sure. That's totally fine. Instead of like, coming up with an answer that doesn't actually make sense where you don't really know what you're talking about. It is totally okay to be like, I'm not sure but I have maybe approached the issue this way and see what would work there. Or see if it would work. That's totally fine.
+
+**Emma** 45:01
+I'm a little surprised Kelly said no bullshitting.
+
+**Kelly** 45:03
+I didn't say it.
+
+**Emma** 45:04
+Well, you didn't. But it's inferred. No, it... Just the premise of like, if you're not sure, don't bs things, right? Like, just admit it. Like there's no shame. And actually, when I was at IBM, I had a manager tell me that one of the biggest things that he saw in candidates... I think that one of the reasons candidates weren't getting hired is they tried to bs an answer, not knowing if it was correct or not, but they acted like they knew it was correct. And so don't bs your way through something. Like just openly admit you don't know, but take educated guesses.
 
 **Ali** 45:33  
-Yeah. And you can also show a really good growth mindset there to have. I don't know this yet. But I am. I love learning new things. And I know this related thing and can use that knowledge to further my knowledge and learn that thing that you asked me about or something like that, like show that you're willing to learn and excited to learn and that just because you don't know this one thing, it's not going to limit you on the job.
+Yeah. And you can also show a really good growth mindset there too of, I don't know this yet. But I am... I love learning new things. And I know this related thing and can use that knowledge to further my knowledge and learn that thing that you asked me about. Or something like that. Like show that you're willing to learn and excited to learn and that just because you don't know this one thing, it's not going to limit you on the job.
 
-**Unknown Speaker** 45:56  
-Another one is, take a take a moment to really think about it. Your answer before just immediately jumping in, it's okay to pause, you know, might feel like an awkward pause to you. But if it's useful to be gathering your thoughts before giving an answer, again, totally fine. And you know, the interviewer may be like, they may, you know, in the pause, they may be like, do you need like, guidance or whatever? And you could say, No, I'm ready to go now. You know, whatever, whatever happens, it doesn't really matter. But point being don't feel rushed to immediately answer every single question the moment it's asked.
+**Kelly** 45:56  
+Another one is, take a moment to really think about your answer before just immediately jumping in. It's okay to pause. You know, it might feel like an awkward pause to you. But if it's useful to be gathering your thoughts before giving an answer, again, totally fine. And you know, the interviewer may be like, they may, you know, in the pause, they may be like, do you need like, guidance or whatever? And you could say, No, I'm ready to go now. You know, whatever happens, it doesn't really matter. But point being don't feel rushed to immediately answer every single question the moment it's asked.
 
 **Ali** 46:27  
 Definitely. I also think writing pseudocode as a first step is a good idea. Unless they tell you specifically not to do that. But writing out your thoughts in plain English and thinking about the steps that you might take to solve a problem could be a really great first step.
 
-**Kelly** 46:42  
-You know, it's super funny. We as I had an interview with a very well known company, who's notorious for giving very hard whiteboarding interviews, and I did that I wrote pseudocode on the whiteboard before going to the the computer that they had given me. And one of the pieces of feedback they gave me was I took too long to physically write the code like they Like I spent too long pseudo coding, and not enough time physically writing JavaScript. And I was like, Are you serious? Like, that's your feedback. That's kind of ridiculous, in my opinion, because I took, I took 20 minutes out of 40 to actually think through the problem from like a pseudo code perspective, and fix all the bugs before writing it, that like knocked me down. That's wild. And I think one last thing I want to just another tip, a last tip is to think about the edge cases when you're testing. So one, always test your solutions, think about different inputs and outputs. But also think about the edge cases, like different inputs that can be passed that might break it. That's going to be a big one, and it'll help you iron out some of the bugs, definitely. So if you want to learn more, we're going to link some things down in the show notes. When I was studying for technical interviews, educative was a great platform for me, they have a ton of different like study guide courses. And hacker rank was another one. You can definitely go practice your algorithmic coding on, although I will say it's a lot harder and personally I don't use hackers. Because I find like the, the problems are very, I don't know, I personally find them very like mathematics based and like, they just don't really jive with me very well. I did read Cracking the Coding interview, which is the book that everyone recommends. And what I did, because I was doing JavaScript based programming was I took their solutions, which I believe are written in Java or C, I can't remember. And I, I transcribed them over into JavaScript. That was a really good, like, practice for me.
+**Emma** 46:42  
+You know, what's super funny to me is I had an interview with a very well known company, who's notorious for giving very hard whiteboarding interviews, and I did that. I wrote pseudocode on the whiteboard before going to the computer that they had given me. And one of the pieces of feedback they gave me was that I took too long to physically write the code. Like they... Like I spent too long pseudocoding, and not enough time physically writing JavaScript. And I was like, Are you serious? Like, that's your feedback. That's kind of ridiculous, in my opinion, because I took, I took 20 minutes out of 40 to actually think through the problem from like a pseudocode perspective, and fix all the bugs before writing it. That like knocked me down.
+
+**Ali** 47:20
+That's wild.
+
+**Emma** 47:21
+And I think one last thing I want to just... Another tip, a last tip is to think about the edge cases when you're testing. So one, always test your solutions, think about different inputs and outputs. But also think about the edge cases, like different inputs that can be passed that might break it. That's going to be a big one, and it'll help you iron out some of the bugs.
+
+**Ali** 47:40
+Definitely.
+
+**Emma** 47:41
+So if you want to learn more, we're going to link some things down in the show notes. When I was studying for technical interviews, Educative was a great platform for me. They have a ton of different like study guide courses. And HackerRank was another one. You can definitely go practice your algorithmic coding on. Although I will say it's a lot harder and personally I don't use HackerRank because I find like the problems are very... I don't know, I personally find them very like mathematics-based and, like, they just don't really jive with me very well.
+
+I did read _Cracking the Coding Interview_, which is the book that everyone recommends. And what I did, because I was doing JavaScript-based programming was I took their solutions, which I believe are written in Java or C. I can't remember. And I transcribed them over into JavaScript. So that was a really good, like, practice for me.
 
 **Ali** 48:26  
-I didn't exactly the same thing with Python way back in the day. But yeah, so definitely, Cracking the Coding interview, I think is a really helpful book. Um, that being said, I think I also want to say that interviews at all companies don't necessarily look like this. Most companies that I have actually interviewed at. Don't ask these types of data structures and algorithms questions. Some companies do, like the big big tech companies normally do. And like the unicorns, unicorn startups usually do as well. Things that most more local companies are early stage startups. I haven't noticed them asking these types of questions as much.
+I didn't exactly the same thing with Python way back in the day. But yeah, so definitely, _Cracking the Coding Interview_ I think is a really helpful book. That being said, I think I also want to say that interviews at all companies don't necessarily look like this. Most companies that I have actually interviewed at don't ask these types of data structures and algorithms questions. Some companies do, like the big big tech companies normally do. And like the unicorns. Unicorn startups usually do as well. That being said, most... more local companies or early stage startups, I haven't noticed them asking these types of questions as much.
 
-**Unknown Speaker** 49:07  
-It's gonna come as a huge surprise. But I don't ask these questions either.
+**Kelly** 49:07  
+This is gonna come as a huge surprise. But I don't ask these questions either.
 
 **Ali** 49:11  
-Yeah, I don't either. When I interview people,
+Yeah, I don't either when I interview people.
 
-**Kelly** 49:13  
-I don't think they're indicative of a person's future success that a company personally, like I've seen, we could do a whole episode on, like how we should hire maybe that's a great episode to do. And we do have a feature. Lots of thoughts on that one. Yeah, a future episode on engineering management coming up, you know, later in the season. And I think maybe we could talk about the hiring process. But yeah, these whiteboarding interviews, unless you have a very seasoned interviewer understands, like how to actually collaborate with someone and they can go horribly wrong. I've had interviews whiteboarding, where the interviewer just wanted to trick me or they wanted to show me how smart they were and the questions were not going to be related to my day job. Like as a front end developer, I should not be having to fix a broken binary tree. I think that's ridiculous. These are not things that you would see in the real world. Yeah,
+**Emma** 49:13  
+I don't think they're indicative of a person's future success at a company, personally. Like...
+
+**Ali** 49:16
+Same.
+
+**Emma** 49:17
+We could do a whole episode on, like, how we should hire. Maybe that's a great episode to do. And we do have a future...
+
+**Kelly** 49:21
+I have lots of thoughts on that one.
+
+**Emma** 49:23
+Yeah, we have a future episode on engineering management coming up, you know, later in the season. And I think maybe we could talk about the hiring process. But yeah, these whiteboarding interviews... Unless you have a very seasoned interviewer who understands like how to actually collaborate with someone. They can go horribly wrong. I've had interviews whiteboarding, where the interviewer just wanted to trick me or they wanted to show me how smart they were and the questions were not going to be related to my day job. Like as a frontend developer, I should not be having to fix a broken binary tree. I think that's ridiculous. These are not things that you would see in the real world.
 
 **Ali** 49:57  
-agreed. So we're giving you All this education because it's something that we've seen in interviews, I actually use some of these things on a day to day basis at work, too. But we don't think that this is right. We don't necessarily think that companies should ask these types of questions. We're just trying to give you an education so that you can be there to answer those questions if they come up. also wanted to shout out BCS, which is an incredible series by by Dickie Joshi. It started off as a series of blog posts that are illustrated, they're incredible that it spun into a video series on death and also a podcast with Sironi beric from ko newbie. So definitely shout that out. I think that that is an incredible resource for diving deeper on all these things that we talked about today. I also love doing co challenges with Project Euler and advent of code. I like the more mathematical problems. So those are fun for me. And they tend to use these types of data structures and algorithms that we talked about today. So great for practicing Those
+Yeah, agreed. So we're giving you all this education because it's something that we've seen in interviews. I actually use some of these things on a day to day basis at work, too. But we don't think that this is right. We don't necessarily think that companies should ask these types of questions. We're just trying to give you an education so that you can be there to answer those questions if they come up.
 
-**Unknown Speaker** 51:00  
-awesome, I learned a ton.
+Also wanted to shout out BaseCS, which is an incredible series by Vaidehi Joshi. It started off as a series of blog posts that are illustrated. They're incredible. Then it spun into a video series on Dev and also a podcast with Saron Yitbarek from CodeNewbie. So definitely shout that out. I think that that is an incredible resource for diving deeper on all these things that we talked about today. I also love doing code challenges with Project Euler and Advent of Code. I like the more mathematical problems. So those are fun for me. And they tend to use these types of data structures and algorithms that we talked about today. So great for practicing those.
 
-**Unknown Speaker** 51:05  
-And I also did not learn a lot, because I need to look at the additional resources to really dig in a little bit more to understand, again, since I have no you know, background knowledge and a lot of this it's more about about learning for curiosity sake, as opposed to my next whiteboard interview, that's probably never going to happen. But to be fair, you probably will never need to know any of this. So yeah, it's like, you know, pick your battles of what to learn and not at this point in your career, I would say you have bigger and better things to
+**Kelly** 51:00  
+Awesome, I learned a ton. And I also did not learn a lot, because I need to look at the additional resources to really dig in a little bit more to understand. Again, since I have no, you know, background knowledge in a lot of this, it's more about about learning for curiosity sake, as opposed to my next whiteboard interview. That's probably never going to happen.
 
-**Unknown Speaker** 51:35  
-see like the stack of books that I'm reading Mason, mainly most of my focus right now is on learning how to be a better manager business owner, as opposed to these details. So I do like how you said stack
+**Emma** 51:23
+But to be fair, you probably will never need to know any of this. So yeah, it's like, you know, pick your battles of what to learn and not. At this point in your career, I would say you have bigger and better things to be focused on.
+
+**Kelly** 51:35  
+You can see like the stack of books that I'm reading. Mainly most of my focus right now is on learning how to be a better manager, business owner, as opposed to these details. So...
 
 **Emma** 51:46  
-of books. Oh,
+I do like how you said stack of books.
 
-**Unknown Speaker** 51:50  
-totally did that intentionally.
+**Kelly** 51:50  
+Oh, totally did that intentionally.
 
-**Ali** 51:52  
-Awesome. Awesome. Do we want to do a quick round of shout outs?
+**Emma** 51:52  
+Awesome.
 
-**Unknown Speaker** 51:56  
-Yeah, yeah, absolutely. So one thing I recently retweeted is a blog post called JavaScript visualize prototypal inheritance. So this woman, Lydia, Holly, I believe is how you say it. She's been posting like this really awesome blog posts on the practical div. And they're all animated and they're all about things JavaScript D like the JavaScript engine and prototypal inheritance. She does an amazing job. So I'm going to link her article down below. She's definitely someone to watch.
+**Ali** 51:53
+Awesome. Do we want to do a quick round of shout outs?
 
-**Unknown Speaker** 52:22  
-Mine's nothing related to this, but pop sugar released their 2020 reading challenge checklist, which is basically I think, like 4050 books or more how many of the different various various topics and it kind of helps you step out of your comfort zone of the books you normally read? So I'm going through that list with one of my friends right now. So definitely worth checking out.
+**Kelly** 51:56  
+Yeah.
+
+**Emma** 51:57
+Yeah, absolutely. So one thing I recently retweeted is a blog post called JavaScript Visualized: Prototypal Inheritance. So this woman, Lydia Hallie, I believe is how you say it, she's been posting like these really awesome blog posts on the Practical Dev. And they're all animated and they're all about things JavaScripty, like the JavaScript engine and prototypal inheritance. She does an amazing job. So I'm going to link her article down below. She's definitely someone to watch.
+
+**Kelly** 52:22  
+Mine's nothing related to this, but Pop Sugar released their 2020 reading challenge checklist, which is basically I think, like 40, 50 books, I don't rememver how many, of like different variant various topics. And it kind of helps you step out of your comfort zone of the books you normally read. So I'm going through that list with one of my friends right now. So definitely worth checking out.
 
 **Ali** 52:44  
-Amazing. I'm pulling that up right now
+Ooh, amazing. I'm pulling that up right now.
 
 **Emma** 52:46  
-as a my alley. What about you? Do you have a shout out?
+As am I. Ali, what about you? Do you have a shout out?
 
 **Ali** 52:49  
-I kind of said this already, but it goes with the episode I want to give a huge shout out again to be CS. The series by British heroes you I used it so much When I was trying to learn all of this and self teach it after really feeling like I couldn't learn these things when I was in college and thought that I had just, like wasn't smart enough to learn them. So her series really helped me to learn these things. And so I want to give it a second shout out here.
+I kind of said this already, but it goes with the episode, I want to give a huge shout out again to BaseCS. The series by Vaidehi Joshi. I used it so much when I was trying to learn all of this and self teach it after really feeling like I couldn't learn these things when I was in college and thought that I had just, like wasn't smart enough to learn them. So her series really helped me to learn these things. And so I want to give it a second shout out here.
 
-**Unknown Speaker** 53:15  
-Awesome. Well, cool, I hope those listening phone this episode to be helpful. So let's close this out. If you liked this episode, tweet about it. We'd love to get your feedback. And we post new episodes every Monday so make sure you're subscribed to be notified in the three
+**Kelly** 53:15  
+Awesome. Well, cool, I hope those listening found this episode to be helpful. So let's close this out. If you liked this episode, tweet about it. We'd love to get your feedback. And we post new episodes every Monday so make sure you're subscribed to be notified. And leave us a review.
 
 Transcribed by https://otter.ai
