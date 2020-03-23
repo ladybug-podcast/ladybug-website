@@ -2,7 +2,7 @@
 title: "Indie Hacking"
 formattedDate: "March 23, 2020"
 date: "2020-03-23"
-audio: "https://pinecast.com/listen/ae0a649c-24ac-4b62-9106-abb170b6129a.mp3"
+audio: "https://pinecast.com/listen/361b3da8-ee44-46ea-b07d-57ff5ce86f19.mp3"
 path: "/indie-hacking"
 description: "This week we have a super exciting episode, we’re chatting with Courtland Allen, the founder of Indie Hackers. We’re going to talk about what indie hacking is, how to get started with it, and his advice for gaining traction with indie products. Let’s get started!"
 episode: "Season 2 Episode 11"
