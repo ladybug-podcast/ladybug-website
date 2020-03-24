@@ -7,7 +7,7 @@ path: "/working-remotely"
 description: "In recent years, working remotely has become a more popular office perk not only among startups but enterprise businesses as well. Some companies even ONLY work remotely. In this week’s episode, we’ll discuss our experiences working remotely, the pros and cons from an employer and employee standpoint, and provide some advice on whether or not working remotely is a good fit for you."
 episode: "Season 1 Episode 19"
 length: "38:37"
-transcript: ../../transcripts/19-working-remotely.md
+transcript: ../../../transcripts/19-working-remotely.md
 ---
 
 # Sponsors

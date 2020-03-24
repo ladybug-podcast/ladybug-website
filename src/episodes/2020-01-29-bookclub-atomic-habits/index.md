@@ -7,7 +7,7 @@ path: "/atomic-habits"
 description: "We're so excited for the first-ever Ladybug Podcast book club episode! This is a bonus episode which will occur at the end of each month. This month we’re discussing Atomic Habits by James Clear."
 episode: "Bonus"
 length: "00:32:52"
-transcript: ../../transcripts/26-bookclub-atomic-habits.md
+transcript: ../../../transcripts/26-bookclub-atomic-habits.md
 ---
 
 # Show notes

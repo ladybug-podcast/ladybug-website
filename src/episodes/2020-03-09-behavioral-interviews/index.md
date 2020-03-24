@@ -7,6 +7,7 @@ path: "/behavioral-interviews"
 description: "Interviewing is hard, and while we all probably focus primarily on the technical interviews, the behavioral interviews can make or break your success. In two previous episodes we discussed data structures and algorithms as well as the frontend technical interview process. This week we’re covering the behavioral and cultural side of interviews - essentially the rest of the interview that doesn’t include the technical questions."
 episode: "Season 2 Episode 10"
 length: "00:50:05"
+transcript: ../../../transcripts/33-behavioral-interviews.md
 ---
 
 # Sponsors

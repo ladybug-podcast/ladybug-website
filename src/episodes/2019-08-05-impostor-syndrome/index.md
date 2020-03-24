@@ -7,7 +7,7 @@ path: "/impostor-syndrome"
 description: "Have you ever been scared to contribute to a conversation or publish a blog post because you were worried you weren’t qualified enough? Wondered how you got to the point you’re at in your career because you feel you don’t belong? Or that you’re a fraud? You’re not alone! In this episode, we discuss how we have experienced impostor syndrome and our personal strategies for combatting it."
 episode: "Season 1 Episode 6"
 length: "41:17"
-transcript: ../../transcripts/06-impostor-syndrome.md
+transcript: ../../../transcripts/06-impostor-syndrome.md
 ---
 
 # Show notes

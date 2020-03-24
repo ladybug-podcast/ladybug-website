@@ -7,7 +7,7 @@ path: "/shopify-and-e-commerce"
 description: "If you’ve ever seen Kelly’s Twitter account then you’ve probably heard of Shopify, an E-commerce platform that gives you everything you need to sell online. This week we’re talking to JML, CTO at Shopify, and we’re giving you all the details."
 episode: "Season 1 Episode 18"
 length: "34:56"
-transcript: ../../transcripts/18-shopify-and-e-commerce.md
+transcript: ../../../transcripts/18-shopify-and-e-commerce.md
 ---
 
 # Sponsors

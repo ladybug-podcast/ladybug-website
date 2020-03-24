@@ -7,7 +7,7 @@ path: "/ask-kelly-about-entrepreneurship"
 description: "Today we are doing a deep dive about entrepreneurship with our in house business owner, Kelly! Everyone can benefit from thinking entrepreneurially, even people who don’t want to start their own business. We’re going to ask Kelly about all the things that we are curious about and scare us about entrepreneurship."
 episode: "Season 1 Episode 9"
 length: "39:47"
-transcript: ../../transcripts/09-ask-kelly-about-entrepreneurship.md
+transcript: ../../../transcripts/09-ask-kelly-about-entrepreneurship.md
 ---
 
 # Sponsors

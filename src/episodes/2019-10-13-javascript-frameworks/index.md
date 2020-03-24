@@ -7,7 +7,7 @@ path: "/javascript-frameworks"
 description: "You've probably heard about some of the JavaScript frameworks that dominate the front end ecosystem. And this week's podcast we'll be discussing the pros and cons of JavaScript frameworks, go into detail about React, Vue, and Angular, and discuss tools and resources for how you can get started with these frameworks."
 episode: "Season 1 Episode 16"
 length: "51:01"
-transcript: ../../transcripts/16-javascript-frameworks.md
+transcript: ../../../transcripts/16-javascript-frameworks.md
 ---
 
 # Sponsors

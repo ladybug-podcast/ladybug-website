@@ -7,6 +7,7 @@ path: "/whats-on-our-computers"
 description: "This week we’re giving you all the details about our computer setups including our hardware preferences, browsers, desktop software, code editor and CLI settings, and top productivity tools. We’ll also tell you some of our miscellaneous preferences like most used emoji and current desktop photo."
 episode: "Season 2 Episode 10"
 length: "00:52:32"
+transcript: ../../../transcripts/34-whats-on-our-computers.md
 ---
 
 # Sponsors
@@ -127,7 +128,6 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
   - Git Lens
   - Code Runner
   - Snippets
-
 
 # Transcript
 

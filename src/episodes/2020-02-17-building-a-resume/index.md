@@ -7,6 +7,7 @@ path: "/resumes"
 description: "Whether you’re seeking your first developer job or you’re looking to move to a new company, your resume is the first thing employers will see. Having a strong resume is what sets you apart from the competition. In this week’s episode we’re discussing all things resume-building, including what’s important to include, what can be skipped, and best practices for creating your resume."
 episode: "Season 2 Episode 6"
 length: "00:40:59"
+transcript: ../../../transcripts/29-building-a-resume.md
 ---
 
 # Sponsors

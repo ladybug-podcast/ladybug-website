@@ -8,7 +8,7 @@ path: "/how-the-ladybugs-got-their-spots"
 description: "In this episode, we're getting to know the ladybug hosts, both on technical and non-technical topics. Listen in to learn about our favorite tech stacks, our biggest career milestones, favorite books, and more."
 episode: "Seaon 1 Episode 5"
 length: "37:28"
-transcript: ../../transcripts/05-how-the-ladybugs-got-their-spots.md
+transcript: ../../../transcripts/05-how-the-ladybugs-got-their-spots.md
 ---# Show notes
 
 **0:36** - Favorite stacks

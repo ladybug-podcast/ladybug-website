@@ -7,8 +7,8 @@ path: "/invisible-women"
 description: "Imagine a world where your phone is too big for your hand, where your doctor prescribes a drug that is wrong for your body, where in a car accident you are 47% more likely to be seriously injured, where every week the countless hours of work you do are not recognized or valued. If any of this sounds familiar, chances are that you're a woman."
 episode: "Season 2 Episode 8"
 length: "01:20:07"
+transcript: ../../../transcripts/31-invisible-women.md
 ---
-
 
 # Show notes
 

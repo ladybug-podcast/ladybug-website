@@ -7,7 +7,7 @@ path: "/design-systems"
 description: "Design systems are in the world around us from the signs on the side of the highway to the setup of a grocery store and our products are no exception. But what exactly our design systems and how do we build them? In this episode, we'll take a look at the foundations of design systems, the benefits and drawbacks, and the process for creating one from the ground up."
 episode: "Season 1 Episode 13"
 length: "39:48"
-transcript: ../../transcripts/13-design-systems.md
+transcript: ../../../transcripts/13-design-systems.md
 ---
 
 # Sponsors

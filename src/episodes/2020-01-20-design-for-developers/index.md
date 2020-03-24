@@ -9,7 +9,7 @@ description: "One of the biggest things that developers struggle with is design.
 This episode we’re joined by Steve Schoger, co-author of the hugely popular Refactoring UI. We’ll learn some design tips and dive into the story behind the book as well as his other projects Hero Patterns and Hero Icons."
 episode: "Season 2 Episode 2"
 length: "00:43:37"
-transcript: ../../transcripts/24-design-for-developers.md
+transcript: ../../../transcripts/24-design-for-developers.md
 ---
 
 # Sponsors

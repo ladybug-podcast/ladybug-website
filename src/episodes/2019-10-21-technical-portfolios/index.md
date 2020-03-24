@@ -7,7 +7,7 @@ path: "/technical-portfolios"
 description: "This week we're talking all things portfolios. What can a portfolio do for you? How can you build one? Do you even need a portfolio to be successful? This week we'll delve into the world of portfolios."
 episode: "Season 1 Episode 17"
 length: "31:33"
-transcript: ../../transcripts/17-technical-portfolios.md
+transcript: ../../../transcripts/17-technical-portfolios.md
 ---
 
 # Sponsors

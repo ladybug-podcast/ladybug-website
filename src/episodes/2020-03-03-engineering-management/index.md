@@ -7,6 +7,7 @@ path: "/engineering-management"
 description: "In one of our previous episodes, we talked about different jobs within tech, one of which is engineering management. Today we’re joined by the wonderful Amal Hussein, engineering manager at NPM and we’re going to chat more in-depth about her career path."
 episode: "Season 2 Episode 9"
 length: "00:50:05"
+transcript: ../../../transcripts/32-engineering-management.md
 ---
 
 # Sponsors
@@ -52,7 +53,6 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
 **42:13** - Advice for those looking to become an engineering manager
 
 **46:44** - Where can we find you online?
-
 
 # Resources
 

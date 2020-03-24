@@ -7,7 +7,7 @@ path: "/web-technologies-were-excited-about"
 description: "The landscape of technologies you can learn in the development world can be overwhelming if you don't know where to go next. In this episode, we discuss the technologies we're most excited about. From CSS to GraphQL, Django to WebAssembly, and design to augmented reality - we cover it all."
 episode: "Season 1 Episode 4"
 length: "39:01"
-transcript: ../../transcripts/04-web-technologies-were-excited-about.md
+transcript: ../../../transcripts/04-web-technologies-were-excited-about.md
 ---
 
 # Show notes

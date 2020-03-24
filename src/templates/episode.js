@@ -42,16 +42,20 @@ export default function Template({ data }) {
         <Link to="/episodes">
           <button className="button button-border">Back to episodes</button>
         </Link>
-        <div
+        <section
+          id="showNotes"
           dangerouslySetInnerHTML={{
             __html: html,
           }}
         />
-        <div
-          dangerouslySetInnerHTML={{
-            __html: transcript.childMarkdownRemark.html,
-          }}
-        />
+        {transcript && (
+          <section
+            id="transcript"
+            dangerouslySetInnerHTML={{
+              __html: transcript.childMarkdownRemark.html,
+            }}
+          />
+        )}
       </main>
       <Footer />
     </div>
