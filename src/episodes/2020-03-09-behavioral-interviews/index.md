@@ -13,7 +13,7 @@ length: "00:50:05"
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
-<a class="image-link" target="_blank" href="http://aws-amplify.github.io/"><img src="../../images/sponsors/aws-amplify.png" alt="AWS Amplify"></a>
+<a class="image-link" target="_blank" href="http://aws-amplify.github.io/?utm_term=ladybug+aws+amplify"><img src="../../images/sponsors/aws-amplify.png" alt="AWS Amplify"></a>
 
 AWS Amplify is a suite of tools and services that enables developers to build full stack serverless and cloud-based web and mobile apps using their framework or technology of choice on the front end.
 

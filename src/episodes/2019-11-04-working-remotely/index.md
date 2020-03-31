@@ -13,7 +13,7 @@ length: "38:37"
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
-<a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
+<a class="image-link" target="_blank" href="https://www.recurse.com/about?utm_term=ladybug+recurse"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
 
 When’s the last time you worked on that side project you’re always thinking about? How much progress could you make if you had three months to work and learn in a room full of smart, friendly, intellectually curious programmers?
 

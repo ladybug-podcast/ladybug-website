@@ -17,7 +17,7 @@ A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested 
 
 Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers?utm_term=ladybug+shopify">shopify.com/careers</a> today.
 
-<a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
+<a class="image-link" target="_blank" href="https://www.recurse.com/about?utm_term=ladybug+recurse"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
 
 When’s the last time you worked on that side project you’re always thinking about? How much progress could you make if you had three months to work and learn in a room full of smart, friendly, intellectually curious programmers?
 
