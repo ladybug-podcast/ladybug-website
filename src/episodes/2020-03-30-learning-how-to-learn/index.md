@@ -13,9 +13,9 @@ length: "00:47:42"
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
-<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
+<a class="image-link" target="_blank" href="https://www.shopify.com/careers?utm_term=ladybug+shopify"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
-Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers">shopify.com/careers</a> today.
+Are you a developer looking for your next challenge? Meet Shopify. We’re on a mission to make commerce better for everyone - but we do things a bit differently. We don’t tell people how to solve problems - we give them the tools, trust, and autonomy to build new solutions. We don’t work alone - we leverage the diverse perspectives across our teams in everything we do. And we don’t have all the answers - we’re big enough to tackle problems at scale but small enough that we haven’t figured them all out. If you’re a builder at heart who wants to solve highly technical problems. If you want to take all of your life experiences and apply them to a blank canvas. Or if you want access to really powerful tools - Shopify is the place for you. Visit <a target="_blank" href="https://www.shopify.com/careers?utm_term=ladybug+shopify">shopify.com/careers</a> today.
 
 # Show notes
 
@@ -26,7 +26,7 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 **19:34** - Find your niche and stick to it
 **23:45** - Focused vs. Diffuse thinking
 **26:12** - Chunking
-**29:11** - Bloom’s Taxonomy 
+**29:11** - Bloom’s Taxonomy
 **33:19** - Fixed vs. Growth mindset
 **35:20** - Advice for learning
 **40:53** - Emotional cycle of change
@@ -37,7 +37,7 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 - [Moonwalking with Einstein](https://www.amazon.com/Moonwalking-Einstein-Science-Remembering-Everything/dp/0143120530)
 - [Learning how to learn Coursera course](https://www.coursera.org/learn/learning-how-to-learn)
 - [Key takeaways from Learning how to learn course](https://medium.com/learn-love-code/learnings-from-learning-how-to-learn-19d149920dc4
-https://andymatuschak.org/books/?utm_source=Maker+Mind&utm_campaign=1a03e37d30-MAKER_MIND_034&utm_medium=email&utm_term=0_d634852cd6-1a03e37d30-127428599&mc_cid=1a03e37d30&mc_eid=f879fd2b96)
+  https://andymatuschak.org/books/?utm_source=Maker+Mind&utm_campaign=1a03e37d30-MAKER_MIND_034&utm_medium=email&utm_term=0_d634852cd6-1a03e37d30-127428599&mc_cid=1a03e37d30&mc_eid=f879fd2b96)
 - [Fixed vs Growth Mindset](https://nesslabs.com/growth-mindse)
 - [Mindset](https://www.amazon.com/Mindset-Psychology-Carol-S-Dweck/dp/0345472322)
 - [Atomic Habits Episode](https://ladybug.dev/atomic-habits)
