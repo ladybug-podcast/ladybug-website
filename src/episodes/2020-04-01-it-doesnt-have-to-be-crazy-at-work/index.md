@@ -2,7 +2,7 @@
 title: "It Doesn’t Have To Be Crazy At Work"
 formattedDate: "April 1, 2020"
 date: "2020-04-01"
-audio: "https://pinecast.com/listen/7f7715c3-ce05-4899-bbf7-5c0e53f231a9.mp3"
+audio: "https://pinecast.com/listen/85d814d3-0ada-4d68-b874-e74b3ed09109.mp3"
 path: "/it-doesnt-have-to-be-crazy-at-work"
 description: "How often have you found yourself working late into the night at the office? Or maybe taking advantage of the quote unquote benefits like free dinner only to realize that your work life balance is strained? If this sounds like you, chances are it might be crazy at work.
 
