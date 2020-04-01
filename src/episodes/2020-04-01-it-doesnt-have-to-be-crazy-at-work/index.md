@@ -4,12 +4,11 @@ formattedDate: "April 1, 2020"
 date: "2020-04-01"
 audio: "https://pinecast.com/listen/85d814d3-0ada-4d68-b874-e74b3ed09109.mp3"
 path: "/it-doesnt-have-to-be-crazy-at-work"
-description: "How often have you found yourself working late into the night at the office? Or maybe taking advantage of the quote unquote benefits like free dinner only to realize that your work life balance is strained? If this sounds like you, chances are it might be crazy at work.
-
-For this month’s Ladybug Podcast book club, we read \"It Doesn't Have to be Crazy at Work\" by Jason Fried and David Heinemeyer Hansson, best known as DHH. In it, they share their expertise about maintaining a healthy work life balance and how they’ve implemented these measures at their company, Basecamp."
+description: "How often have you found yourself working late into the night at the office? Or maybe taking advantage of the quote unquote benefits like free dinner only to realize that your work life balance is strained? If this sounds like you, chances are it might be crazy at work."
 episode: "Season 2 Episode 13"
 length: "00:52:10"
 ---
+
 # Show notes
 
 **00:40** - What is Basecamp?
@@ -19,7 +18,7 @@ length: "00:52:10"
 **29:01** - They'll do as you do
 **32:28** - Goals
 **37:03** - Structuring Projects
-**39:44** - Issues with the book 
+**39:44** - Issues with the book
 **43:51** - Thoughts From The Goodreads Group
 
 # Resources
