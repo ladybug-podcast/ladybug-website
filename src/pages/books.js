@@ -14,18 +14,21 @@ class BooksPage extends Component {
       {
         month: 'January',
         link: 'https://www.goodreads.com/book/show/40121378-atomic-habits',
+        link_aria: "Details of Atomic Habits on Goodreads.com",
         image: data.atomicHabits.childImageSharp.fixed,
         alt: "Atomic Habits: An Easy & Proven Way to Build Good Habits & Break Bad Ones - By James Clear"
       },
       {
         month: 'February',
         link: 'https://www.goodreads.com/book/show/41104077-invisible-women',
+        link_aria: "Details of Invisible Women on Goodreads.com",
         image: data.invisibleWomen.childImageSharp.fixed,
         alt: "Invisible Women: Exposing Data Bias in a World Designed for Men - By Caroline Criado-Perez"
       },
       {
         month: 'March',
         link: 'https://www.goodreads.com/en/book/show/38900866-it-doesn-t-have-to-be-crazy-at-work',
+        link_aria: "Details of It Doesn't Have to Be Crazy at Work on Goodreads.com",
         image: data.itDoesntHaveToBeCrazyAtWork.childImageSharp.fixed,
         alt: "It Doesn't Have to Be Crazy at Work - By David Heinemeier Hansson and Jason Fried"
       }
@@ -38,7 +41,7 @@ class BooksPage extends Component {
           <a href={book.link} target="_blank">
             <Img fixed={book.image} alt={book.alt} />
           </a>
-          <a href={book.link} className="button button-border" target="_blank" rel="noopener noreferrer">
+          <a href={book.link} className="button button-border" target="_blank" rel="noopener noreferrer" aria-label={book.link_aria}>
             Details
           </a>
         </div>
