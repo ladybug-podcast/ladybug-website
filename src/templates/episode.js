@@ -3,8 +3,15 @@ import { Link, graphql } from "gatsby"
 import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Player from "../components/Player"
+import Helmet from "react-helmet"
 
 import SEO from '../components/seo'
+
+function format_timerequired(length) {
+  const length_arr = length.split(":");
+  const time_required = ('PT'+(length_arr[0] === '00' ? '' : parseInt(length_arr[0])+'H')+(length_arr[1] === '00' ? '' : parseInt(length_arr[1])+'M'))
+  return time_required;
+}
 
 export default function Template({ data }) {
   const {
@@ -23,9 +30,35 @@ export default function Template({ data }) {
     description: description,
   }
 
+  const schema = {
+    "@context": "http://schema.org/",
+    "@type": "PodcastEpisode",
+    "url": "https://ladybug.dev"+path,
+    "name": title,
+    "datePublished": formattedDate,
+    "timeRequired": format_timerequired(length),
+    "description": description,
+    "associatedMedia": {
+      "@type": "MediaObject",
+      "contentUrl": audio
+    },
+    "partOfSeries": {
+      "@type": "PodcastSeries",
+      "name": "Ladybug Podcast",
+      "url": "https://ladybug.dev/"
+    }
+  };
+
+  const JSONschema = JSON.stringify(schema)
+
   return (
     <div>
       <SEO episodeInfo={episodeInfo} />
+      <Helmet>
+        <script type="application/ld+json">
+          {JSONschema}
+        </script>
+      </Helmet>
       <PageHeader />
       <main>
         <Player
