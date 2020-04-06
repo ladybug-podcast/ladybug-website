@@ -41,7 +41,7 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
 - [Invisible Women](https://www.penguin.co.uk/books/111/1113605/invisible-women/9781784706289.html)
 - [Grammarly](https://www.grammarly.com)
 - [LinkedIn](https://www.linkedin.com/)
-- [XING](www.xing.com)
+- [XING](https://www.xing.com)
 - [Portfolio Site Episode](https://www.ladybug.dev/technical-portfolios)
 - [GitHub](https://github.com/)
 - [Lemon Productions](https://www.lemonproductions.ca/)
