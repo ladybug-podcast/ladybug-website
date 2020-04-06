@@ -2,7 +2,7 @@
 title: "Web Developer Learning Path"
 formattedDate: "April 06, 2020"
 date: "2020-04-06"
-audio: "https://pinecast.com/listen/7f7715c3-ce05-4899-bbf7-5c0e53f231a9.mp3"
+audio: "https://pinecast.com/listen/8c676ed3-bd30-4801-82e7-d8f31efcfdf6.mp3"
 path: "/web-developer-learning-path"
 description: "There are so many ways to learn to code, and so many things to know. Today we’ll give our perspectives on different paths you can take. Whether you’re looking for your first dev job or you’re looking to advance your web development knowledge, we’ll be covering a ton of different options for you."
 episode: "Season 2 Episode 14"
