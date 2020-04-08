@@ -14,6 +14,7 @@ Check out our website [here](https://www.ladybug.dev/)!
 ## About our website
 
 Our podcast website is built using [Gatsby](https://gatsbyjs.org) and is fully open source! Find a bug? Think something could be better presented? Open a PR or issue and let us know!
+The website will be available in other languages soon.
 
 ## How to use
 
