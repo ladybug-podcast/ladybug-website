@@ -5,7 +5,7 @@ Whether you're seeking your first developer job, or you're looking to move to a 
 Welcome to the Ladybug podcast. I'm Kelly.
 
 **Ali** 0:24
-I'm Allie.
+I'm Ali.
 
 **Emma** 0:25
 And I'm Emma. And we're debugging the tech industry.
