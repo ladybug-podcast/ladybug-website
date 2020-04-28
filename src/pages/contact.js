@@ -43,11 +43,10 @@ const ContactPage = () => (
         analytics, 35% of our listeners are women, far outpacing the industry.
       </p>
       <p>
-        Our podcast is new, but growing fast. We hit the 35,000 listens mark a
-        month after our first episode. Our first episode has reached 8,000
-        listens before it was four weeks old. Each episode is passing the 5k
-        listens mark one week after publication. The growth has been enormous,
-        and we expect these numbers to keep climbing rapidly.
+        Moving into our third season, we have over 290,000 listens from our
+        first 38 episodes. We average 5,000 listeners in the first week after
+        releasing an episode, and some of our episodes have well over 10,000
+        listens. We're very excited about the future of our podcast!
       </p>
       <p>
         Our episodes are released first thing each Monday morning, and are about
@@ -55,12 +54,11 @@ const ContactPage = () => (
       </p>
       <h3>Sponsorship Pricing</h3>
       <ul>
-        <li>One $1,000 pre-roll slot</li>
+        <li>Two $1,000 pre-roll slots</li>
         <li>Two $800 mid-roll slots</li>
       </ul>
       <h3>What's Included</h3>
       <ul>
-        <li>A post-roll slot</li>
         <li>
           Your logo, link, and description on our website on the episode's page
         </li>
@@ -68,30 +66,31 @@ const ContactPage = () => (
           A link to your site within the show notes syndicated to podcast
           clients and our RSS feed
         </li>
+        <li>
+          Event tracking on your logo to track clicks from our website to yours
+        </li>
       </ul>
       <h3>Episode Format</h3>
       <ul>
         <li>An introduction to what the episode is about</li>
         <li>Our jingle</li>
-        <li>The pre-roll sponsor</li>
+        <li>Pre-roll sponsors</li>
         <li>The first half of the episode</li>
         <li>Mid-roll sponsors</li>
         <li>The second half of the episode</li>
-        <li>Post-roll shoutouts</li>
       </ul>
-
       <p>
         We can customize your message in keeping with our tone and experiences,
         or deliver a script you send us. We do want to make sure we are excited
         about our sponsors, and we would love to participate in demos or even
-        build sample apps ourselves if applicable and possible.
+        build sample apps ourselves if applicable and possible. Each
+        advertisement is approximately 1 minute in length.
       </p>
       <p>
-        We ask for a 3 episode minimum agreement for sponsorship so that you
-        consistently reach our audience each week.
-      </p>
-      <p>
-        Send us an email at <span className="highlight">hello@ladybug.dev</span>{" "}
+        Send us an email at{" "}
+        <a href="mailto:hello@ladybug.dev" className="highlight">
+          hello@ladybug.dev
+        </a>{" "}
         with any questions or to sponsor the show!
       </p>
     </main>
