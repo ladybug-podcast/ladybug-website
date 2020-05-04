@@ -7,7 +7,7 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
 
   return graphql(`
     {
-      allMarkdownRemark {
+      allMarkdownRemark(filter: { frontmatter: { title: { ne: "" } } }) {
         edges {
           node {
             frontmatter {
@@ -21,7 +21,6 @@ exports.createPages = ({ boundActionCreators, graphql }) => {
     if (res.errors) {
       return Promise.reject(res.errors)
     }
-
     res.data.allMarkdownRemark.edges.forEach(({ node }) => {
       createPage({
         path: node.frontmatter.path,

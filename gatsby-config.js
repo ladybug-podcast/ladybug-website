@@ -29,6 +29,13 @@ module.exports = {
     },
     `gatsby-plugin-mdx`,
     {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        path: `${__dirname}/transcripts`,
+        name: "transcripts",
+      },
+    },
+    {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
         fonts: [`Montserrat`],

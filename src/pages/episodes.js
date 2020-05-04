@@ -27,7 +27,10 @@ const EpisodesPage = ({ data }) => (
 
 export const blogsQuery = graphql`
   query {
-    allMarkdownRemark(sort: { fields: [frontmatter___date], order: DESC }) {
+    allMarkdownRemark(
+      sort: { fields: [frontmatter___date], order: DESC }
+      filter: { frontmatter: { title: { ne: "" } } }
+    ) {
       edges {
         node {
           frontmatter {

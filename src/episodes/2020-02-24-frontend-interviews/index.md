@@ -9,6 +9,7 @@ description: "Programming interviews are terrifying. There’s so much to learn 
 In this episode, we’ll dive into the frontend technical interview and give some tips and tricks for nailing it."
 episode: "Season 2 Episode 7"
 length: "00:51:41"
+transcript: ../../../transcripts/30-frontend-interviews.md
 ---
 
 # Show notes
@@ -40,7 +41,6 @@ length: "00:51:41"
 - [Code Wars](https://www.codewars.com/)
 - [Exercism.io](https://exercism.io/)
 - [Leet Code](https://leetcode.com/)
-
 
 # Transcript
 

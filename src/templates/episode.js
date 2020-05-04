@@ -4,7 +4,7 @@ import PageHeader from "../components/PageHeader"
 import Footer from "../components/Footer"
 import Player from "../components/Player"
 
-import SEO from '../components/seo'
+import SEO from "../components/seo"
 
 export default function Template({ data }) {
   const {
@@ -15,6 +15,7 @@ export default function Template({ data }) {
     length,
     path,
     audio,
+    transcript,
   } = data.markdownRemark.frontmatter
   const { html } = data.markdownRemark
 
@@ -41,11 +42,20 @@ export default function Template({ data }) {
         <Link to="/episodes">
           <button className="button button-border">Back to episodes</button>
         </Link>
-        <p
+        <section
+          id="showNotes"
           dangerouslySetInnerHTML={{
             __html: html,
           }}
         />
+        {transcript && (
+          <section
+            id="transcript"
+            dangerouslySetInnerHTML={{
+              __html: transcript.childMarkdownRemark.html,
+            }}
+          />
+        )}
       </main>
       <Footer />
     </div>
@@ -64,6 +74,11 @@ export const postQuery = graphql`
         length
         description
         audio
+        transcript {
+          childMarkdownRemark {
+            html
+          }
+        }
       }
     }
   }

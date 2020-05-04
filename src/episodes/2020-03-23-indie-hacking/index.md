@@ -7,6 +7,7 @@ path: "/indie-hacking"
 description: "This week we have a super exciting episode, we’re chatting with Courtland Allen, the founder of Indie Hackers. We’re going to talk about what indie hacking is, how to get started with it, and his advice for gaining traction with indie products. Let’s get started!"
 episode: "Season 2 Episode 11"
 length: "00:41:37"
+transcript: ../../../transcripts/35-indie-hacking.md
 ---
 
 # Sponsors

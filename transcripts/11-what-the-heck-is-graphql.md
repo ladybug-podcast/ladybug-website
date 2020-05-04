@@ -1,6 +1,3 @@
-**Ali** [0:00]
-There's so many different paths that your career can follow in the tech industry. You can be a software engineer, a QA engineer, a UX engineer, manager, developer advocate, and even more. So in this episode, we're going to explore a lot of those paths. And let's go ahead and get started.
-
 **Kelly** [0:00]
 Before we jump into the episode we wanted to address some of the changes will be making to this podcast. One of our hosts Lindsey Kopacz has left the team for personal reasons and we wish her all the best.
 
