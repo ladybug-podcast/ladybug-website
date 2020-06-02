@@ -1,4 +1,5 @@
 import React from 'react'
+import './pages.css'
 
 import SEO from '../components/seo'
 
