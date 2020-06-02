@@ -13,7 +13,7 @@ length: "20:34"
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
-<a class="image-link" target="_blank" href="https://do.co/ladybug">
+<a class="image-link" target="_blank" href="https://do.co/ladybug?utm_term=ladybug+digital+ocean">
 <img src="../../images/sponsors/digitalocean.svg" alt="Digital Ocean Website">
 </a>
 

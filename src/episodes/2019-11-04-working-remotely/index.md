@@ -13,7 +13,7 @@ length: "38:37"
 
 A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested in becoming a Ladybug Podcast sponsor? Head over to our Contact page for more details.
 
-<a class="image-link" target="_blank" href="https://www.recurse.com/about"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
+<a class="image-link" target="_blank" href="https://www.recurse.com/about?utm_term=ladybug+recurse"><img src="../../images/sponsors/RC_logo.svg" alt="Recurse Center" /></a>
 
 When’s the last time you worked on that side project you’re always thinking about? How much progress could you make if you had three months to work and learn in a room full of smart, friendly, intellectually curious programmers?
 
@@ -25,7 +25,7 @@ Whether you’ve been programming for six months or 30 years, RC is for you. May
 
 You can attend a retreat in Brooklyn for one, six, or 12 weeks. RC is free for everyone, and offers living expense grants of up to \$7,000 to people from underrepresented groups. They have an integrated recruiting agency, and offer career support whether you’re looking for your first programming job or want to find a senior role at a great company.
 
-Learn more about RC and how to apply at: [www.recurse.com](www.recurse.com)
+Learn more about RC and how to apply at: [www.recurse.com](https://www.recurse.com)
 
 # Show notes
 

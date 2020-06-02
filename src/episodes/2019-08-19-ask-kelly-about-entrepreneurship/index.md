@@ -17,9 +17,9 @@ A huge thank you to our sponsors for supporting the LadyBug Podcast! Interested 
 
 Sanity.io is a platform for structured content that comes with an open source editor that you can customize with React. Sanity.io also comes with tooling that lets you build with structured content in React, Vue, and other frontend technologies like Svelte. It also has powerful APIs for reading and writing so that you can use the same content across any device, channel, or product. You also get powerful APIs for querying your content, you can even listen for changes in real-time, and use the write APIs to patch and make new documents from code. You can get started for free on the standard plan, and add a credit card to pay as you go for usage over the generous standard quotas. If you need advanced features like SSL and Single-Sign-On you can find all the prices and details on Sanity.io's fully transparent pricing page. Listeners of the Ladybug Podcast get a extra special plan with double the usage. Go to <a target="_blank" href="https://www.sanity.io/ladybug">sanity.io/ladybug</a> or use "ladybug" where you fill in the coupon code.
 
-<a class="image-link" target="_blank" href="https://www.shopify.com/careers"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
+<a class="image-link" target="_blank" href="https://www.shopify.com/careers?utm_term=ladybug+shopify"><img src="../../images/sponsors/shopify.svg" alt="Shopify Careers"></a>
 
-Have you taken time off from your career as a software developer? Get back into it with Welcome Back by Shopify. If you’ve taken extended leave for sickness, parental, or personal reasons, Welcome Back by Shopify will help you re-enter the tech industry with confidence. Refresh your software development skills and get hands-on training with this immersive, 3-month paid program…built by Shopify’s Engineering team. Welcome Back also rebuilds context gathering, cross-team communication, and problem identification muscles to help developers reenter the workforce at a senior level. This program is available in Shopify’s Ottawa and Toronto offices but if you’re interested in visiting Canada and coding, be sure to apply! Who knows, maybe you’ll unlock a new career in a new country! Experienced software developers can apply before September 13th by searching Shopify Welcome Back or visiting <a target="_blank" href="https://www.shopify.com/careers">shopify.com/careers</a>.
+Have you taken time off from your career as a software developer? Get back into it with Welcome Back by Shopify. If you’ve taken extended leave for sickness, parental, or personal reasons, Welcome Back by Shopify will help you re-enter the tech industry with confidence. Refresh your software development skills and get hands-on training with this immersive, 3-month paid program…built by Shopify’s Engineering team. Welcome Back also rebuilds context gathering, cross-team communication, and problem identification muscles to help developers reenter the workforce at a senior level. This program is available in Shopify’s Ottawa and Toronto offices but if you’re interested in visiting Canada and coding, be sure to apply! Who knows, maybe you’ll unlock a new career in a new country! Experienced software developers can apply before September 13th by searching Shopify Welcome Back or visiting <a target="_blank" href="https://www.shopify.com/careers?utm_term=ladybug+shopify">shopify.com/careers</a>.
 
 <a class="image-link" target="_blank" href="https://jamstackconf.com/"><img src="../../images/sponsors/netlify.svg" alt="JAMStack Conf Website"></a>
 
@@ -82,7 +82,7 @@ Podcast listeners can save 10% using the discount code “ladybug” when you si
 - [Profit First](https://profitfirstbook.com/)
 - [The Effective Manager](https://www.manager-tools.com/products/effective-manager-book)
 - [Manager Tools Podcast](https://www.manager-tools.com/)
-- [Shopfiy](https://www.shopify.com/)
+- [Shopify](https://www.shopify.com/)
 - [Dev Jokes](https://dev.to/t/jokes)
 
 # Transcript

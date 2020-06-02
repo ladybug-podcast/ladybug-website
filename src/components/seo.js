@@ -37,7 +37,7 @@ function SEO({ description, lang, meta, title, episodeInfo }) {
       htmlAttributes={{
         lang,
       }}
-      title={title}
+      title={metaTitle}
       titleTemplate={`%s | ${site.siteMetadata.title}`}
       meta={[
         {
