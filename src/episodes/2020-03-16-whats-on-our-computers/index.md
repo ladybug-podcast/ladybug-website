@@ -130,4 +130,4 @@ To learn more, visit <a href="http://aws-amplify.github.io/">aws-amplify.github.
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/33-behavioral-interviews.md" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/34-whats-on-our-computers.md" target="_blank" class="highlight">here!</a>
