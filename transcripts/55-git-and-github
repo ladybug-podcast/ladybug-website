@@ -1,0 +1,281 @@
+Ali  0:00  
+Yet is both simple and complex. You can usually get through your workday by memorising a few commands, but under the hood, there's so much more to it. Today we'll dive deep into get with a special guest, Monica pal. Let's dive in.
+
+Kelly  0:17  
+Welcome to the ladybug podcast. I'm Kelly. I'm Allie. And I'm Emma and we're debugging the tech industry. Vonage is a cloud communications platform that allows developers to integrate voice, video and messaging into their applications using their communication API's. Whether you're wanting to build video calls into your app, create a Facebook bot, or build applications on top of programmable phone numbers. You'll have all the tools you need, formerly known as nexmo. Vonage has you covered for all API communications projects, sign up for an account at nexmo dot dev slash Ladybug and use promo code LD bu g 10 for 10 euro of free credit. Again, that's nexmo dot dev slash Ladybug and use code LDBU G 10 for 10 euro of free credit AWS m phi is a suite of tools and services that enables developers to build full stack serverless and cloud based web and mobile apps using their framework or technology of choice on the front end. Using amplify you can quickly get up and running with things like hosting authentication, managed graph qL serverless, functions API's, machine learning chat bots and storage for files like images, videos and PDFs amplify is built especially in a way to enable traditionally front end developers like myself to be successful because they can use their existing skill sets to build real world full stack apps that in the past would require deep knowledge around back end DevOps and scalable infrastructure to amplify console then allows you to use the GitHub repository to deploy a globally available CDN with ci NCD built in, you can learn more about building applications with amplify at AWS amplify dot info slash Ladybug. Again, that's AWS amplify dot info slash Ladybug.
+
+Ali  2:00  
+So really excited today to have a special guest with us to record this good episode. So Monica, you want to go ahead and introduce yourself.
+
+Monica  2:08  
+Hi, everyone. I'm Monica Powell. I'm a software engineer at Newsela. And I am also very active online within the open source community. And I was recently selected to be a GitHub star based on my involvement within the community. I'm so excited to be here today to talk a bit more about Git.
+
+Kelly  2:29  
+Awesome, thanks so much for being here. So I think we can just kind of dive right in, I think it's probably worth starting at the difference between Git and GitHub, because they are not the same thing. So what is Git?
+
+Monica Powell  2:44  
+Um, so Git is a soft version control software. So it's actually powering underlying what most people will probably come to expect, when they're interacting with a site like GitHub to make changes to shared code. But a lot of the social aspects of using Git and GitHub are a lot of the social aspects of using Git are built because of GitHub. So GitHub is providing like this social interface on top of gifts, software, so in order to be able to collaborate easily, visually, a lot of that is powered by git, whereas like the actual underlying logic of how different changes are resolved, and such is powered by Git.
+
+Ali  3:29  
+I like to explain this sometimes to new developers as like, you know, on your computer, how you'll often have resume v one v two resume for extra resume for why job, normally, you'd want to track those updates and have them in one place. And get allows you to do that for your software. So you'll have multiple versions of the same software on different branches. And then you can have multiple developers collaborating to that. And it's easy to track. And so if anything goes wrong, we can kind of go back in history and go back to a commit or a place that worked and then GitHub as the social network on top of that.
+
+Kelly  4:09  
+I never considered GitHub to be a social network, but I guess it is.
+
+Ali  4:13  
+Yeah, it kind of is, you know, you can follow people and work together and collaborate on projects. So yeah, that's, I think that how I would explain it.
+
+Kelly  4:23  
+I like that. I like that analogy. I, when I was finishing up my audio book, for a start freelancing today, my husband was one who actually edited the file, and he uploads the file, just being audiobook v3 final underscores, it was literally the only copy of it, but you know, might as well just go with it.
+
+Ali  4:44  
+classic, classic, that's such a thing, when you're like editing things or whatever, but Git takes care of that process for us of code. So you don't need to have a file named final or multiple file files at all. You can just have different branches pretty much So and then with GitHub that's a remote so it's like where the code is hosted. And you can collaborate with other developers on there. But there are also other remotes as well like Git lab and Bitbucket. Does Bitbucket still exist, they still exist, it does still exist, unfortunately.
+
+Kelly  5:18  
+Okay, no, like no hate against Bitbucket. I used it when GitHub did not have the free availability for private repos. But I still have some clients who use Bitbucket and they keep on wanting me to push all of my all of our code over to over to Bitbucket. And I really don't appreciate it. I can't exist in two spaces at the same time, it just does not work here.
+
+Ali  5:44  
+I think I have one maybe with code on it from when I was a baby Dev. And different tutorials would have like pushed to Bitbucket instead of push to GitHub, and I didn't realise that I could just push it to GitHub and set up. So I was like, Okay, I guess this code just goes on Bitbucket, that again, it's my only Bitbucket experience.
+
+Kelly  6:04  
+So how does Git lab very, like I've never used GitHub before. Have either of you used it?
+
+Monica  6:09  
+So I'm only using GitHub for I guess my Git version control on a remote place. So I'm not super sure like what the differences are between my understanding is GitHub is by far like the most mature and like the most adopted of the platforms. So I've just stuck with that.
+
+Ali  6:27  
+I have a couple of friends who have worked for Git lab. I know they're deep in the view community, I think they're probably built on view, oh, my guess like Git hubs built on rails. But I think they also had some differences with the private repositories back in the day, which was a big selling point. But now GitHub has those as well. So I'm not really sure if there are too many different features at this point, but just different alternatives.
+
+Monica  6:56  
+Well, one cool thing about Git lab is that it's open source. So you can actually, like see how the website works end to end, where it's like everything on GitHub, or a lot of the infrastructure on GitHub is private, there are certain parts of the infrastructure that are exposed. For example, if you want to know like how GitHub analyses the languages of a repository, there's a repository for you to go into that I believe it's called language. But I know some people prefer Git lab because of their commitment to actually being completely open source. So that may be like a differentiator for some people, depending on where they're coming from.
+
+Ali  7:35  
+Okay. Oh, that's, that's a big one. That's really interesting.
+
+Kelly  7:39  
+So what do you say we start digging into some of the concepts around good, because I know when I first started learning how to do anything with version control, git was super overwhelming, because I'm like, What are all these commands? And how am I going to remember all of these, so let's, I feel let's start at the very basics. Cool, should we talk about add first, because I feel like that's the one that well get a net is the first one. So maybe we should talk about get a net first. So it does get meant to.
+
+Monica  8:06  
+Um, so if you have a directory on your or folder on your local computer, um, if you want to actually start tracking the versions of changes, you need to run git init, which will create an empty repository. And you may not actually notice any differences visually, I know for like Mac computers, you have to go and look into the hidden hidden, like dot files in order to see like what was created by the get a net, and then you'll start seeing there's like this Git folder, and it has a bunch of stuff in it that is necessary for you to track the changes. So that's definitely a good place to start. If you're not like using a pre existing repository, and you're starting from scratch on your computer.
+
+Kelly  8:54  
+I've never actually looked under the hood of what's in that docket for now that I'm thinking about it.
+
+Ali  8:58  
+This is a really deep concept. So there's this blog post series that I love that's understanding get for real by exploring the dot get directory, so we can actually link that in the show notes. Because I think it's probably a lot to try to explain on air because it's like a directive graph, data structure and all these really complex things. So it might be better just to link that blog post, but it is really cool. There's so many different files that are generated and then it just tracks the diffs between the different there's
+
+Kelly  9:32  
+so many, there's so much in here. I'm just like scrolling through this blog post and Okay, well, I guess I know what I'm going to be doing doing today. Okay, so now we've established in it let's go to add because this is another command that we use a lot. So what does the Add command do?
+
+Monica  9:52  
+Um, so the Add command will actually make it so that Git is tracking specific files. So when you are when you First, like initialise, the repo and, or Yeah, the Git repo get isn't gonna, like automatically add every single file into like the version control history, you have to explicitly like opt in that you wanted to track changes for certain files. And so if you do git add, you can do like a dot, which would add every single file within the within the current directory, which I don't recommend. I did it a lot when I was first using learning to use Git. But you can then like accidentally add files that you don't mean to commit meaning like large generated files, or if you have secret files, like secret, meaning containing like API keys or sensitive data. So I would recommend actually, like adding using Git Add to add, like, specific files or specific folders. Um, and you also, it kind of goes along with having a git ignore so that way,
+
+Kelly  11:00  
+if you do do git add, anything that's within the Git ignore file will not be added to the version control history, which is important, I think, just to make to make everyone's life easier. Um, yeah, I think that getting nor file is actually something that's really worth touching on in more detail, like what exactly it does, because, as you said, you don't want to be tracking literally everything in that directory. Otherwise, you're going to be exposing potential API keys and environmental variables, and all those fun things that the world should not be seeing. So setting up that Git ignore file is really key to me, it's one of the first things that I do. And thankfully, GitHub helps with templating it for you to, you know, not track node modules, for example, because nobody wants to track their node modules folder.
+
+Ali  11:53  
+I love that, um, I've had students in the past, they're like, oh, get pushes, taking, like 15 minutes to run, like, what is going on, I don't understand, like, Oh, your node modules, there's like, thousands and thousands of files are already on GitHub. We don't need to reverse those on there. That's why it's taking like 15 minutes virgin foster on. But also API key is you don't want to rack up a bunch of charges, because somebody stole your API key. super important
+
+Kelly  12:22  
+that there's some this might be a bit of a tangent of sorts. But let's say you forgot to include something on that Git ignore file. And it includes let's say, an API key, you can remove something from the remote, you know, wherever it is, but it still in some sense exists on there, doesn't it? Like there's a history of it?
+
+Monica  12:45  
+Yes. So if you just depending on how you, like, update, your your files in Git at once is pushed to the remote repository that's kind of like in the public, or maybe not the public, but like other people who have access to that repository, you can view it. Um, and you really have to rewrite the history of get a certain way in order to off off the skate keys. When you are trying to remove them from this day, I would recommend probably just invalidating the key versus like, messing around with get too much in order to try to conceal something that was accidentally committed. I would be the one who just like removes everything and just starts fresh.
+
+Kelly  13:32  
+Just Just take the yes RMR off just like delete everything.
+
+Ali  13:38  
+Yeah, rm rf dot get. That's, that's funny. Okay, cool. So commit, I believe, is the next one that we need to talk about. So what does commit do?
+
+Monica  13:51  
+Um, so git commit is associating, like, start in, like, if you make changes to multiple files, or just make changes to one file, and then you, you add the default version of that file to get and then when you actually commit, it's like, you're creating some type of description of what those changes were. And so later, you can look based off of like, if you're looking at the description, or each commit will have like a unique hash, you can look up by the hash, and, and go directly back to those changes. So it's helpful for you to actually track kind of like in human readable language, what changes were made together and what what was happening.
+
+Kelly  14:39  
+So let's talk about that a little bit more. As far as the messages go, the descriptions, there's such thing as a good commit message and there's such thing as a not so good commit message. As you know, please work is probably not going to be very helpful. Button mashing the keyboard is probably also not going to be helpful.
+
+Ali  15:00  
+Be real though we've all been there, we've always all had the like, please work
+
+Kelly  15:04  
+or test again, or please work this time, we've all had that commit method, my best selling product on my store is the git log that says me saying please work 14 times. So yeah. Okay, so now let's move to the next stage. So we've added some files, we're committing those changes with the message. So now we need to actually push that up to remote. So
+
+Monica  15:30  
+what is git push. So when you do get pushed, that's actually pushing those changes up to some remote URL. So when you do the, well, I guess, when you do get a net, you don't usually have a remote URL set up. So you would have to like before, when you actually push, I guess, make sure that you have a remote URL set so that Git knows where those changes should be pushed up to. And you can always like change that your later if you need to. And like if you fork something from GitHub, or clone somebody from GitHub, or it will usually already have it will already have those remote URLs set, and you can potentially changed them depending on your purposes. But back so I guess original question, get pushes making it so that those changes on your local file system and get are actually being reflected in some other place, based off of the URL that you said,
+
+Kelly  16:30  
+I have a weird question. And I don't know if either of you know the answer to this. But what is the origin of origin? Like why Where did that come from? as being like the default that we use, like git push origin mean, for example? No idea. No idea. I just typed? Yeah, no. It's these things that we just kind of learned to use over time. Like, I don't know why I'm using this, but I'm using it anyway.
+
+Monica  16:56  
+I mean, yeah, I'm not sure if it's like the remote. It's supposed to be like the central place. But yeah, I'm not sure where the name came from.
+
+Ali  17:05  
+Uh, one other quick tangent, before we move on, there's a really funny Twitter account that pulls whenever you have a swear word and your commit message, it like, tweets it out. And so it's called developer swearing. It's pretty, pretty funny. It'll be things like, some of these are really bad, but
+
+Kelly  17:23  
+these are really great. I'm trying to I'm
+
+Ali  17:25  
+trying shit again, or I fucked up, removed yet. It's just super funny, cuz they're not good commit messages. But we've all been there been frustrated at our code.
+
+Monica  17:37  
+I mean, this is so
+
+Kelly  17:40  
+relatable.
+
+Ali  17:43  
+So early on.
+
+Kelly  17:45  
+Okay, I'm going to be scrolling through that. I'll probably go back to this. Okay.
+
+Ali  17:50  
+No, you're good. It's like real, too. It's not just that the Twitter account making these up. It's like pulled from the GitHub API. Okay, cool. So we've talked about commit, push. So these are the ones that I would say you'll probably use like all day, every day, but add commit push trio. Whenever you want your code to be backed up to a remote like GitHub or something along those lines, you'll need to run those three commands to get your code up there. So let's say those are like the fundamental three commands.
+
+Kelly  18:21  
+I think another one is a lot is get pull.
+
+Ali  18:24  
+You know, we've been talking about AWS amplify and how it's a really fast and easy way to develop mobile and web apps on AWS. Are you interested in finding out more? Well, if you are, we have good news. AWS just announced open registration for their annual a big event. It's called reinvent. No surprise that it's a virtual event this time, but the new news is they've made it a free event this year. There are plenty of amplifi sessions from general interest sessions to deeper dives, you should check them out. Use this URL to find out more about the sessions and register www dot AWS amplified dot info slash Ladybug to again that's www dot AWS amplify dot info slash Ladybug to
+
+Kelly  19:08  
+keep track of code changes in real time with data dog create customizable dashboards forget and 400 plus other technologies in minutes using a simple drag and drop interface. Easily analyse your Git commits alongside your other applications, metrics and events. So you can track the performance impact of your code changes. Try data dog today with a free trial at data dog.com slash Ladybug. If you instal the agent, data dog, we'll send you a free t shirt. Again, that's data dog.com slash Ladybug.
+
+Ali  19:38  
+So we should also talk about Paul or rebase.
+
+Kelly  19:41  
+I can't honestly like rebase is not something that I use regularly. So it is not something that I can really speak with any sense or any any knowledge of I would just be making some things up. But Git pull is something that I use a lot which is pulling from the remote down locally. Sarah, you You can pull like a specific branch or you can, you know, wherever you are, so you can pull what's what's most recently updated on the GitHub repo down to your local environment, which is really useful, especially if you're collaborating with multiple developers.
+
+Monica  20:13  
+Yeah, I would also say like I use pull a lot more than I use rebase. I know for a rebase, you're actually like rewriting the Git history. And so that might be helpful in the case of like, if you if you leave your API keys, or if you want to clean up changes that you made, like if you had like 10, like, does this work, commit, and commit, then you might want to squash though, or rebase those into something that is more meaningful. But um, I know that if you if you're, if you're pushing to a shared bear branch, you do want to be careful about rebasing, because it does affect other people's workflows in a different way than like, most pushes to share GitHub branches, since it is actually rewriting the history and changing some of changing the hashes for some of the commits. So people may like, lose it their work or run into more merge conflicts, like it can all be resolved, but it can cause like unnecessary problems if you're rebasing a branch that you've pushed to remote and other people are also using that same branch.
+
+Ali  21:19  
+Yeah, I've actually worked on teams that use like a push pull workflow and teams that work on a rebase workflow. So instead of running like a push for your final commit, or whatever you would do a rebase. And so I think they're just two different workflows, and depends on whatever team that you're working on, like what they end up using.
+
+Monica  21:41  
+Yeah, I definitely think just making sure everyone's like on the same page, in terms of the workflow will go the wrong way. But if people are doing different things, there could be a conflict or Sure,
+
+Kelly  21:51  
+yeah, this is this is where documentation about your build process is very useful.
+
+Ali  21:56  
+Yeah, or a commit? Or what's it called a contributor document, which has your rules for how people commit to your repo, they contribute? How Yeah, that's how you can be a good member of the community. And I think we'll talk about that a little bit too, later on is how to actually contribute to open source and the best practices for that.
+
+Kelly  22:23  
+So let's talk about branches. Because when you create a GitHub repo, there is a default main branch there. But theoretically, you should not be doing all of your work on that one main branch, you should be creating multiple branches. So let's talk about the concept of a branch first, like what exactly does it mean to create a branch?
+
+Monica  22:44  
+I'm trying to think of a good like, I guess the best visual is kind of like a church. like adding the good lingo, but um, so like, your main bread, your your like, I guess, yeah, the main thing is still a branch. So you can kind of think of like the main branches like the tree trunk. And then if you want to make changes that are based off of the main branch, and it will eventually go back into the main branch, you won't want to like branch off into it and create your own separate branch. And then like, as you make changes, they're isolated to that branch. And then, like on GitHub, if you open a pull request, then you can compare, like all of the changes that you made that are isolated to your branch, to the main branch, and depending on what changes have happened, since you made changes, you might have to like, update to pull in the latest changes from the main branch, but it's kind of like just setting it up so that you can isolate what the changes are that you're making so that you're not like polluting the main branch and you also clearly know like, what changes are being introduced before they're actually introduced into the the main branch?
+
+Ali  24:01  
+Definitely, I almost think you could think of it as almost a subway map or something along those lines, whatever it's called in your city, New York subway, DC, Metro, anything along the Marta in I have no idea about Atlanta. Um, I actually got my social media like flashbacks, and I was actually in Atlanta a year ago as of this recording, and I went, Oh, girl was so different. So sad, though the world is a different place. Um, but you can think of it almost as a subway map, or maybe multiple lines start out at the same station. So they started in the same place, and then they branch out so that they can go to different locations. And along the ways, they have different stations, which would be our commits, they're like little stops along the way, but then maybe those divergent lines come back together at certain points and Different things that you might have different branches for would be for a feature that you're working on. So if you're working on a new user interface component or something along those lines, or a brand new addition to your application, you would probably do that on a branch, you would probably have a branch for different bug fixes. What else do you have different branches.
+
+Kelly  25:22  
+So we do if we're doing let's say, we're redesigning an entire product display page for a client for a merchant, we'll have one primary feature branch that's going to consist of all the changes once you're ready to push the page live. And then each developer as they're working on different features, from they branch off of that primary branch. So they merge into the new feature branch before we merge that into the main. So kind of creating, like, as you said, like working our way out. So again, you can track who's working on what over this whole large feature.
+
+Ali  25:57  
+Yeah, and different teams will have different conventions for that, as well, there are different Git workflows that you may have to follow. And the ones that we've been kind of talking about normally fit under the name like Git flow, and that's the strategy we've kind of been talking about. But I know there are different good strategies as well.
+
+Monica  26:14  
+I've done like some trunk based development where you are actually pushing changes directly to the main branch. And so that's working in kind of this, like extreme programming environment, doing a lot of pairing or there's also mobbing where you're working with at least two other engineers, and making sure that like, other people are getting their eyes on code before it goes into the main branch. They're really relying a lot on automation, in terms of detecting detecting regressions and things like that, and knowing that you can quickly revert, which is a very different workflow, then working primarily on on branches and opening pull requests. And so I have had experience like with both workflows,
+
+Kelly  26:59  
+I want to unpack some of the some of what you just said there just for some definition. So let's start with extreme programming. What is that
+
+Monica  27:06  
+I'm not sure of like the textbook definition of machine programming. But in terms of it, from my understanding, it's focusing on emphasising a lot of like communication and close collaboration. And in order to reduce the feedback cycles when you're developing. So if you are doing some, if you're mainly like working by yourself, and then pushing up a pull request to to GitHub, then there's probably going to be a lapse before another engineers able to actually review the changes that she made. So when you're doing extreme programming, that those like feedback cycles are a lot tighter, because you can just like in real time, talk through like different approaches and changes that you want to make. So that's how I like came to understood extreme programming, like looking for ways to to optimise like feedback cycles, there's also a large emphasis on test driven development within within extreme programming and really like building out a robust, like test infrastructure, which is important if you are going to be like pushing directly to to the main branch, and then that's going to go out into production or some other deployment pipeline. So that's kind of how I have come to understand understand it. But there's like books that are written about extreme programming and blog posts, if people are interested in really like diving more into the the specific definitions and practices that are, within that philosophy, it sounds so intense, like just by the name of it, like like, I'm just like extreme programming, just like slamming on the keyboard typing really quickly, kind of thing. So it's really not what it is. I mean, I think it can sometimes feel and kind of just in terms of like, um, it's very different. I think mentally like just like coding alone versus like, coding with someone else. And like, having to go through like back and forth that whole process with somebody else, I think it kind of does push you a little bit differently than then working alone does. I've also done like some mob programming for one of my old teams, we wanted to refactor a lot of our code, but we wanted to make sure that everyone was on the same page about, like, what the conventions were, that we were using moving forward. And so we got we were able to accomplish a lot like, one single person wouldn't have been able to, like make the decisions of what conventions we want, and there would have been like, it would have taken a lot longer if if we did it like asynchronously. Um, so I would say there are like some, like intense or extreme aspects to to doing extreme programming for sure.
+
+Kelly  29:47  
+mob programming sounds kind of fun, like also frustrating but also kind of fun. I've never like I've always worked kind of in a very solo environment, maybe pairing with like one other person, but having multiple people work on the same page. problem at the same time and the same machine just seems like it'd be a cool experience. Yeah, it could be cool. One other thing that you mentioned are regressions. So what? What regressions?
+
+Monica  30:14  
+Um, so regressions are when you have something like in production, everything works fine. So say you have an e commerce site, users can check out, everything's good. And then you push some changes, maybe they were on the shopping cart page, maybe they weren't. And then you realise, like, Oh, wait, people can't add items to their car anymore. So at some point, there was some type of change that was introduced into the codebase that caused that like vital user flow to to break. So you could have different types of regressions. So you could have visual regressions where maybe visually, the the website no longer looks how it should, but at one point, it did. Or you could have, like, I would say, more extreme regressions, where like, there's some type of change that was introduced that prevents, like, um, like critical user behaviour. Um, and I would say that's different than like, if you launch a new feature, and there's already like, there's some defect like, from the beginning, but I would say regression is specifically like when I'm called that was once functioning properly, no longer is like functioning as expected. Cool.
+
+Ali  31:26  
+While we're talking about things potentially going wrong, there are two topics that I wanted to talk a little bit about first is debugging with git, this is something that I actually don't know, a tonne about. But I have seen a lot of conference talks about it. And that's using Git bisect, to debug Have either of you ever done this.
+
+Monica  31:46  
+So I haven't used Git bisect, I was actually looking it up before, before this conversation, and I thought it was cool. That it is a like, built in Git command that can help you like actually identify, like, specific commits that the specific commit that introduced a regression. And so my understanding and like, based off of like some fiddling around, is you would like type
+
+Monica  32:12  
+the
+
+Monica  32:14  
+Git bisect command commands, and you would put, um, the current, the current commit, or the latest commit would be like, a good label to the bad commit. And then you would like go to the git log, find some commit way back when that actually is working as expected. And then I get a bisect will then like, pull, it will like smartly pull, like another commit for you to check to see like, Oh, is this commit Good, good or bad. Um, so you would have to actually like compile your code, see if it works as expected. And then you would say like, this is good, or this is bad. And then I keep doing that until bisect helps you identify the way that regression was introduced. There's also like some, like scripting and automation that can be done to actually like, do this a lot faster than someone manually doing it. But it does use like some more like efficient algorithms. And like if a person was manually trying to like, go back and find it, with like a naive approach,
+
+Ali  33:21  
+which is what I do, yeah, it seems like, for sure, it seems like such a cool tool. I've never use it personally. But I think it's a really common like conference talk topic, because I keep seeing conference talks on it. So we can link some of those in the show notes if people are interested in diving a little deeper, because the people who use it seem to really love it and enjoy it. So might be something worth looking into, especially if you're looking for some new fun trick to level up your Git workflow.
+
+Kelly  33:51  
+I think that's why I love get so much is that I use it every single day. And there are still these commands, I have zero idea how they work, and they could so like, they can improve my workflow. So much if I just take some time to learn them. I love that. Definitely.
+
+Ali  34:07  
+So another thing for debugging within get is get blame. Anybody want to talk about that one? And it sounds kind of rude, like blame. But people have talked on Twitter about renaming it to something like that, like something a little bit more positive and friendly feedback.
+
+Monica  34:28  
+Yeah, so give blame, it will show you like for every single like line or change within a file. So you look at like the current file. And you can see like, when was this like constant introduced? Or maybe when was this constant like renamed, and I will show you who made that commit, and I'll show you when they made that commit. So you can see like, was this a change that was introduced yesterday? Was this a change I was introduced three years ago. And so I find it helpful to just like get more context as to what There's something was a recent decision or a more like legacy decision, maybe there's I can like, figure out who introduced this or change and and have a conversation with them to get more context. Um, I've also found it helpful for, like, I use VS code for a lot of my development. Um, so they have a extension called get lens, and I'll actually show you like within the VS code editor there get blame if you like hover align. So sometimes when I'm like making changes, if I don't remember, like, Did I make this change? Like, then I can see like, okay, I made this change three minutes ago. And I think it's just a little bit more orientating than me having to like, go check the entire diff. To see what changes I made, I'm just being able to see quickly like, Okay, this is something that I renamed or moved. Um, while I was making this, this these changes. So I found that helpful, just to help orient me into what I'm doing.
+
+Ali  36:01  
+So agreed to get lens vs. Code extension is a must have, in my opinion, it'll really, really help make your Git workflow even easier and built into your text editor. If you use vs. Code, I'm sure that there are similar ones for other text editors as well. But I think VS code has a really big market share as is right now. So don't even have
+
+Kelly  36:23  
+the first extensions I ever installed. Whenever when I'm setting up like a new workspace for for VS code. It is an absolute must for me.
+
+Ali  36:30  
+Definitely. Okay, so similar to what we've been talking about with get blame? Well, I guess it's along a similar line is merge conflicts. So merge conflicts happen when two people work on the same piece of code on maybe on different branches or something along those lines or in different commits. And then you try to pull a rebase. And Git tells you oop, this other person also edited this line of code, you did as well, whose changes should we use, it doesn't know how to automatically combine them. So these are something that you'll see a lot when you're working with more than one developer. But they look a little bit scary at first and can be a little bit difficult. Especially way back in the day, when, before we had a really amazing developer tools. And it was just a bunch of like, arrows that showed up in your code with like a hash number. And you had to weed through that. And maybe do like Command F in your project for a bunch of equal signs or something. But now VS code has a really amazing tool that you can just be like, accept incoming changes, or use current changes, which makes the process a lot easier and a lot less scary. But anybody have any other thoughts on merge conflicts, and that whole situation?
+
+Monica  37:57  
+Yeah, I know, like, sometimes I'll like be like, okay, I want to get my branch into like the main branch before someone else does. So that I can avoid potentially having to deal with merge conflicts. Because sometimes you could have like a PR that you open and like you have continuous integration, and you can see like, all your unit tests are passing, then then someone makes a change to the the main branch, and now you have merge conflicts. And then you have to actually, like fix those before. Before your your code is green. So I have found like, sometimes they can like slow you down, I feel like Okay, I'm ready to merge. And it's like, just kidding. And there's merge conflicts. And then in terms of like complexity, I would say that there are different levels of like, complexity, complex complexity that happened when you have merge conflicts. So it could be just like someone added, like an extra import, and now they're using it in one place. And it's very clear, like, Okay, I'm just going to accept all of the changes both mine and the ones from the remote. But it does get more complicated, when like one of the branches is doing refactoring to make sure that like, you're not undoing someone's changes, as you're like resolving the merge conflict. So depending on like how involved it is, it might be helpful to, like, reach out to or pair with the person who, whose changes are conflicting with yours. And if it's like a larger change, where it's like pretty much like everything kind of moved around, I think that's just like helpful to
+
+Ali  39:31  
+reduce the chances of accidentally introducing a regression or like undoing somebody else's work. And then also, unit tests can be very helpful. Like when you're resolving merge conflicts, there's so many both sets of changes have good unit unit test coverage then like once you resolve the merge conflicts like bringing up what I have the confidence that like okay, all of the unit tests are still passing in the in this merge stay. I would also recommend like, actually like compiling the code or if you have Like deploy preview, checking out the deploy preview, just to make sure that there's nothing like weather unexpected that happened. As you resolve that merge conflict, if it's something that's like more involved, awesome, there are two themes that I want to pull out of that first, just testing. And we have a whole episode on testing, if anybody's interested in learning more about that, just because I know we keep mentioning it. And so if that's a new concept to you, we will link that in the show notes. The second one, and this keeps coming up as a theme is that get really does allow you to work with other developers more smoothly and it is built for that allows you to collaborate better not have everybody overwriting each other's code, and different versions are tracked. But it's still so important to actually communicate with your co workers and to talk to them about their code. It does not replace that, and having communication about I'm working on this. So maybe you want to work on this other features. So we don't conflict, or something along those lines, those are still important conversations to have,
+
+Kelly  41:08  
+I think it's definitely important to know as well, like when you run into a merge conflict does not mean that you're a bad developer, I think it'd be immediately see a merge conflict. And we're like, oh, crap, we messed up somewhere. And it's not necessarily that as you said, like, there, there could be some just very minor changes that had been made. And you just need to, you know, sync that up. So it's not a testament to your ability to code or your ability to contribute to open source projects or whatever, it's a very, to me, it's a very normal thing that you can you can run into when you're collaborating with multiple developers.
+
+Monica  41:40  
+Definitely amazing.
+
+Ali  41:43  
+And something you also brought up Monica was prs, which are pull requests. And these are actually a GitHub specific feature. So they're not built into get, they're built into whatever, remote or whatever that you're using. So what is a pull request.
+
+Monica  42:00  
+So a pull request is, so if you had like a branch that you were working on locally, and you push that up to GitHub, if you go through the repository, you can then do an open a pull request, which is basically creating like a visual diff between your branch and you can do it against any other branch, usually, people do it off of the main branch. But if you're maybe working off of like, another branch, you might like want to merge directly into that branch. And so yeah, so you have this visual diff of your changes and whatever branch you're trying to compare it to, and then another developer can leave comp, or whoever who has GitHub access can leave comments on the overpass, like on specific lines that change and x questions. Um, so they, they could potentially act like, oh, is there a reason this has to be written? Or if you're using something like TypeScript, they may have feedback on like, are you writing Are you writing, typing your code properly, or maybe there's a different way that you could type it, and it's really to have like a conversation. And then if you they, someone can also leave just like high level comments overall, that aren't specific to a line of code. So they could just maybe summarise summarise their feedback. And then when you are actually reviewing the code, you can either approve the code. So you're explicitly saying, I think this is ready to be merged into the branch that is being compared to, you could just leave a comment, which is neutral, it's like you don't approve it. But you're not also, you're also not saying like, there's something that needs to change. And then the other status is you're requesting changes, meaning that there is some feedback that you'd like to be addressed before the changes are merged into the main branch. And on GitHub, you can set up different rules for branches. So you could say like, if someone's going to merge into the main branch, then it requires at least two approvals. So that way, changes aren't introduced, without at least two people actually giving them the green light. If you're emerging into a branch that isn't the main branch, usually the protections are more flexible, so you maybe don't even need anyone to improve it. But then like once that other branch is merged, then you would actually you would need to satisfy whatever the minimum review requirements are. And then also, another, I think, cool thing about GitHub pull request is now um, there's integrations I know with like vert versa, and natla phi, where if you're deploying to those hosting companies, you can actually see a deploy preview very easily of the changes that she made specifically in At branch, like live, so it's like a cool way to get a nice like staging site up and have it in the context of the the branch. And you can also have different like ci things that are running when you open a specific pull request. So you can have like all of your unit test run linting, I recently set up a GitHub action, that make sure that whenever I make changes that all of my images are optimised. So it will actually make like go manual, or I guess, not manually, but it will automatically go through all of the image files and then compress the ones that need to be compressed and then push those changes to my branch. So I don't have to worry about manually optimising the images, because I have a process that is automatically running when open, whenever I open a new pull request that triggers it to run,
+
+Kelly  45:53  
+we have a GitHub action set up for the taproom, that it automatically blocks you from merging a pull request until somebody reviewed your code, just to make sure we're following best practices, especially for Shopify development. But we have a GitHub action that sends a slack message to our pull request channel saying that so and so just open a pull request, here's a link to it, here's some information about it. And it also will ping when somebody approved it or somebody has requested changes. And I recently requested changes on on one of the one of the pull requests that one of my new devs had pulled out. And it just sends us a message saying like Kelly rejected your pull request sad face, and I'm like, a little brutal.
+
+Ali  46:34  
+So one other quick feature that I want to mention on GitHub, but not dive too deep on is forks. And forks allow you to essentially copy a repository to your own profile. So if you wanted to create your own version of dev two or something along those lines, you can create a fork of it. And then you could add your code to that fork, and then you can make a pull request back to the main repo as well. So that's another feature that is GitHub specific that you might see as well, especially if you're working on open source. And that's another thing that I want to briefly discuss as well as contributing to open source. And, Monica, I think you have a lot of experience there.
+
+Monica  47:12  
+Oh, yes. So I would say in terms of contributing to open source, I think this is gonna air after October hacks over fest. But there's like this huge event every year in October, that encourages new contributors, or people who haven't contributed as much to open source to really contribute. So a lot of maintainers of open source projects, we put an energy into creating issues that are very like detailed and descriptive and approachable for new contributors. But throughout the year, you can usually find potential issues to work on by searching GitHub for things like good first issue. So that usually means that you don't have to have a lot of context that's specific to that project in order to make that contribution. And I would say like another way that you can potentially like find things to work on within open within the open source ecosystem is if you are using open source software, like for example, if you're using view and you notice something strange that is behaving unexpectedly, you could open an issue or search their issues to see is this something that is currently being discussed, and potentially actually, like implement the changes, depending on what is required. And I would say in terms of what I look for when I'm looking to contribute to a project is making sure that they have like good documentation. And it's clear how I can get like up and running quickly what the expectations are for contributors. So there are different files. I know that, like on GitHub community hall files is what they call them. So you'll usually have like, like a contributors MD file, or especially like a code of conduct, file, things of that nature, to make it clear, like what types of behaviour are not acceptable and what types of contributions are welcome or not. So I would definitely try to like, look through some of the data, the meta documentation about contributing to a project before diving in, to potentially help you like avoid wasting time contributing to a project if they're if they're not maybe like looking for contributions in that area. So that is something to be mindful of. That's huge.
+
+Ali  49:37  
+And I feel like I still get intimidated by contributing to open source even though I'm so many years into this, I made a PR on a grid some documentation recently, and it's just a documentation, pull request. So it's not an end of the world by any means. But I was like, having multiple people that I know look at it before I submitted it was like please make sure This is okay. So I will say that if especially if you're new to this, it is kind of a tricky process. I also want to shout out that we do have two episodes on hack tober fest from last year. So if that's something that you're interested in or want to learn even more about contributing to open source, we have a couple episodes on that as well. Well, thank you so much for joining us, Monica, we're gonna do a quick round of shout outs. So do you want to go ahead and do yours first?
+
+Monica  50:33  
+I'm sorry, I recently read this book working in public by Nadia fo and is a research book about like Git and GitHub, and how does open source work. So I found that like, super helpful to kind of get a better, like overview of how GitHub works outside of the communities that I'm involved in. It's so she covered a lot of like interesting history about open sores, as well as like, what are like some different ways that people are monetizing open sores, and really getting a better glimpse of like a lot of the different opinions that are within the community. A lot of the book does focus on GitHub, since that is, um, the largest place for like open source contributions. But there is like some stuff that is touches on other platforms, as well as open source, platform agnostic Lee, so I would definitely recommend checking that out. Awesome.
+
+Ali  51:31  
+Kelly, have a yell.
+
+Kelly  51:32  
+So I'm going a little self promotion. This week, I finally released the audiobook version of my book start freelancing. Today, I spent three or four weekends sitting in my closet recording it. And my husband very kindly stopped and started me and told me when I was not saying the right words, or that I sounded funny, or I mispronounce something, and it was a lot of work. And then he edited it. So I'm really excited for be there for it to be out in the out in the open now. That's awesome. Holly, what's yours?
+
+Ali  52:02  
+Mine. Okay, so as of recording this last week, I did my first ever twitch stream. And it was something I was so nervous about. And I have no idea. So what I'm doing, it's just the totally different worlds to me, but I had a lot of fun doing it. And people were really nice in the chat and built up a kind of cute community. So I'm having fun doing it. And I'm gonna keep doing Twitch, it's very much out of my comfort zone, but I'm having fun with it. So that's my shout out. Monica, before we leave, where is the best place for our audience to find you on the internet are a couple places. Yes.
+
+Monica  52:40  
+So um, you can go to my website, which is about monica.com or I do have monica.gov it will just redirect there. And I'm also active on Twitter at water proof heart. Um, and as well as if you look on egghead, you can find some of my lessons so that those are the best places to find me on the
+
+Ali  53:00  
+web. Amazing. We will link all of those in the show notes and clutch move on getting dev by the way. Did you get that day one?
+
+Monica  53:10  
+Yes. Um, so I was I just saw that Well, actually, you would like peg them. And I think in advance and then they would like automatically placed the order for you as soon as it open. Um, so yeah, I was able to get it automated, or else I don't think I would have been fast enough.
+
+Ali  53:24  
+So I love that. That's amazing. Awesome. So if you liked this episode, tweet about it. We love to hear your feedback. This week, we're giving away a licence to egghead so you can watch all Monica's lessons. So if you would like to be entered to win that, go ahead and tweet about our episode. We post new podcasts every Monday so make sure to subscribe to be notified and leave us a review. That's due next Monday.
