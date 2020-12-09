@@ -32,7 +32,7 @@ const Footer = () => {
             <img src={twitter} alt="Twitter" />
           </a>
           <a
-            href="https://play.google.com/music/listen?u=0#/ps/I4lyvappbarpo5olinvd2gxh3km"
+            href="https://podcasts.google.com/?feed=aHR0cHM6Ly9waW5lY2FzdC5jb20vZmVlZC9sYWR5YnVnLXBvZGNhc3Q%3D"
             target="_blank"
             rel="noopener noreferrer"
           >
