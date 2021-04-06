@@ -46,4 +46,4 @@ Are you a developer looking for your next challenge? Meet Shopify. We’re on a 
 
 # Transcript
 
-We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/35-learning-how-to-learn.md" target="_blank" class="highlight">here!</a>
+We provide transcripts for all of our episodes. You can find them <a href="https://github.com/ladybug-podcast/ladybug-website/blob/master/transcripts/36-learning-how-to-learn.md" target="_blank" class="highlight">here!</a>
