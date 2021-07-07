@@ -6,7 +6,7 @@ date: "2019-07-29"
 audio: https://pinecast.com/listen/4457a541-3098-456f-9e7f-f13b7d107900.mp3
 path: "/how-the-ladybugs-got-their-spots"
 description: "In this episode, we're getting to know the ladybug hosts, both on technical and non-technical topics. Listen in to learn about our favorite tech stacks, our biggest career milestones, favorite books, and more."
-episode: "Seaon 1 Episode 5"
+episode: "Season 1 Episode 5"
 length: "37:28"
 ---# Show notes
 
