@@ -110,6 +110,10 @@ progress::-moz-progress-bar {
   margin-right: 24px;
 }
 
+.audio-control:active {
+ transform: translate(2px, 2px); 
+}
+
 @media (max-width: 500px) {
   .episode {
     margin-top: 16px;
