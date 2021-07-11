@@ -93,20 +93,14 @@ const Player = ({
     >
       <div className="episode-info">
         <button
-          className="audio-control"
+          className={isPlaying ? "audio-control pause" : "audio-control play"}
           onClick={() => {
             let audio = document.querySelector("#audio-player")
             isPlaying ? audio.pause() : audio.play()
             setIsPlaying(!isPlaying)
           }}
           aria-label={isPlaying ? "Pause podcast" : "Play podcast"}
-        >
-          {isPlaying ? (
-            <img src={pauseButton} alt="Pause episode" />
-          ) : (
-            <img src={playButton} alt="Play episode" />
-          )}
-        </button>
+        ></button>
         <div>
           <h1 className="episode-title">{title}</h1>
           <p className="episode-date">{`${episode} | ${formattedDate}`}</p>
